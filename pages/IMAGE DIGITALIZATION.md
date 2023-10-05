@@ -20,8 +20,14 @@
 	- noise due to quantization fase
 - **dark circuit noise**
 	- even when the sensor is not expose to light there are some charges due to thermal excitement
-- dynamic range
+- **dynamic range**
+	- range between maximum capacity of the photosensors and the minimum power require to distinguish a signal from noise
 	- `Emin` minimal detectable irradiation `Emax` saturation irradiation so `DR=Emax/Emin`
 	- expressed in decibel or bits
+	- higher dynamic range = better light management in the image
+-  **High dynamic range**
+	- it's nedeed in autonomous drive
+- quantum efficiency
+	- ratio between photons that are collected by the camera and  photons that hit the sensors 
 ## CMOS VS CCD
 ![](../assets/Pasted%20image%2020231004102609.png)
