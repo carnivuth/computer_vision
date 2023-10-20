@@ -1,10 +1,10 @@
 {
+  "promptDelete": false,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "pages",
-  "trashOption": "none",
-  "attachmentFolderPath": "assets",
-  "showUnsupportedFiles": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative",
-  "promptDelete": false
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets"
 }
