@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"cfbca69a5310e6ca","type":"text","text":"# MATHEMATICAL MODELING OF CAMERA DEVICE\n","x":-440,"y":-920,"width":407,"height":170},
+		{"id":"9672811664178cc1","type":"file","file":"pages/IMAGE DIGITALIZATION.md","x":-1280,"y":120,"width":400,"height":400},
+		{"id":"218b2b6495d0b2e4","type":"file","file":"pages/MODELING LENSES.md","x":240,"y":-560,"width":400,"height":400},
+		{"id":"590c81e3bfe27953","type":"file","file":"pages/HOMOGRAPHY.md","x":160,"y":80,"width":400,"height":400},
+		{"id":"fdeb2fa32eff0af4","type":"file","file":"pages/LENS DISTORTION.md","x":-636,"y":200,"width":400,"height":400},
+		{"id":"fabcdb4a24138e72","type":"file","file":"pages/PERSPECTIVE PROJECTION.md","x":740,"y":80,"width":480,"height":400}
+	],
+	"edges":[
+		{"id":"753b6bace69f5015","fromNode":"218b2b6495d0b2e4","fromSide":"top","toNode":"cfbca69a5310e6ca","toSide":"bottom"},
+		{"id":"69500dc819ce7f10","fromNode":"218b2b6495d0b2e4","fromSide":"bottom","toNode":"fabcdb4a24138e72","toSide":"top"},
+		{"id":"db6025b6e2f2f307","fromNode":"9672811664178cc1","fromSide":"top","toNode":"cfbca69a5310e6ca","toSide":"bottom"},
+		{"id":"1eb9cfe7236cc8bd","fromNode":"fdeb2fa32eff0af4","fromSide":"top","toNode":"cfbca69a5310e6ca","toSide":"bottom"},
+		{"id":"131cb9469a896849","fromNode":"590c81e3bfe27953","fromSide":"top","toNode":"cfbca69a5310e6ca","toSide":"bottom"}
+	]
+}

@@ -89,9 +89,4 @@ v = f/z*y = 1/deltav*f/z*y = kv*f/z*y+v0
 
 - so we can say that the general form of the PPM is obtained by encoding the camera position in matrix G the perspective projection of a pinhole camera into a PPM and the intrinsic characteristics  of the sensing device into A
 
-## P AS A HOMOGRAPHY
-
-- if the camera is imaging a planar scene we can assume the Z coordinate to be zero so 
-
-![](../assets/Pasted%20image%2020231007105935.png)
 
