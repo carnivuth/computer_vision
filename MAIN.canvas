@@ -1,12 +1,13 @@
 {
 	"nodes":[
-		{"id":"b4e16870dae78c9a","x":-1042,"y":-604,"width":250,"height":60,"type":"file","file":"pages/CAMERA CALIBRATION.md"},
 		{"id":"cfbca69a5310e6ca","type":"text","text":"# MATHEMATICAL MODELING OF CAMERA DEVICE\n","x":-440,"y":-920,"width":407,"height":170},
 		{"id":"9672811664178cc1","type":"file","file":"pages/IMAGE DIGITALIZATION.md","x":-1280,"y":120,"width":400,"height":400},
 		{"id":"590c81e3bfe27953","type":"file","file":"pages/HOMOGRAPHY.md","x":160,"y":80,"width":400,"height":400},
 		{"id":"fdeb2fa32eff0af4","type":"file","file":"pages/LENS DISTORTION.md","x":-636,"y":200,"width":400,"height":400},
 		{"id":"218b2b6495d0b2e4","type":"file","file":"pages/MODELING LENSES.md","x":620,"y":-660,"width":400,"height":400},
-		{"id":"fabcdb4a24138e72","type":"file","file":"pages/PERSPECTIVE PROJECTION.md","x":620,"y":-60,"width":480,"height":400}
+		{"id":"fabcdb4a24138e72","type":"file","file":"pages/PERSPECTIVE PROJECTION.md","x":620,"y":-60,"width":480,"height":400},
+		{"id":"b4e16870dae78c9a","type":"file","file":"pages/CAMERA CALIBRATION.md","x":-1042,"y":-604,"width":250,"height":60},
+		{"id":"22abdd43c8d22049","type":"file","file":"pages/CAMERA CALIBRATION.md","x":-1042,"y":-604,"width":302,"height":264}
 	],
 	"edges":[
 		{"id":"753b6bace69f5015","fromNode":"218b2b6495d0b2e4","fromSide":"top","toNode":"cfbca69a5310e6ca","toSide":"bottom"},
