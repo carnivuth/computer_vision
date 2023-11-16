@@ -1,3 +1,7 @@
 .obsidian/workspace.json
 env
 .ipynb_checkpoints
+*.jpg
+*.pdf
+*.avi
+*.png
