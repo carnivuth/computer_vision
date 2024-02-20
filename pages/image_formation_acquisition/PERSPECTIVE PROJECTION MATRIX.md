@@ -168,8 +168,8 @@ $$
 
 So in conclusion a $PPM$ can be thought as 3 separate components:
 
-- the $A$ matrix which represents the intrinsic properties of the image sensor 
-- the $G$ matrix which represents the relation between the 2 different reference frames  
-- the $[I|0]$ matrix which represents the perspective projection carried out by the pinhole camera model
+- the $A$ matrix which represents **the intrinsic properties of the image sensor** 
+- the $G$ matrix which represents **the relation between the 2 different reference frames**  
+- the $[I|0]$ matrix which represents **the perspective projection carried out by the pinhole camera model**
 
  
