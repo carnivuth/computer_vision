@@ -5,10 +5,4 @@ env
 *.pdf
 *.avi
 *.png
-!.obsidian/app.json
-!.obsidian/appearance.json
-!.obsidian/config
-!.obsidian/community-plugins.json
-!.obsidian/core-plugins.json
-!.obsidian/graph.json
-!.obsidian/hotkeys.json
+.obsidian/workspace.json
