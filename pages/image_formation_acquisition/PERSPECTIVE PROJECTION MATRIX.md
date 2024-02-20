@@ -112,7 +112,64 @@ the $A$ matrix is called the **intrinsic parameter matrix**, it represents the p
 
 ### ACCOUNTING FOR ROTATION AND TRANSLATION
 
-In the previous models the camera and the 3D world point where assumed to refer to the same reference frame, in real case application this is impossible and the camera reference frame (*CRF*) and the world reference frame (*WRF*) are related by a rotation $R$ and a translation $T$
+In the previous models the camera and the 3D world point where assumed to refer to the same reference frame, in real case application this is impossible and the camera reference frame (*CRF*) and the world reference frame (*WRF*) are related by a rotation $R$ and a translation $T$.
+
+So the relation between a point in the real world $W = \begin{bmatrix} X \\ Y \\ Z \end{bmatrix}$ the correspondent image point $M = \begin{bmatrix} x \\ y\\ z\end{bmatrix}$ can be expressed as follows:
+
+$$
+M = RW + T
+$$
+
+where $R$ is a $3\times3$ matrix which represents the rotational component and $T$ is a $1\times 3$ vector which represent the translation component. 
+
+In the perspective space the relation becomes:
+
+$$
+\overset{\sim}W = \begin{bmatrix}
+X \\
+Y \\
+Z \\
+1
+\end{bmatrix} ,
+\overset{\sim}M = \begin{bmatrix}
+x \\
+y \\
+z \\
+1
+\end{bmatrix} \Rightarrow
+\overset{\sim}M =
+\begin{bmatrix}
+R & T \\
+0 & 1 \\
+\end{bmatrix} \times \overset{\sim}W = G\overset{\sim}W
+$$
+
+The $G$ matrix that represents the translation and rotation between the two reference frame is called **extrinsic parameter matrix** 
+
+## FINAL FORM OF A $PPM$
+
+putting together the equation the final form of a $PPM$ matrix looks like follows
 
 
+$$
+k\overset{\sim}m = [A|I]\times
+\begin{bmatrix}
+R & T \\
+0 & 1 \\
+\end{bmatrix} \times \overset{\sim}W 
+$$
 
+So the general form of the $PPM$ can be described as follows
+
+
+$$
+\overset{\sim}P = A\times[I|0]\times G \space or \space \overset{\sim}P = A \times [R | T]
+$$
+
+So in conclusion a $PPM$ can be thought as 3 separate components:
+
+- the $A$ matrix which represents the intrinsic properties of the image sensor 
+- the $G$ matrix which represents the relation between the 2 different reference frames  
+- the $[I|0]$ matrix which represents the perspective projection carried out by the pinhole camera model
+
+ 
