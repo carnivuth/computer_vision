@@ -4,7 +4,7 @@ In order to address the loss of depth information, given 2 images of a 3D scene 
 
 so given the following model:
 
-![](Pasted%20image%2020240218124518.png)
+![](Pasted%20image%2020240221203033.png)
 
 we can say that the relation between 2 image is only an horizontal translation 
 
