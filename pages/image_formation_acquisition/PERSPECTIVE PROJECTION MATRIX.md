@@ -11,7 +11,7 @@ $$
 v=\frac{f}{z}*y
 $$
 
-and translate them in a perspective space, so given the vectors $\overset{\sim}m= [u,v,1]$ and $\overset{\sim}M= [x,y,z,1]$ the perspective projection matrix it's obtained as follows
+and translate them in a perspective space ($\overset{\sim}m=\begin{bmatrix}  u \\ v \\ 1 \end{bmatrix}$ and $\overset{\sim}M= \begin{bmatrix}x \\ y \\ z \\ 1\end{bmatrix}$), in this representation the relation between points of the real world and the image plane became a **linear transformation** (the **PPM**):
 
 $$
 \begin{bmatrix}
@@ -53,7 +53,7 @@ PPM = \begin{bmatrix}
 f & 0 & 0 & 0 \\
 0 & f & 0 & 0 \\
 0 & 0 & 1 & 0
-\end{bmatrix} =
+\end{bmatrix} \rightarrow
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
