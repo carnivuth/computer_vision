@@ -16,7 +16,6 @@ $$
 \frac{1}{v} + \frac{1}{u} = \frac{1}{f}
 $$
 
-![](Pasted%20image%2020240218151717.png)
 
 with the following parameters:
 
@@ -42,4 +41,4 @@ $$
 
 points before or after the focusing plane will appear in circles called circles of confusion
 
-![](Pasted%20image%2020240218153115.png)
+![](Pasted%20image%2020240221202723.png)
