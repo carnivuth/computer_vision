@@ -30,7 +30,7 @@ In order to recover the depth information [stereo image acquisition](STEREO%20IM
 The vanishing point of a 3D line is the image of the point at infinity of the line (i.e. the image
 of the point on the line which is infinitely distant from the optical center).
 
-![](Pasted%20image%2020240218150355.png)
+![](Pasted%20image%2020240221202839.png)
 
 with such definition all 3D lines in the image will **share the same vanishing point** 
 
