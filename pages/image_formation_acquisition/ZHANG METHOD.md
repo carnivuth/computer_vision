@@ -1,8 +1,9 @@
-[PERSPECTIVE PROJECTION MATRIX](PERSPECTIVE%20PROJECTION.md#PERSPECTIVE%20PROJECTION%20MATRIX) is obtained trough the matrix $A,R,T$ that describes intrinsic parameter of the lens rotation and translation of the camera
+# ZHANG'S METHOD
 
-camera calibration is the process which estimates this parameter, there are a lot of algorithms that rely on setup a linear system of equations with 3D-2D correspondences in order to obtained the PPM
+The zhang's method relies in getting a series of n images of a chessboard patterns where are known
 
-## ZHANG'S METHOD
+- $n,m$ number of internal corners of the pattern, different in the 2 directions
+- $k$ size of squares of the pattern
 
 ```mermaid
 flowchart TD
