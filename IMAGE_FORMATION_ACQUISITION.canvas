@@ -1,25 +1,32 @@
 {
 	"nodes":[
-		{"id":"4bcafbbff905fa95","type":"text","text":"# REAL CAMERA MODELING","x":245,"y":-88,"width":270,"height":84},
-		{"id":"fbecad3e1f92f885","type":"file","file":"pages/image_formation_acquisition/LENS.md","x":425,"y":160,"width":400,"height":400},
-		{"id":"64d80c03673114e7","type":"file","file":"pages/image_formation_acquisition/CAMERA PARAMETERS.md","x":-80,"y":160,"width":400,"height":400},
-		{"id":"3dfe35d5c458dcfc","type":"file","file":"pages/image_formation_acquisition/IMAGE DIGITIZATION.md","x":-560,"y":160,"width":400,"height":400},
-		{"id":"9935370ffc440825","type":"file","file":"pages/image_formation_acquisition/SENSORS.md","x":920,"y":160,"width":400,"height":400},
-		{"id":"db24728c5f03f137","type":"text","text":"# MATHEMATICAL MODELS","x":244,"y":-345,"width":316,"height":84},
-		{"id":"c250519914d06f09","x":-278,"y":-880,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE SPACE.md"},
-		{"id":"2c8abb4c012b9f2c","type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE PROJECTION.md","x":202,"y":-880,"width":400,"height":400},
-		{"id":"ceb9f1cff2f55fa2","type":"file","file":"pages/image_formation_acquisition/STEREO IMAGE ACQUISITION.md","x":707,"y":-880,"width":400,"height":400},
-		{"id":"38899e68df896e31","x":-38,"y":-1420,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE PROJECTION MATRIX.md"}
+		{"id":"c250519914d06f09","type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE SPACE.md","x":-640,"y":-1680,"width":400,"height":400},
+		{"id":"2c8abb4c012b9f2c","type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE PROJECTION.md","x":-155,"y":-1680,"width":400,"height":400},
+		{"id":"ceb9f1cff2f55fa2","type":"file","file":"pages/image_formation_acquisition/STEREO IMAGE ACQUISITION.md","x":315,"y":-1680,"width":400,"height":400},
+		{"id":"db24728c5f03f137","type":"text","text":"# MATHEMATICAL MODELS","x":-113,"y":-1920,"width":316,"height":84},
+		{"id":"38899e68df896e31","type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE PROJECTION MATRIX.md","x":-400,"y":-1120,"width":400,"height":400},
+		{"id":"d8b994aaabfa973c","type":"file","file":"pages/image_formation_acquisition/HOMOGRAPHY.md","x":-1000,"y":-1120,"width":400,"height":400},
+		{"id":"3dfe35d5c458dcfc","type":"file","file":"pages/image_formation_acquisition/IMAGE DIGITIZATION.md","x":795,"y":-1672,"width":400,"height":400},
+		{"id":"64d80c03673114e7","type":"file","file":"pages/image_formation_acquisition/CAMERA PARAMETERS.md","x":1275,"y":-1672,"width":400,"height":400},
+		{"id":"fbecad3e1f92f885","type":"file","file":"pages/image_formation_acquisition/LENS.md","x":1780,"y":-1672,"width":400,"height":400},
+		{"id":"9935370ffc440825","type":"file","file":"pages/image_formation_acquisition/SENSORS.md","x":2275,"y":-1672,"width":400,"height":400},
+		{"id":"1a33a7565237fb11","x":1780,"y":-1072,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/LENS DISTORTION.md"},
+		{"id":"4bcafbbff905fa95","type":"text","text":"# REAL CAMERA MODELING","x":1600,"y":-1920,"width":270,"height":84},
+		{"id":"aed2676e569256ce","x":715,"y":-480,"width":360,"height":760,"type":"file","file":"pages/image_formation_acquisition/IMAGE FORMATION FLOW.md"}
 	],
 	"edges":[
-		{"id":"1b23e63ac99b1b94","fromNode":"db24728c5f03f137","fromSide":"top","toNode":"ceb9f1cff2f55fa2","toSide":"bottom"},
+		{"id":"1b23e63ac99b1b94","fromNode":"db24728c5f03f137","fromSide":"bottom","toNode":"ceb9f1cff2f55fa2","toSide":"top"},
 		{"id":"3f9770ad6e638d97","fromNode":"4bcafbbff905fa95","fromSide":"bottom","toNode":"fbecad3e1f92f885","toSide":"top"},
 		{"id":"bc1892922c15cace","fromNode":"4bcafbbff905fa95","fromSide":"bottom","toNode":"9935370ffc440825","toSide":"top"},
 		{"id":"e532867269646add","fromNode":"4bcafbbff905fa95","fromSide":"bottom","toNode":"64d80c03673114e7","toSide":"top"},
 		{"id":"87840ddd72f3ad21","fromNode":"4bcafbbff905fa95","fromSide":"bottom","toNode":"3dfe35d5c458dcfc","toSide":"top"},
-		{"id":"9ec95d2918ab376c","fromNode":"db24728c5f03f137","fromSide":"top","toNode":"2c8abb4c012b9f2c","toSide":"bottom"},
-		{"id":"e556d233738fa5f4","fromNode":"db24728c5f03f137","fromSide":"top","toNode":"c250519914d06f09","toSide":"bottom"},
-		{"id":"a692f20f1af535ed","fromNode":"c250519914d06f09","fromSide":"top","toNode":"38899e68df896e31","toSide":"bottom"},
-		{"id":"b2ae87899ba530fb","fromNode":"2c8abb4c012b9f2c","fromSide":"top","toNode":"38899e68df896e31","toSide":"bottom"}
+		{"id":"9ec95d2918ab376c","fromNode":"db24728c5f03f137","fromSide":"bottom","toNode":"2c8abb4c012b9f2c","toSide":"top"},
+		{"id":"e556d233738fa5f4","fromNode":"db24728c5f03f137","fromSide":"bottom","toNode":"c250519914d06f09","toSide":"top"},
+		{"id":"a692f20f1af535ed","fromNode":"c250519914d06f09","fromSide":"bottom","toNode":"38899e68df896e31","toSide":"top"},
+		{"id":"b2ae87899ba530fb","fromNode":"2c8abb4c012b9f2c","fromSide":"bottom","toNode":"38899e68df896e31","toSide":"top"},
+		{"id":"30b93d85b910addf","fromNode":"38899e68df896e31","fromSide":"left","toNode":"d8b994aaabfa973c","toSide":"right"},
+		{"id":"5ed3a38aa2ac6ca5","fromNode":"38899e68df896e31","fromSide":"bottom","toNode":"aed2676e569256ce","toSide":"top"},
+		{"id":"62b6605b760eeb67","fromNode":"fbecad3e1f92f885","fromSide":"bottom","toNode":"1a33a7565237fb11","toSide":"top"},
+		{"id":"6eb892439373f3b6","fromNode":"1a33a7565237fb11","fromSide":"bottom","toNode":"aed2676e569256ce","toSide":"top"}
 	]
 }
