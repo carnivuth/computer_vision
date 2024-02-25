@@ -160,7 +160,7 @@ $$
 
 ## MAKING A  GUESS FOR THE DISTORTION PARAMETERS $K$
 
-At this point the distorted un-distorted coordinates can be calculated from the $H$ matrix and the distorted coordinates can be recovered by the image, so given the lens distortion model:
+At this point the un-distorted coordinates can be calculated from the $H$ matrix and the distorted coordinates can be recovered by the image, so given the lens distortion model:
 
 $$
 \begin{bmatrix}
