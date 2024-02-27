@@ -60,7 +60,7 @@ h_{2}\\
 h_{3}\\
 \end{bmatrix}=Ah=0
 $$
-
+	
 From this system in 3 equations in 9 unknowns only 2 equation are linear independent, the 3 equation is discarded.
 For each image a similar system of equations is built in order to minimize the algebraic error due to the norm of $Ah$
 

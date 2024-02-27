@@ -13,8 +13,10 @@
 		{"id":"1a33a7565237fb11","type":"file","file":"pages/image_formation_acquisition/LENS DISTORTION.md","x":1780,"y":-1072,"width":400,"height":400},
 		{"id":"4bcafbbff905fa95","type":"text","text":"# REAL CAMERA MODELING","x":1600,"y":-1920,"width":270,"height":84},
 		{"id":"aed2676e569256ce","type":"file","file":"pages/image_formation_acquisition/IMAGE FORMATION FLOW.md","x":715,"y":-480,"width":360,"height":760},
-		{"id":"70fedd70249d6b38","x":620,"y":-2440,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/CAMERA CALIBRATION.md"},
-		{"id":"2585eef6102db2e3","x":620,"y":-2980,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/ZHANG METHOD.md"}
+		{"id":"70fedd70249d6b38","type":"file","file":"pages/image_formation_acquisition/CAMERA CALIBRATION.md","x":620,"y":-2440,"width":400,"height":400},
+		{"id":"2585eef6102db2e3","type":"file","file":"pages/image_formation_acquisition/ZHANG METHOD.md","x":620,"y":-2980,"width":400,"height":400},
+		{"id":"4afe1bad6fe88867","type":"file","file":"pages/image_formation_acquisition/STEREO CAMERA CALIBRATION.md","x":1275,"y":-2980,"width":400,"height":400},
+		{"id":"905d57d160a8d399","x":45,"y":-2980,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/IMAGE WARPING.md"}
 	],
 	"edges":[
 		{"id":"1b23e63ac99b1b94","fromNode":"db24728c5f03f137","fromSide":"bottom","toNode":"ceb9f1cff2f55fa2","toSide":"top"},
@@ -32,6 +34,10 @@
 		{"id":"6eb892439373f3b6","fromNode":"1a33a7565237fb11","fromSide":"bottom","toNode":"aed2676e569256ce","toSide":"top"},
 		{"id":"987d15cfad9bafdf","fromNode":"db24728c5f03f137","fromSide":"top","toNode":"70fedd70249d6b38","toSide":"bottom"},
 		{"id":"8aca60ca6a20b8f3","fromNode":"4bcafbbff905fa95","fromSide":"top","toNode":"70fedd70249d6b38","toSide":"bottom"},
-		{"id":"68ebfb4763b7cb32","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"2585eef6102db2e3","toSide":"bottom"}
+		{"id":"68ebfb4763b7cb32","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"2585eef6102db2e3","toSide":"bottom"},
+		{"id":"7eeb3fbb75635d1a","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"4afe1bad6fe88867","toSide":"bottom"},
+		{"id":"75f93752edf541af","fromNode":"ceb9f1cff2f55fa2","fromSide":"top","toNode":"4afe1bad6fe88867","toSide":"bottom"},
+		{"id":"09e2c371320b1b19","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom"},
+		{"id":"fa014f6ad85c2c8c","fromNode":"1a33a7565237fb11","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom"}
 	]
 }
