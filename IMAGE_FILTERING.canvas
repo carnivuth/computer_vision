@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"946c6eb6e34f1989","type":"file","file":"pages/image_filtering/IMAGE FILTERS.md","x":-160,"y":-680,"width":400,"height":280},
+		{"id":"e78e5a18099085dc","type":"file","file":"pages/image_filtering/BILATERAL FILTER.md","x":-680,"y":-1440,"width":400,"height":400},
+		{"id":"52f3543a51f2a9fb","type":"text","text":"# NON LINEAR FILTERS","x":-80,"y":-880,"width":240,"height":80},
+		{"id":"f79f82dea2ac5112","type":"file","file":"pages/image_filtering/MEDIAN FILTER.md","x":-160,"y":-1440,"width":400,"height":400},
+		{"id":"7af9020eec14f0d2","type":"file","file":"pages/image_filtering/NON-LOCAL MEAN FILTER.md","x":360,"y":-1440,"width":400,"height":400},
+		{"id":"5cef21bfc65169fc","type":"file","file":"pages/image_filtering/LTE OPERATORS.md","x":-160,"y":-240,"width":400,"height":400},
+		{"id":"9f1e19d41c95eee7","type":"file","file":"pages/image_filtering/GAUSSIAN FILTER.md","x":160,"y":258,"width":400,"height":400},
+		{"id":"d937c229d11cc5c3","type":"file","file":"pages/image_filtering/MEAN FILTER.md","x":-480,"y":258,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"6166f7030ba76091","fromNode":"946c6eb6e34f1989","fromSide":"bottom","toNode":"5cef21bfc65169fc","toSide":"top"},
+		{"id":"8edd77b8f8895e13","fromNode":"5cef21bfc65169fc","fromSide":"bottom","toNode":"9f1e19d41c95eee7","toSide":"top"},
+		{"id":"e686c36fbb680662","fromNode":"5cef21bfc65169fc","fromSide":"bottom","toNode":"d937c229d11cc5c3","toSide":"top"},
+		{"id":"90fd73c57b0937e2","fromNode":"946c6eb6e34f1989","fromSide":"top","toNode":"52f3543a51f2a9fb","toSide":"bottom"},
+		{"id":"1f32924b6f1c8041","fromNode":"52f3543a51f2a9fb","fromSide":"top","toNode":"f79f82dea2ac5112","toSide":"bottom"},
+		{"id":"b965d7869d01216c","fromNode":"52f3543a51f2a9fb","fromSide":"top","toNode":"e78e5a18099085dc","toSide":"bottom"},
+		{"id":"2f4a8d16113e84fd","fromNode":"52f3543a51f2a9fb","fromSide":"top","toNode":"7af9020eec14f0d2","toSide":"bottom"}
+	]
+}
