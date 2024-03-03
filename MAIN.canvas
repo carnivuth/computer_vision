@@ -8,6 +8,6 @@
 	"edges":[
 		{"id":"f8ceb52ba5a11106","fromNode":"814f4d99df02b8ed","fromSide":"top","toNode":"ee419e103016aff1","toSide":"bottom","label":"HOW 3D WORLD AND IMAGES ARE RELATED"},
 		{"id":"8a7bf02cfadc1944","fromNode":"814f4d99df02b8ed","fromSide":"left","toNode":"5bd03d75765c3317","toSide":"right","label":"HOW IMAGE \nARE PROCESSED"},
-		{"id":"cee7543510d7c209","fromNode":"814f4d99df02b8ed","fromSide":"bottom","toNode":"8c4893cd85f9c5f1","toSide":"top","label":"retrieve BLOBS from images"}
+		{"id":"cee7543510d7c209","fromNode":"814f4d99df02b8ed","fromSide":"bottom","toNode":"8c4893cd85f9c5f1","toSide":"top","label":"RETRIEVE BLOBS FROM IMAGES"}
 	]
 }
