@@ -88,8 +88,6 @@ $$
 H = [h_{1},h_{2},h_{3}] = [p_{1},p_{2},p_{4}] = \lambda A[r_{1},r_{2},T]
 $$
 
-^404a3c
-
 Given that $R$ is an orthogonal matrix the following relations are true 
 
 $$
