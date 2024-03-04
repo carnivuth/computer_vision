@@ -11,7 +11,6 @@ v^{'} = f_{v}(u,v)
 \end{cases}
 $$
 
-![](Pasted%20image%2020240227161007.png)
 It's also possible to invert warping
 
 $$
