@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"df8cb8fd360b567d","type":"file","file":"pages/local_features/EDGES.md","x":-100,"y":-340,"width":400,"height":400},
+		{"id":"0199dab5982ff630","x":340,"y":280,"width":400,"height":400,"type":"file","file":"pages/local_features/ZERO CROSSING EDGE DETECTION.md"},
+		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY EDGE DETECTOR.md","x":-560,"y":280,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"fc829010e88561f8","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"d392dbf751ea06db","toSide":"top","label":"STRONG EDGE \nDETECTION SYSTEM"},
+		{"id":"c24ce1e33570b2ea","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"0199dab5982ff630","toSide":"top","label":"VARIANT USING \nSECOND DERIVATIVE"}
+	]
+}
