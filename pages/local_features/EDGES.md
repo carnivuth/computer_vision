@@ -146,3 +146,5 @@ $$
 With this considerations the final edge detection pipeline looks like this
 
 ![](Pasted%20image%2020240309121005.png)
+
+There is a final thresholding step in order to avoid detection of unwanted edges.
