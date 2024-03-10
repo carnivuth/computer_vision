@@ -1,11 +1,27 @@
 {
 	"nodes":[
 		{"id":"df8cb8fd360b567d","type":"file","file":"pages/local_features/EDGES.md","x":-100,"y":-340,"width":400,"height":400},
-		{"id":"0199dab5982ff630","x":340,"y":280,"width":400,"height":400,"type":"file","file":"pages/local_features/ZERO CROSSING EDGE DETECTION.md"},
-		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY EDGE DETECTOR.md","x":-560,"y":280,"width":400,"height":400}
+		{"id":"0199dab5982ff630","type":"file","file":"pages/local_features/ZERO CROSSING EDGE DETECTION.md","x":340,"y":280,"width":400,"height":400},
+		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY EDGE DETECTOR.md","x":-560,"y":280,"width":400,"height":400},
+		{"id":"0dae3a701d57c841","type":"file","file":"pages/local_features/FINDING CORRESPONDENCES.md","x":740,"y":-340,"width":400,"height":400},
+		{"id":"2680ebd4603e986a","type":"text","text":"# CORNER DETECTORS","x":821,"y":-520,"width":238,"height":76},
+		{"id":"2f669a61bbf46c91","type":"file","file":"pages/local_features/HARRIS CORNER DETECTOR.md","x":740,"y":-1120,"width":400,"height":400},
+		{"id":"8edc16cb4931f747","type":"file","file":"pages/local_features/SHI TOMASI CORNER DETECTOR.md","x":-60,"y":-1120,"width":400,"height":400},
+		{"id":"04f76ad51e342f20","type":"file","file":"pages/local_features/MORAVEC CORNER DETECTOR.md","x":1520,"y":-1120,"width":400,"height":400},
+		{"id":"86c27107ef7a89c4","type":"file","file":"pages/local_features/SCALE INVARIANCE.md","x":740,"y":-1800,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"fc829010e88561f8","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"d392dbf751ea06db","toSide":"top","label":"STRONG EDGE \nDETECTION SYSTEM"},
-		{"id":"c24ce1e33570b2ea","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"0199dab5982ff630","toSide":"top","label":"VARIANT USING \nSECOND DERIVATIVE"}
+		{"id":"c24ce1e33570b2ea","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"0199dab5982ff630","toSide":"top","label":"VARIANT USING \nSECOND DERIVATIVE"},
+		{"id":"c115dc30de3e18a7","fromNode":"2680ebd4603e986a","fromSide":"top","toNode":"2f669a61bbf46c91","toSide":"bottom"},
+		{"id":"2744c22c0feb8c2a","fromNode":"2680ebd4603e986a","fromSide":"top","toNode":"04f76ad51e342f20","toSide":"bottom"},
+		{"id":"202282ad961021ec","fromNode":"0dae3a701d57c841","fromSide":"top","toNode":"2680ebd4603e986a","toSide":"bottom"},
+		{"id":"47b44c83e1d96934","fromNode":"2f669a61bbf46c91","fromSide":"left","toNode":"8edc16cb4931f747","toSide":"right","label":"VARIANT FOR\nVIDEO FRAMES"},
+		{"id":"d790065b935b2103","fromNode":"0dae3a701d57c841","fromSide":"left","toNode":"df8cb8fd360b567d","toSide":"right","label":"BAD\nKEYPOINTS"},
+		{"id":"46c2bedd298da29a","fromNode":"04f76ad51e342f20","fromSide":"left","toNode":"2f669a61bbf46c91","toSide":"right","label":"CONTINUOUS\nREFORMULATION"},
+		{"id":"e3605ab9ed019514","fromNode":"2680ebd4603e986a","fromSide":"top","toNode":"8edc16cb4931f747","toSide":"bottom"},
+		{"id":"4da7d341b8911aa8","fromNode":"8edc16cb4931f747","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"},
+		{"id":"51089dda50704629","fromNode":"2f669a61bbf46c91","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"},
+		{"id":"92164a05d5937c84","fromNode":"04f76ad51e342f20","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"}
 	]
 }

@@ -2,9 +2,9 @@
 	"nodes":[
 		{"id":"814f4d99df02b8ed","type":"text","text":"# COMPUTER VISION","x":-147,"y":-1488,"width":250,"height":84},
 		{"id":"ee419e103016aff1","type":"file","file":"IMAGE_FORMATION_ACQUISITION.canvas","x":-222,"y":-2040,"width":400,"height":400},
-		{"id":"5bd03d75765c3317","type":"file","file":"IMAGE_FILTERING.canvas","x":-840,"y":-1646,"width":400,"height":400},
 		{"id":"8c4893cd85f9c5f1","type":"file","file":"IMAGE_SEGMENTATION_BLOB_ANALYSIS.canvas","x":-222,"y":-1200,"width":400,"height":400},
-		{"id":"e0b3c13c62c9891c","type":"file","file":"LOCAL_FEATURES.canvas","x":-222,"y":-580,"width":400,"height":400}
+		{"id":"e0b3c13c62c9891c","type":"file","file":"LOCAL_FEATURES.canvas","x":-222,"y":-580,"width":400,"height":400},
+		{"id":"5bd03d75765c3317","type":"file","file":"IMAGE_FILTERING.canvas","x":-960,"y":-1640,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"f8ceb52ba5a11106","fromNode":"814f4d99df02b8ed","fromSide":"top","toNode":"ee419e103016aff1","toSide":"bottom","label":"HOW 3D WORLD AND IMAGES ARE RELATED"},
