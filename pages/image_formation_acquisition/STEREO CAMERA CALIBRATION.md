@@ -22,13 +22,14 @@ This is done by virtually rotating the calibrated cameras (e.g. redefining the $
 
 so in order to define a new $PPM$ a matrix $A_{new}$ is arbitrary chosen (e.g. the mean between the $A_{R},A_{L}$) 
 
-Then a new $R$ matrix need to be defined, the first vector is chosen to be parallel to the baseline vector $B=C_{R}-C_{L}$ that in the stereo reference frame becomes
-
 ### CONSTRUCTING THE $R$ MATRIX
+
+Then a new $R$ matrix need to be defined, the first vector is chosen to be parallel to the baseline vector $B=C_{R}-C_{L}$ that in the stereo reference frame becomes
 
 $$
 B = -R^{T}T = [B_{x},B_{y},B_{z}]
 $$
+
 Then the first vector is taken parallel to the $B$ vector as $r1= \frac{B}{\Vert B \Vert}$
 
 the $Y$ vector is taken to be orthogonal to the $X$ vector  and to an arbitrary $k$ that can be the old $Z$ axis:
@@ -57,6 +58,7 @@ $$
 Both images go trough a rotation and a change of intrinsic parameter, so they are related to the originals through [homographies](HOMOGRAPHY.md) 
 
 So for the left camera:
+
 $$
 \begin{cases}
 \overset{\sim}m_{L} = A_{L}[I|0]\overset{\sim}M \\
@@ -66,10 +68,11 @@ $$
 
 $$
 $$
-H_{R} = A_{L}R_{new}^{-1}A_{new}^{-1}
+H_{L} = A_{L}R_{new}^{-1}A_{new}^{-1}
 $$
 
 for the right image is convenient to move the origin of the WRF into the optical center of the camera
+
 $$
 \begin{cases}
 \overset{\sim}m_{R} = A_{R}[R|0]\overset{\sim}M_{R} \\
