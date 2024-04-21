@@ -15,6 +15,7 @@ $$
 $$
 
 ![](Pasted%20image%2020240227155232.png)
+
 ## RECTIFICATION
 
 For better searching for correspondent points the images need to be perfectly aligned with the camera this is impossible with mechanical alignment so the images are **rectified**
