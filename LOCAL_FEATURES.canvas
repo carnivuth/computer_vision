@@ -1,14 +1,22 @@
 {
 	"nodes":[
-		{"id":"df8cb8fd360b567d","type":"file","file":"pages/local_features/EDGES.md","x":-100,"y":-340,"width":400,"height":400},
-		{"id":"0199dab5982ff630","type":"file","file":"pages/local_features/ZERO CROSSING EDGE DETECTION.md","x":340,"y":280,"width":400,"height":400},
-		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY EDGE DETECTOR.md","x":-560,"y":280,"width":400,"height":400},
-		{"id":"0dae3a701d57c841","type":"file","file":"pages/local_features/FINDING CORRESPONDENCES.md","x":740,"y":-340,"width":400,"height":400},
-		{"id":"2680ebd4603e986a","type":"text","text":"# CORNER DETECTORS","x":821,"y":-520,"width":238,"height":76},
-		{"id":"2f669a61bbf46c91","type":"file","file":"pages/local_features/HARRIS CORNER DETECTOR.md","x":740,"y":-1120,"width":400,"height":400},
+		{"id":"2835ab3c1e25729f","type":"group","x":-80,"y":-2420,"width":2020,"height":2500,"label":"KEYPOINT DETECTOR"},
+		{"id":"b60dc83db957cb40","type":"group","x":-840,"y":-360,"width":1340,"height":1060,"label":"EDGES"},
+		{"id":"97ec0aa4ff9a5fa2","type":"group","x":2320,"y":-1730,"width":520,"height":1120,"label":"KEYPOINT DESCRIPTOR"},
 		{"id":"8edc16cb4931f747","type":"file","file":"pages/local_features/SHI TOMASI CORNER DETECTOR.md","x":-60,"y":-1120,"width":400,"height":400},
+		{"id":"86c27107ef7a89c4","type":"file","file":"pages/local_features/SCALE INVARIANCE.md","x":740,"y":-1800,"width":400,"height":400},
+		{"id":"483a3e418df07ade","type":"file","file":"pages/local_features/DOG DETECTOR.md","x":200,"y":-2400,"width":400,"height":400},
+		{"id":"2ed5fc6c19cef846","type":"file","file":"pages/local_features/SCALE NORMALIZED LOG.md","x":1280,"y":-2400,"width":400,"height":400},
 		{"id":"04f76ad51e342f20","type":"file","file":"pages/local_features/MORAVEC CORNER DETECTOR.md","x":1520,"y":-1120,"width":400,"height":400},
-		{"id":"86c27107ef7a89c4","type":"file","file":"pages/local_features/SCALE INVARIANCE.md","x":740,"y":-1800,"width":400,"height":400}
+		{"id":"ae01ebe7bf1eafe5","type":"file","file":"pages/local_features/CANONICAL ORIENTATION.md","x":2400,"y":-1710,"width":400,"height":400},
+		{"id":"fc3b56a46d87919a","type":"file","file":"pages/local_features/SIFT DESCRIPTOR.md","x":2400,"y":-1030,"width":400,"height":400},
+		{"id":"b88bb7121bfee9ad","type":"file","file":"pages/local_features/MATCHING PROCESS.md","x":3320,"y":-1410,"width":400,"height":490},
+		{"id":"2f669a61bbf46c91","type":"file","file":"pages/local_features/HARRIS CORNER DETECTOR.md","x":740,"y":-1120,"width":400,"height":400},
+		{"id":"df8cb8fd360b567d","type":"file","file":"pages/local_features/EDGES.md","x":-360,"y":-340,"width":400,"height":400},
+		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY EDGE DETECTOR.md","x":-820,"y":280,"width":400,"height":400},
+		{"id":"0199dab5982ff630","type":"file","file":"pages/local_features/ZERO CROSSING EDGE DETECTION.md","x":80,"y":280,"width":400,"height":400},
+		{"id":"0dae3a701d57c841","type":"file","file":"pages/local_features/FINDING CORRESPONDENCES.md","x":740,"y":-340,"width":400,"height":400},
+		{"id":"2680ebd4603e986a","type":"text","text":"# CORNER DETECTORS","x":821,"y":-520,"width":238,"height":76}
 	],
 	"edges":[
 		{"id":"fc829010e88561f8","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"d392dbf751ea06db","toSide":"top","label":"STRONG EDGE \nDETECTION SYSTEM"},
@@ -22,6 +30,12 @@
 		{"id":"e3605ab9ed019514","fromNode":"2680ebd4603e986a","fromSide":"top","toNode":"8edc16cb4931f747","toSide":"bottom"},
 		{"id":"4da7d341b8911aa8","fromNode":"8edc16cb4931f747","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"},
 		{"id":"51089dda50704629","fromNode":"2f669a61bbf46c91","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"},
-		{"id":"92164a05d5937c84","fromNode":"04f76ad51e342f20","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"}
+		{"id":"92164a05d5937c84","fromNode":"04f76ad51e342f20","fromSide":"top","toNode":"86c27107ef7a89c4","toSide":"bottom"},
+		{"id":"94a94ab0fa4267d8","fromNode":"86c27107ef7a89c4","fromSide":"top","toNode":"2ed5fc6c19cef846","toSide":"bottom"},
+		{"id":"2db8257cd356e851","fromNode":"86c27107ef7a89c4","fromSide":"top","toNode":"483a3e418df07ade","toSide":"bottom"},
+		{"id":"da13797eda801938","fromNode":"2ed5fc6c19cef846","fromSide":"left","toNode":"483a3e418df07ade","toSide":"right","label":"COMPUTATIONAL IMPROVED\nAPPROXIMATION"},
+		{"id":"4ef236b037d230e5","fromNode":"ae01ebe7bf1eafe5","fromSide":"bottom","toNode":"fc3b56a46d87919a","toSide":"top","label":"USED BY"},
+		{"id":"9fb54911b1499a3a","fromNode":"2835ab3c1e25729f","fromSide":"right","toNode":"97ec0aa4ff9a5fa2","toSide":"left"},
+		{"id":"5f3fab9a4fafda06","fromNode":"97ec0aa4ff9a5fa2","fromSide":"right","toNode":"b88bb7121bfee9ad","toSide":"left"}
 	]
 }
