@@ -1,0 +1,36 @@
+# SHAPE BASED MATCHING
+
+Shape based matching is a technique that involves matching a specific set of corner points and their gradients to find the model image in the target
+
+![](Pasted%20image%2020240423154429.png)
+
+First, a set of control points, $P_{k}$, is extracted from the model image by an Edge Detection operation and the gradient direction at each $P_{k}$ is recorded.
+
+Then at each position the gradients of the $P_{k}$ are compared to the $\overset{\sim}P_k$ ones computed from the image in order to compute a similarity function
+
+$$
+S(i,j) = \frac{1}{n}\sum_{k=1}^{n} u_k(P_k)\ast \overset{\sim}u_k(\overset{\sim}P_k)
+$$
+with:
+
+$$
+\displaylines{
+u(P_k) = \frac{1}{\Vert G_k(P_k)\Vert }\ast \begin{bmatrix}I_x(P_k) \\ I_y(P_k)\end{bmatrix}\\
+\overset{\sim}u(\overset{\sim}P_k) = \frac{1}{\Vert \overset{\sim}G_k(\overset{\sim}P_k)\Vert }\ast \begin{bmatrix}I_x(\overset{\sim}P_k) \\ I_y(\overset{\sim}P_k)\end{bmatrix}\\
+}
+,k = 1...n
+$$
+
+The upper function is limited in the interval $[-1,1]$ and it peaks when all model points are perfectly aligned with the target computed points, in this case a threshold can be set as the minimum number of model points to detect in the target image
+
+## IMPROVEMENTS
+
+### ROBUSTNESS
+
+in some application is required to be invariant to global inversion of contrast polarity so a simple improvement of the similarity function can be deployed 
+
+$$
+S(i,j) = \frac{1}{n}\vert \sum_{k=1}^{n} u_k(P_k)\ast \overset{\sim}u_k(\overset{\sim}P_k)\vert
+$$
+### PERFORMANCES
+

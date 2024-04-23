@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"6e00d8646fb12a42","x":-400,"y":160,"width":400,"height":400,"type":"file","file":"pages/object_detection/SHAPE BASED MATCHING.md"},
-		{"id":"99d14937a008827b","x":160,"y":160,"width":400,"height":400,"type":"file","file":"pages/object_detection/TEMPLATE PATTERN MATCHING.md"},
-		{"id":"e456f609415e8408","type":"file","file":"pages/object_detection/INSTANCE LEVEL OBJECT DETECTION.md","x":-120,"y":-520,"width":400,"height":400}
+		{"id":"e456f609415e8408","type":"file","file":"pages/object_detection/INSTANCE LEVEL OBJECT DETECTION.md","x":-120,"y":-520,"width":400,"height":400},
+		{"id":"6e00d8646fb12a42","type":"file","file":"pages/object_detection/SHAPE BASED MATCHING.md","x":-560,"y":160,"width":400,"height":400},
+		{"id":"99d14937a008827b","type":"file","file":"pages/object_detection/TEMPLATE PATTERN MATCHING.md","x":280,"y":160,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"8dbbc9a329192af5","fromNode":"e456f609415e8408","fromSide":"bottom","toNode":"6e00d8646fb12a42","toSide":"top"},
-		{"id":"43096a641b087ce5","fromNode":"e456f609415e8408","fromSide":"bottom","toNode":"99d14937a008827b","toSide":"top"}
+		{"id":"8dbbc9a329192af5","fromNode":"e456f609415e8408","fromSide":"bottom","toNode":"6e00d8646fb12a42","toSide":"top","label":"MORE ROBUST APPROACH"},
+		{"id":"43096a641b087ce5","fromNode":"e456f609415e8408","fromSide":"bottom","toNode":"99d14937a008827b","toSide":"top","label":"TOO SLOW STUPID APPROACH"}
 	]
 }
