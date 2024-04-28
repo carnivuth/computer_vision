@@ -4,7 +4,7 @@
 		{"id":"99d14937a008827b","type":"file","file":"pages/object_detection/TEMPLATE PATTERN MATCHING.md","x":0,"y":-1040,"width":400,"height":400},
 		{"id":"6e00d8646fb12a42","type":"file","file":"pages/object_detection/SHAPE BASED MATCHING.md","x":0,"y":-440,"width":400,"height":400},
 		{"id":"f63363a0f45022a0","type":"file","file":"pages/object_detection/HOUGH TRANSFORM.md","x":880,"y":-440,"width":400,"height":400},
-		{"id":"2de1028163d15d8a","type":"file","file":"pages/object_detection/GHT.md","x":1800,"y":-440,"width":400,"height":400},
+		{"id":"2de1028163d15d8a","type":"file","file":"pages/object_detection/GENERALIZED HUGH TRANSFORM.md","x":1800,"y":-440,"width":400,"height":400},
 		{"id":"9f4208dcee06814a","x":2480,"y":-440,"width":400,"height":400,"type":"file","file":"pages/object_detection/OBJECT DETECTION PIPELINE.md"}
 	],
 	"edges":[

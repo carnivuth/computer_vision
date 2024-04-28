@@ -47,4 +47,4 @@ The implementation relies on a discrete representation of the parameter space as
 
 ![](Pasted%20image%2020240427162503.png)
 
-In order to compute non analytical shapes the [GHT](GHT.md) is deployed
+In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](GENERALIZED%20HUGH%20TRANSFORM.md) is deployed
