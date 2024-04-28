@@ -1,4 +1,4 @@
-	# HOUGH TRANSFORM
+# HOUGH TRANSFORM
 
 The Hough Transform can detect analytical shapes in an image such as line, circles or ellipses and is based on the concept of mapping the input data in a parameter space called **HOUGH SPACE**
 
