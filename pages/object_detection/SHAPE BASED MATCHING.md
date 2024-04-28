@@ -34,3 +34,34 @@ S(i,j) = \frac{1}{n}\vert \sum_{k=1}^{n} u_k(P_k)\ast \overset{\sim}u_k(\overset
 $$
 ### PERFORMANCES
 
+The computation of the similarity function can be improved once a threshold $S_{min}$ is chosen given the partial similarity function $S_p$ as:
+
+$$
+S_p(i,j) = \frac{1}{n}\sum_{k=1}^{p} u_k(P_k)\ast \overset{\sim}u_k(\overset{\sim}P_k)
+$$
+
+so the following relation can be established:
+
+$$
+S(i,j) \lt \frac{1}{n}( S_p(i,j) + (n -p))
+$$
+
+and given the fact that the value of the similarity function need to be lower than the $S_{min}$ threshold
+
+$$
+S(i,j)\lt S_{min}
+$$
+
+it can be said that
+
+$$
+S_p(i,j) \lt n \ast S_{min}  + (p-n)
+$$
+
+When the condition is verified the computation of the similarity function can be stopped
+
+## PROPERTIES
+
+- Intensity invariant as the similarity function is based on gradient direction only
+- No need of computing the edges on the target image which is a risky procedure
+- robustness to occlusion which can be tuned by the $S_{min}$ parameter
