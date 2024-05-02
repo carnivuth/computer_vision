@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d7dd715aa0324627","x":-180,"y":-320,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/MACHINE LEARNING IN COMPUTER VISION.md"},
+		{"id":"6895b65a5559ef7c","x":-180,"y":280,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/LINEAR CLASSIFIER.md"}
+	],
+	"edges":[
+		{"id":"099657c3313fdf38","fromNode":"d7dd715aa0324627","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"FIRST APPROACH"}
+	]
+}
