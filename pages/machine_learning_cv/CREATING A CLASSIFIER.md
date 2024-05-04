@@ -1,20 +1,25 @@
-# LINEAR CLASSIFIER
+
+# CREATING A CLASSIFIER
 
 ## OBJECTIVE
+
 design a function that takes image as input and responds with a label
 
-## IMAGE FLATTENING
+## A POSSIBLE TECHNIQUE, IMAGE FLATTENING
 
-The idea is to scan linearly the image pixels
+The idea is to scan linearly the image pixels:
 
 ![](Pasted%20image%2020240430113112.png)
 
-so the classifier becomes
+so the classifier becomes:
 
 $$
 f(x,W)= Wx = label
 $$
+
 where $W$ is a linear vector of $3\times M \times N$ size as the $x$ input.
+
+### LIMITS OF IMAGE FLATTENING 
 
 This solution is not practical cause the **label is a categorical and not numerical value** so closer values do not imply that images are of similar classes
 
@@ -36,6 +41,7 @@ A common approach is to translate the scores in probabilities with the softmax f
 $$
 softmax_j(s) = \frac{exp(s_j)}{\sum_{k=1}^{C}{exp(s_k)}}
 $$
+
 the true label can be represented as a one hot encoded row of scores such as
 
 $$
@@ -83,9 +89,7 @@ $$
 \nabla L(\theta,D^{train})= 
 \begin{bmatrix}
 \frac{\delta L(\theta,D^{train})}{\delta \theta_1} \\
-. \\
-. \\
-. \\
+\vdots \\
 \frac{\delta L(\theta,D^{train})}{\delta \theta_k} \\
 \end{bmatrix}
 $$
@@ -136,8 +140,8 @@ $$
 
 With this parameter the update becomes a mean of the previous ones smoothing the gradient
 
-## LIMITS
+## LIMITS OF A LINEAR CLASSIFIER
 
-For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels
+For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels. There is the need to transform pixels in some form of feature
 
 ![](Pasted%20image%2020240502210718.png)

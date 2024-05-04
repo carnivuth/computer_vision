@@ -1,9 +1,11 @@
 {
 	"nodes":[
-		{"id":"d7dd715aa0324627","x":-180,"y":-320,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/MACHINE LEARNING IN COMPUTER VISION.md"},
-		{"id":"6895b65a5559ef7c","x":-180,"y":280,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/LINEAR CLASSIFIER.md"}
+		{"id":"d7dd715aa0324627","type":"file","file":"pages/machine_learning_cv/MACHINE LEARNING IN COMPUTER VISION.md","x":-180,"y":-320,"width":400,"height":400},
+		{"id":"7ebea9b5f78913cd","x":-180,"y":300,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/CREATING A CLASSIFIER.md"},
+		{"id":"6895b65a5559ef7c","type":"file","file":"pages/machine_learning_cv/DEEP LEARNING AND NEURAL NETWORKS.md","x":-180,"y":1000,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"099657c3313fdf38","fromNode":"d7dd715aa0324627","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"FIRST APPROACH"}
+		{"id":"099657c3313fdf38","fromNode":"7ebea9b5f78913cd","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"SURPASSING LIMITS OF\nLINEAR CLASSIFICATION"},
+		{"id":"4a552af6b5923d1d","fromNode":"d7dd715aa0324627","fromSide":"bottom","toNode":"7ebea9b5f78913cd","toSide":"top","label":"CREATING A \nCLASSIFIER"}
 	]
 }
