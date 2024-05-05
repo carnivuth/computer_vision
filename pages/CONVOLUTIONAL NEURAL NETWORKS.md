@@ -124,3 +124,20 @@ So the output is given by:
 $$
 H(x) = F(x)+x
 $$
+
+Residual network consists on stages that contains stages of residual blocks
+
+### GROUPED CONVOLUTIONS
+
+In order to improve the computational costs kernels are split into $G$ groups and each group process $\frac{C_{in}}{G}$ groups, with this required flops and number of parameters are scaled by a $G$ factor
+
+![](Pasted%20image%2020240505120419.png)
+
+## TRANSFER LEARNING
+
+To prevent overfitting, training of a deep neural network requires too big datasets that in a lot of deployment scenarios are expensive.
+
+So in order to train big CNN a 2 steps approach is adopted:
+
+- **pre-train** the deep network with a large, general purpose dataset
+- **fine-tune** specific parts of the network with the smaller specific one dataset
