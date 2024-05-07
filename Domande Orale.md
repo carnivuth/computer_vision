@@ -113,32 +113,168 @@ another answer:
 ----- 
 
 come hai implementato la color specification?
+# -> Color specification 
 
-qual'è la differenza tra l'approccio F2R e F2F? (basta dirgli quello che ha scritto lui nel documento con la descrizione del progetto) in particolare, nel F2F alla fine concateno omografie e, quindi, propago errore
+
+(da rivedere)
+Per color specification intendiamo il modo in cui il colore viene rappresentato e interpretato per l'analisi e l'elaborazione delle immagini. La specifica del colore è utile per applicazioni per riconoscimento oggetti, segmentazione dell'immagine e analisi di scene e altro.
+Il colore può essere rappresentato in diversi spazi o modelli, i più comuni sono RGB, HSV, YUV/YCbCr.
+
+L'implementazione della specifica del colore si fa:
+1 facendo la conversione tra spazi e colore: per analizzare o elaborare le immagini in diversi contesti spesso serve convertire le immagini da uno spazio colore a un altro-> con funzioni di librerie
+2 estrarre le caratteristiche di colore, che possono essere estratte dalle immagini per analisi o riconoscimento
+3 analizzare e filtrare basandosi sul colore, con la specifica del colore è possibile filtrare regioni di interesse
+
+
+--------------
+
+
+qual'è la differenza tra l'approccio F2R e F2F? (basta dirgli quello che ha scritto lui nel documento con la descrizione del progetto) in particolare, **nel F2F alla fine concateno omografie e, quindi, propago errore**
+
+# Differenza tra approccio F2R e F2F
+
+Intanto gli approcci Face to Range e Face to Face sono modi di classificare e definire la relazione tra due entità (oggetti o concetti), e sono spesso usati in contesti di analisi e rappresentazione dei dati e problemi di data mining e machine learning.
+F2R: si riferisce a una relazione in cui un oggetto o entità è associata a un intervallo o insieme di valori numerici dove
+face= oggetto di interesse da classificare/analizzare
+Range= intervallo di valori numerici o insieme di valori possibili associati alla 'face'
+
+obiettivo: mappare o associare una 'face' a un 'range' di valori. (usata per classificare, predire, raggruppare...)
+
+F2F: si riferisce a una relazione in cui due oggetti sono direttamente associati o confrontati, dove
+face= oggetto/entità di interesse
+face to face= associazione tra due 'face'
+
+obiettivo: valutare o confrontare due 'face' per identificarne la similarità, differenza o associazione
+
+DIfferenze principali:
+
+1 diversa relazione (F2R associa entità a un intervallo o insieme, F2F confronta 2 entità)
+2 obiettivi: F2R usato per classificazione o predizione ... F2F valutare similarità o correlazione
+3 applicazioni: F2R trova applicazioni in data mining o analisi dati dove serve mappare entità, F2F usato per applicazioni di confronto e valutazione diretta 
+
 
 hai dato un'occhiata al ransac? --> basta una descrizione di 4 parole
 
-perchè nelle varie iterazioni RANSAC stima omografia usando solo 4 dei punti a disposizione e non tutti ? 
+# Ransac?
 
+Random Sample Consensus= algoritmo usato per stimare i parametri di un modello matematico da un insieme di dati contaminato da outliers o dati rumorosi.
+Usato per stimare modelli da dati sperimentali.
+Molto usato per stimare modelli da dati sperimentali.
+obietttivo: identificare un insieme di dati inliner (seguono il modello) da un insieme di dati outlier (deviano dal modello).
+l'algoritmo ha un approccio iteerativo:
+1 selezione casuale, a ogni iterazione vengono selezionati casualmente un sottoinsieme di dati (sample) per formare una stima iniziale del modello 
+2 stima del modello, con il sottoinsieme selezionato viene stimato il modello desiderato, il tipo dipende dall'applicazione e può essere una retta, piano o trasformazione affine ecc
+3 valutazione dei consensi, valuti la qualità del modello stimato confrontando gli altri dati col modello e i dati compatiibli col modello entro una soglia sono considerati consensi.
+4 validazione del modello, se il numero di consensi supera una soglia prestabilita il modello è considerato valido e accettato come stima finale
+5 iterazione per un numero fisso o finchè non è raggiunto un criterio di convergenza definitivo.
+
+I vantaggi sono la robustezza contro outliers (perché progettato per gestire fdati contenenti outlier o rumore) e adattabilità (usato con diversi modelli matematici e applicazioni)
+
+Dove viene usato? Per stima di trasformazioni, riconoscimento forme o oggetti e calibrazione di sistemi
+
+Ci sono però delle limitazioni, come i parametri da configurare (numero di iterazioni, soglia di consenso ecc) o il fatto che può essere molto costoso computazionalmente ed inoltre è sensibile alla scelta iniziale.
+
+
+
+perchè nelle varie iterazioni RANSAC stima omografia usando solo 4 dei punti a disposizione e non tutti ? 
 perchè i punti potrebbero essere affetti da rumore. Così facendo, invece, calcolando l'errore gemetrico in base all'omografia stimata, riesce prima a trovare un certo numero di INLIER e, all'ultima iterazione, stima l'omografia usando tutti gli inlier trovati
 
-  
+(Per ragioni legate alla robustezza dell'algoritmo e complessità computazionale.
 
-parlami della trasformata di HOUGH
+RANSAC utilizza solo 4 punti per stimare un'omografia in ciascuna iterazione per ottimizzare l'efficienza computazionale, migliorare la robustezza contro gli outlier e fornire una soluzione generale e applicabile per la stima dei modelli geometrici da dati rumorosi o contaminati.)
 
-importante ricordarsi di dirgli che viene applicata solo agli EDGE POINT (quindi devo prima applicare un edge detection) e non a tutti i pixel dell'immagine
+# parlami della trasformata di HOUGH
 
+tip: **importante ricordarsi di dirgli che viene applicata solo agli EDGE POINT (quindi devo prima applicare un edge detection) e non a tutti i pixel dell'immagine****
+**
+La trasformata è un algoritmo usato per rilevare forme geometriche in un'immagine, utile quando si vuole individuare pattern geometrici nonostante il rumore nei dati o variazioni nelle posizioni, scala, orientamento ecc.
+
+Concetto chiave: rappresentare una forma geometrica come linea o curva nello spazio dei parametri, ciò permette di rilevare la forma anche se è parzialmente oscurata o distorta o interrotta.
+
+Inizialmente la trasformata serviva a rilevare linee in un'immagine, i passi:
+1 rileva i bordi: prima di applicare la trasformata è necessario eseguire il rilevamento dei bordi sull'immagine con algoritmi di edge detection
+2 rappresenta i punti nel parametro spazio: ogni punto di bordo nell'immagine viene rappresentato come curva nel parametro spazi di Hough. Per linee cartesiane x e y a curva  è rappresentata come una retta nello spazio dei parametri 
+![[Pasted image 20240507153733.png]]
+
+![[Pasted image 20240507153822.png]]
+3 accumulazione parametri di hough: per ogni punto di bordo vengono generate una serie di possibili parametri che descrivono le rette che potrebbero passare da quel punto, ogni curva nel parametro spazio di hough viene votata da ogni punto di bordo.
+![[Pasted image 20240507153847.png]]
+4 rilevamento delle linee: le rette corispondono a picchi nell'istogramma accumulato nello spazio dei parametri di hough, trovando i picchi significativi è possibile determinare le rette rilevate nell'immagine.
+
+
+Poi la trasformata è stata estesa per rilevare altre forme come cerchi ellissi ecc. Le estensioni coinvolgono l'uso di parametri aggiuntivi nello spazio di hough che descrivono proprietà specifiche delle forme da rilevare.
+
+HT
+https://youtu.be/XRBc_xkZREg?si=jIjP9biDAEuCuLfw
+GHT
+https://youtu.be/_mGxmZWs9Zw?si=FDdbdfCzd5URP1xQ
+
+another answer
+
+The Hough Transform enables to detect objects having a known shape based on projection of the input  data into a suitable space referred to as parameter or hough space.
+
+It turns a global detection problem into a local one and its applied after an edge detection process.
+It is robust to noise and allows for detecting the sought shape even if its partially occluded into the image.
+It was invented initially to detect lines and later extended to other shapes 'Generalized Hough Transform'-> the principle is widely deployed also within state of the art object detection pipeline relying on local invariant features such as SIFT.
+
+Basic principle: consider the HT formulation for lines, In the usual image space interpretation of the line equation, the parameters (m',c') are fixed so that the equation represents the mapping 1->inf from that point of the parameter space to the image points belonging to the line.
+We have to fix (x',y') to interpret the equation as the mapping 1->inf from image point to parameter space.
+The equation represent still a line so all parameter representing lines through image point lay on a line of the parameter space.
+
+If we consider two image points P1 P2 and map both in the parameter space we get an intersection that represent the image line through P1 P2.
+
+Considering n collinear image points we can notice that their corresponding transforms will intersect at a single parameter space point representing the image line along which such points lay.
+
+Given a sought analytic shape represented by a set of parameters, the HT consists in mapping image points , to create curves into the parameter space of the shape. 
+
+![[Pasted image 20240507153733.png]]
+If we consider the n collinear image points the corresponding transforms will intersect at a single parameter space point representing the image line where such points lay 
+![[Pasted image 20240507153822.png]]
+Intersections of parameter space curves indicate the presence of image points explained by a certain instance of the shape, the more the intersecting curves the higher the evidence of the presence of that instance in the image.
+
+So to quantize and allocate teh parameters we use an Accumulator Array and then draw the curves by a voting process.
+![[Pasted image 20240507153847.png]]
+
+That is why its robust to noise (spurious point can't accumulate coherently)
+
+but the usual parametrization is impractical (m span to an inf range) so we use the normal parametrization
+![[Pasted image 20240507160042.png]]
+
+While for circle detection the equation is interpreted as a mapping from the image space to a 3 dim parameter space
+![[Pasted image 20240507160311.png]]
+
+# Generalized Hough Transform
+Is an HT extended to detect arbitrary shapes
+
+Firstly in the offline phase we need to train it to identify the desired shape, detecting the edges in the model image choosing a reference point (barycenter) and for each point of the border compute a vector connected to the barycenter and compute the gradient direction and store the vector in a table and divade the possible angle in bin of Delta Theta in quantize them in lines of the table 
+![[Pasted image 20240507164904.png]]
+
+then in the online phase we detect edges in the target image and initialize another accumulator array, and for each pixel of this image we compute the gradient direction and quantize (fi) to index the R-table and fro each vector stored we compute the position of the reference point and cast vote into the accumulator array
+![[Pasted image 20240507165435.png]]
+
+
+----
   
 
 quando gli ho detto che HOUGH è robusto al rumore mi chiede:
 
-le immagini hanno sempre rumore? se sì come possiamo stimarlo? e a cosa è dovuto?
+# le immagini hanno sempre rumore? se sì come possiamo stimarlo? e a cosa è dovuto?
 
 le immagini hanno sempre rumore ovvero, prendendo due immagini di una stessa scena perfettamente statica (quindi anche illuminazione costante), lo stesso pixel avrà valori diversi nelle due immagini. questo è dovuto al DARK CURRENT NOISE e, quindi, glie elettroni vengono convertiti in fotoni (o qualcosa del genere)
 
-  
+  altra risposta: Le immagini digitali possono presentare rumore, dovuto a varie fonti durante il processo di acquisizione, trasmissione o elaborazione dell'immagine, ma le immagini hanno diversi livelli di rumore che dipende da diverse condizioni.
+Fonti di rumore: rumore di segnale, termico, elettronico, compressione dell'immagine.
 
-hough generalizzata, come cambia l'AA se voglio tenere in considerazione le rotazioni ? (diventa 3D, ogni livello dell'AA corrisponde a una data rotazione)
+Lo si può stimare con diverse tecniche.
+Analisi statica (calcolo deviazione standard dei pixel in regioni omogenee), immagini di controllo (sotto condizioni note confrontandole con immagini sospette), filtraggio (filtri gaussiani, mediani o altri) e analisi della frequenza
+
+i tipi di rumore possono essere: additivo, moltiplicativo, casuale e periodico
+
+
+----
+
+# hough generalizzata, come cambia l'AA se voglio tenere in considerazione le rotazioni ? 
+(diventa 3D, ogni livello dell'AA corrisponde a una data rotazione)
 
   
 
@@ -148,7 +284,8 @@ tutto, in particolare 
 
 - dove applico l'edge detection? (solo al template)
 
--quando due gradienti coincidono? cos(TETA)=1
+-quando due gradienti coincidono? 
+cos(TETA)=1
 
 -punti di forza
 
@@ -158,15 +295,20 @@ tutto, in particolare 
 
 Esame 2
 
-(Progetto "Motorcycle Rods")
-
-Domande varie sul progetto del tipo perchè hai usato questa funzione o spiegami l'algoritmo che hai usato...
-
-  
-
 Algoritmo di Otsu per la scelta delle soglie: quale è l'idea di fondo e quale è la formula che cerca di minimizzare (quella canonica delle varianze all'interno dei gruppi, non quella ottimizzata)
+# -> Algoritmo di Otsu
+We are in the field of segmentation and blob analysis, it is a algorith for the segmentation of images based on an optimal threshold of the levels of intensity of the pixels.
 
-  
+The idea is to segment the image into two homogeneous regions, the optimal threshold is chosen to minimaze scross the gray-level range within-group Variance' of the result.
+(la segmentazione ottimale di un'immagine si ottiene cercando una soglia di intensità dei pixel che massimizza la varianza tra due classi di pixel: una classe rappresenta gli oggetti di interesse (foreground) e l'altra classe rappresenta lo sfondo.)
+![[Pasted image 20240507171845.png]]
+![[Pasted image 20240507172259.png]]
+so you have to minimaze the variance in the pixels classes, defined as the weighted sum of the variances of the two classes divaded by the total varianc of the image.
+
+
+
+
+
 
 Parlami dello shape matching e di quali sono le sue caratteristiche. 
 
@@ -183,7 +325,7 @@ Cosa sono i punti di fuga di una retta, come si calcolano visivamente, in coordi
   
 
 Totale circa un ora di orale, cerca di venire abbastanza incontro, ma vuole risposte precise e possibilmente motivate da formule. 
-
+(aka caca la minchia)
   
 
   
@@ -303,7 +445,9 @@ Altri tipi di filtri non lineari, quindi 
 
 filtro mediano 
 
--(mi ha chiesto anche perchè il filtro mediano non è adatto per il rumore di tipo gaussiano: perchè il mediano non crea nuovi valori, ma ne seleziona uno tra quelli dell'immagine, quindi il valore scelto manterrà comunque il rumore, che è presente su tutti i pixel) 
+-(mi ha chiesto anche 
+# perchè il filtro mediano non è adatto per il rumore di tipo gaussiano: 
+perchè il mediano non crea nuovi valori, ma ne seleziona uno tra quelli dell'immagine, quindi il valore scelto manterrà comunque il rumore, che è presente su tutti i pixel) 
 
 - e non local mean (ultima pagina delle slide sui filtri). Per quest'ultimo gli ho subito detto che non ricordavo nello specifico la formula ma si è accontentato del concetto che c'è sotto.
 
@@ -492,7 +636,17 @@ Domande sul progetto Augmented Reality: 
 Domande di teoria:
 
 - Generalized Hough Transform NON riferita agli edge, ma riferita ai descrittori SIFT (ultimissimo argomento del corso, con fase online e fase offline da spiegare bene nel dettaglio)
-    
+
+La GHT può essere utilizzata per rilevare e allineare forme, pattern o caratteristiche specifiche in un'immagine utilizzando i loro descrittori.
+
+Il processo di utilizzo della GHT con descrittori SIFT coinvolge i seguenti passaggi:
+
+**Estrazione dei Descrittori SIFT**: Inizialmente, vengono estratti i descrittori SIFT dall'immagine di interesse. I descrittori SIFT sono vettori che rappresentano le caratteristiche chiave (punti di interesse) dell'immagine in termini di scala, orientazione e intensità dei gradienti. 
+**Costruzione della Tabella di Voto**: Una volta estratti i descrittori SIFT dall'immagine di riferimento (template), viene costruita una tabella di voto o un accumulator che tiene traccia delle posizioni degli "oggetti" rappresentati da questi descrittori nell'immagine di query. Ogni entry nella tabella di voto rappresenta una posizione potenziale in cui potrebbe essere presente un'istanza dell'oggetto di interesse.
+**Votazione e Accantonamento**: Per ogni descrittore SIFT nell'immagine di query, si esamina la sua corrispondenza con i descrittori nell'immagine di riferimento. In base alle corrispondenze, si "vota" per la posizione delle corrispondenze nell'immagine di query. Questa votazione viene effettuata nell'accumulator, incrementando le celle corrispondenti.
+**Ricerca delle Corrispondenze**: Dopo aver completato la fase di votazione, è possibile identificare le posizioni più votate nell'accumulator. Queste posizioni corrispondono alle potenziali istanze dell'oggetto di interesse nell'immagine di query.
+ **Filtraggio delle Corrispondenze**: Infine, è possibile applicare filtri aggiuntivi (come il raggruppamento di vicinato) per consolidare le corrispondenze e identificare in modo più accurato le istanze desiderate dell'oggetto nell'immagine di query.
+
 - Punto di fuga di una retta 3D in coordinate omogenee (partire dalla definizione di punto di fuga e poi ricondursi alle coordinate omogenee)
     
 
