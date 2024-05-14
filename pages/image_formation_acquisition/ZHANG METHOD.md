@@ -60,9 +60,14 @@ h_{2}\\
 h_{3}\\
 \end{bmatrix}=Ah=0
 $$
-	
-From this system in 3 equations in 9 unknowns only 2 equation are linear independent, the 3 equation is discarded.
-For each image a similar system of equations is built in order to minimize the algebraic error due to the norm of $Ah$
+
+From this system in 3 equations in 9 unknowns only 2 equation are linear independent, the last one is discarded.
+For each image a system of $2m$ equations is built in order to minimize the algebraic error due to the norm of $Ah$ minimizing the problem
+
+$$
+Ah: 
+h^\ast argmin_{h \in R^9}\Vert Ah \Vert
+$$
 
 Now the solution to this system can be found with [singular value decomposition (SVD)](https://en.wikipedia.org/wiki/Singular_value_decomposition) of matrix $A$ 
 
