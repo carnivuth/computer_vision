@@ -5,13 +5,15 @@
 		{"id":"8c4893cd85f9c5f1","type":"file","file":"IMAGE_SEGMENTATION_BLOB_ANALYSIS.canvas","x":-222,"y":-1200,"width":400,"height":400},
 		{"id":"e0b3c13c62c9891c","type":"file","file":"LOCAL_FEATURES.canvas","x":-222,"y":-580,"width":400,"height":400},
 		{"id":"5bd03d75765c3317","type":"file","file":"IMAGE_FILTERING.canvas","x":-960,"y":-1640,"width":400,"height":400},
-		{"id":"856ab895ef837225","x":-222,"y":0,"width":400,"height":400,"type":"file","file":"OBJECT_DETECTION.canvas"}
+		{"id":"856ab895ef837225","type":"file","file":"OBJECT_DETECTION.canvas","x":-222,"y":0,"width":400,"height":400},
+		{"id":"ece485a5d17ad69d","x":760,"y":-1640,"width":400,"height":400,"type":"file","file":"MACHINE_LEARNING.canvas"}
 	],
 	"edges":[
 		{"id":"f8ceb52ba5a11106","fromNode":"814f4d99df02b8ed","fromSide":"top","toNode":"ee419e103016aff1","toSide":"bottom","label":"HOW 3D WORLD AND IMAGES ARE RELATED"},
 		{"id":"8a7bf02cfadc1944","fromNode":"814f4d99df02b8ed","fromSide":"left","toNode":"5bd03d75765c3317","toSide":"right","label":"HOW IMAGE \nARE PROCESSED"},
 		{"id":"cee7543510d7c209","fromNode":"814f4d99df02b8ed","fromSide":"bottom","toNode":"8c4893cd85f9c5f1","toSide":"top","label":"RETRIEVE BLOBS FROM IMAGES"},
 		{"id":"9eaacf085377e1d6","fromNode":"8c4893cd85f9c5f1","fromSide":"bottom","toNode":"e0b3c13c62c9891c","toSide":"top","label":"GET INFORMATION FROM IMAGES"},
-		{"id":"3600fa50c3ca91ff","fromNode":"e0b3c13c62c9891c","fromSide":"bottom","toNode":"856ab895ef837225","toSide":"top","label":"DETECT OBJECTS\nINSIDE IMAGES"}
+		{"id":"3600fa50c3ca91ff","fromNode":"e0b3c13c62c9891c","fromSide":"bottom","toNode":"856ab895ef837225","toSide":"top","label":"DETECT OBJECTS\nINSIDE IMAGES"},
+		{"id":"dbeaa3b665bf7e10","fromNode":"814f4d99df02b8ed","fromSide":"right","toNode":"ece485a5d17ad69d","toSide":"left","label":"USE MACHINE LEARNING\nAND DEEP LEARNING IN \nCOMPUTER VISION"}
 	]
 }
