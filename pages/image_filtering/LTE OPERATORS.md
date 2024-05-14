@@ -2,7 +2,7 @@
 
 ## LINEARITY
 
-given a 2D input signal $i(x,y)$ an operator $T(i(x,y)): T(i(x,t)=o(x,y)$ is linear if the filter of a linear combination is equal to the output of the filters of the single elements
+given a 2D input signal $i(x,y)$ an operator $T(i(x,y)): T(i(x,t))=o(x,y)$ is linear if the filter of a linear combination is equal to the output of the filters of the single elements
 
 $$
 T(ai_{1}(x,y)+bi_{2}(x,y)) =ao_{1}(x,y) + bo_{2}(x,y) \space with 
@@ -21,7 +21,7 @@ $$
 
 ## CONVOLUTION
 
-If this conditions are met then the output of the operator is given by the **convolution** between the input signal and the inpulse response (kernel) of the operator.
+If this conditions are met then the output of the operator is given by the **convolution** between the input signal and the impulse response (kernel) of the operator.
 
 $$
 o(x,y) = T(i(x,y)) = \int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(x-\alpha,y-\beta)d\alpha d\beta}} \space with
@@ -50,6 +50,7 @@ correlation of a signal $i(x,y)$ with respect to a signal $h(x,y)$ is defined as
 $$
 i(x,y)\circ h(x,y) = \int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(x+\alpha,y+\beta)d\alpha d\beta}} \space with
 $$
+
 **CORRELATION IS NOT COMMUTATIVE**
 
 ![](Pasted%20image%2020240229110950.png)

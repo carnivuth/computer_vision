@@ -1,6 +1,6 @@
 # HOMOGRAPHY
 
-Let's take the case where the camera is imaging a planar scene, in this case we can assume that the $z = 0 \space  \forall \space \overset{\sim}w$, in this scenario the $PPM$ becomese
+Let's take the case where the camera is imaging a planar scene, in this case we can assume that the $z = 0 \space  \forall \space \overset{\sim}w$, in this scenario the $PPM$ becomes
 
 $$
 k\overset{\sim}m= \overset{\sim}P \overset{\sim}w = 
