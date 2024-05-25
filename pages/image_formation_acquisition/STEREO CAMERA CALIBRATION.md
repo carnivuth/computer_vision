@@ -18,7 +18,7 @@ $$
 
 ## RECTIFICATION
 
-For better searching for correspondent points the images need to be perfectly aligned with the camera this is impossible with mechanical alignment so the images are **rectified**
+For better searching for correspondent points the images need to be perfectly aligned, this is impossible with mechanical alignment so the images are **rectified**
 This is done by virtually rotating the calibrated cameras (e.g. redefining the $PPMs$ ) about their optical center through an [homography](HOMOGRAPHY.md) 
 
 so in order to define a new $PPM$ a matrix $A_{new}$ is arbitrary chosen (e.g. the mean between the $A_{R},A_{L}$) 

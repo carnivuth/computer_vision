@@ -20,9 +20,10 @@ Binarization can be computed by simply selected a threshold $T$ and splitting th
 
 In real case scenarios the light stability of the image could not be guaranteed so there is the need to select dynamically the threshold
 
+#### DUMB APPROACH
 #### $T=\mu$
 
-This is the simplest threshold selction method, it works only if points are evenly distributed in the histogram
+This is the simplest threshold selection method, it works only if points are evenly distributed in the histogram
 
 ![](Pasted%20image%2020240302144849.png)
 
@@ -43,10 +44,11 @@ This method need the histogram smoothing to avoid been trapped in local minimums
 The idea behind this method is to divide the histogram into 2 main regions with the aim of **minimizing the within group variance**
 
 so given the following definitions:
-$i =1...L$ -> gray levels
-$N$ -> Number of pixels
-$h(i)$ -> entry of the histogram
-$p(i)= h(i)/N$ -> probability of gray level $i$ 
+
+- $i =1...L$ -> gray levels
+- $N$ -> Number of pixels
+- $h(i)$ -> entry of the histogram
+- $p(i)= h(i)/N$ -> probability of gray level $i$ 
 
 The mean and variance could be calculated as follows
 
