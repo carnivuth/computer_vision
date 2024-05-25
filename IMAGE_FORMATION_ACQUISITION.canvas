@@ -7,7 +7,6 @@
 		{"id":"38899e68df896e31","type":"file","file":"pages/image_formation_acquisition/PERSPECTIVE PROJECTION MATRIX.md","x":-400,"y":-1120,"width":400,"height":400},
 		{"id":"d8b994aaabfa973c","type":"file","file":"pages/image_formation_acquisition/HOMOGRAPHY.md","x":-1000,"y":-1120,"width":400,"height":400},
 		{"id":"3dfe35d5c458dcfc","type":"file","file":"pages/image_formation_acquisition/IMAGE DIGITIZATION.md","x":795,"y":-1672,"width":400,"height":400},
-		{"id":"64d80c03673114e7","type":"file","file":"pages/image_formation_acquisition/CAMERA PARAMETERS.md","x":1275,"y":-1672,"width":400,"height":400},
 		{"id":"fbecad3e1f92f885","type":"file","file":"pages/image_formation_acquisition/LENS.md","x":1780,"y":-1672,"width":400,"height":400},
 		{"id":"9935370ffc440825","type":"file","file":"pages/image_formation_acquisition/SENSORS.md","x":2275,"y":-1672,"width":400,"height":400},
 		{"id":"1a33a7565237fb11","type":"file","file":"pages/image_formation_acquisition/LENS DISTORTION.md","x":1780,"y":-1072,"width":400,"height":400},
@@ -16,7 +15,8 @@
 		{"id":"70fedd70249d6b38","type":"file","file":"pages/image_formation_acquisition/CAMERA CALIBRATION.md","x":620,"y":-2440,"width":400,"height":400},
 		{"id":"2585eef6102db2e3","type":"file","file":"pages/image_formation_acquisition/ZHANG METHOD.md","x":620,"y":-2980,"width":400,"height":400},
 		{"id":"4afe1bad6fe88867","type":"file","file":"pages/image_formation_acquisition/STEREO CAMERA CALIBRATION.md","x":1275,"y":-2980,"width":400,"height":400},
-		{"id":"905d57d160a8d399","x":45,"y":-2980,"width":400,"height":400,"type":"file","file":"pages/image_formation_acquisition/IMAGE WARPING.md"}
+		{"id":"905d57d160a8d399","type":"file","file":"pages/image_formation_acquisition/IMAGE WARPING.md","x":45,"y":-2980,"width":400,"height":400},
+		{"id":"64d80c03673114e7","type":"file","file":"pages/image_formation_acquisition/CAMERA PARAMETERS.md","x":1275,"y":-1672,"width":400,"height":392}
 	],
 	"edges":[
 		{"id":"1b23e63ac99b1b94","fromNode":"db24728c5f03f137","fromSide":"bottom","toNode":"ceb9f1cff2f55fa2","toSide":"top"},
@@ -38,6 +38,7 @@
 		{"id":"7eeb3fbb75635d1a","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"4afe1bad6fe88867","toSide":"bottom"},
 		{"id":"75f93752edf541af","fromNode":"ceb9f1cff2f55fa2","fromSide":"top","toNode":"4afe1bad6fe88867","toSide":"bottom"},
 		{"id":"09e2c371320b1b19","fromNode":"70fedd70249d6b38","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom"},
-		{"id":"fa014f6ad85c2c8c","fromNode":"1a33a7565237fb11","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom"}
+		{"id":"fa014f6ad85c2c8c","fromNode":"1a33a7565237fb11","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom"},
+		{"id":"e29344ca3eaa731c","fromNode":"1a33a7565237fb11","fromSide":"top","toNode":"905d57d160a8d399","toSide":"bottom","label":"USED TO REMOVE DISTORTION"}
 	]
 }
