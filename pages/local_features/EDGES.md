@@ -1,6 +1,6 @@
 # EDGES
 
-Edges are local features that capture important information of the semantic content of the image. They are defined as the set of pixels laying between two image regions with different light intensity
+Edges are local features that capture important information of the semantic content of the image. They are defined as **the set of pixels laying between two image regions with different light intensity**
 
 ## 1 DIMENSIONAL STEP EDGE
 
@@ -10,12 +10,12 @@ In this situation an edge can be seen as a peak of the first derivative of the i
 
 So in order to detect edge in this situation is  sufficient to threshold the first derivative
 
-```mermaid
+```mehrmaid
 flowchart LR
-A["`S(x)`"]
-B["`d(S)`"]
-C[T]
-D["`e(x)`"]
+A["$S(x)$"]
+B["$d(S)$"]
+C["$T$"]
+D["$e(x)$"]
 A --> B
 B --> C
 C --> D
@@ -23,7 +23,8 @@ C --> D
 
 ## 2 DIMENSIONAL STEP EDGE
 
-In a 2D imagecaracterized input signal edge is characterized also by direction, In this context the derivative is no more sufficient and the gradient function is used
+In a 2D image input signal edge is characterized also by direction, In this context the derivative is no more sufficient and the gradient function is used
+
 
 $$
 \nabla I(x,y) = \frac{\delta I(x,y)}{\delta x}i +\frac{\delta I(x,y)}{\delta y}j 
@@ -145,6 +146,17 @@ $$
 
 With this considerations the final edge detection pipeline looks like this
 
-![](Pasted%20image%2020240309121005.png)
+```mehrmaid
+flowchart LR
+A["$I$"]
+B["$\overset{\sim}I_x$"]
+C["$\overset{\sim}I_y$"]
+D["$\nabla I$"]
+E["$NMS$"]
+F["$T_h$"]
+G["$E$"]
+A --> B & C --> D --"$\Vert \nabla I\Vert$"--> E --> F --> G
+D --"$\delta$"--> E
+```
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
