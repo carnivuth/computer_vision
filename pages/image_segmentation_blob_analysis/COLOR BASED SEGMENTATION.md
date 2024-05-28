@@ -46,4 +46,10 @@ $$
 d_M(I(p),\mu) = \sqrt{(I(p)-\mu)^T \Sigma^{-1}(I(p)-\mu)} 
 $$
 
+That in the case of a diagonal covariance matrix becomes
+
+$$
+d_M(I(p),\mu) = (\frac{(I_r(p) - \mu_r)^2}{\sigma^2_{rr}} + \frac{(I_g(p) - \mu_g)^2}{\sigma^2_{gg}} +\frac{(I_b(p) - \mu_b)^2}{\sigma^2_{bb}})
+$$
+
 The mahalanobis distance weights the differences between the color components unequally (inversely proportional to the learned variances ), This as the effect of lower the consideration of sparse components 
