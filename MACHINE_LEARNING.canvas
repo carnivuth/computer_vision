@@ -3,7 +3,7 @@
 		{"id":"d7dd715aa0324627","type":"file","file":"pages/machine_learning_cv/MACHINE LEARNING IN COMPUTER VISION.md","x":-180,"y":-320,"width":400,"height":400},
 		{"id":"7ebea9b5f78913cd","type":"file","file":"pages/machine_learning_cv/CREATING A CLASSIFIER.md","x":-180,"y":180,"width":400,"height":400},
 		{"id":"6895b65a5559ef7c","type":"file","file":"pages/machine_learning_cv/DEEP LEARNING AND NEURAL NETWORKS.md","x":-180,"y":740,"width":400,"height":400},
-		{"id":"ccc750492f5016da","x":-180,"y":1280,"width":400,"height":400,"type":"file","file":"pages/CONVOLUTIONAL NEURAL NETWORKS.md"}
+		{"id":"ccc750492f5016da","x":-180,"y":1280,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/CONVOLUTIONAL NEURAL NETWORKS.md"}
 	],
 	"edges":[
 		{"id":"099657c3313fdf38","fromNode":"7ebea9b5f78913cd","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"SURPASSING LIMITS OF\nLINEAR CLASSIFICATION"},
