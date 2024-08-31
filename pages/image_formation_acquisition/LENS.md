@@ -1,3 +1,9 @@
+---
+id: LENS
+aliases: []
+tags: []
+---
+
 # LENSES
 
 The pinhole camera model it's not suitable for real application cause it needs to high exposure times to take an image. To address this problem lenses are used to focus more light in to a single point

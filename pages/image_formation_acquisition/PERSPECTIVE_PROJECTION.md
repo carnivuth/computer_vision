@@ -1,3 +1,9 @@
+---
+id: PERSPECTIVE_PROJECTION
+aliases: []
+tags: []
+---
+
 # PERSPECTIVE PROJECTION
 
 The model that rules the conversion from a 3D scene  to an image is called perspective projection, it's based on the [pinhole camera model](https://en.wikipedia.org/wiki/Pinhole_camera_model) and it goes like follow:

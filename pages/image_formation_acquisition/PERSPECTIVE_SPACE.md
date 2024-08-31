@@ -1,3 +1,9 @@
+---
+id: PERSPECTIVE_SPACE
+aliases: []
+tags: []
+---
+
 # PERSPECTIVE SPACE
 
 In a $R_{3}$ euclidean space such as the 3D world there is no way to represent a point to infinity and parallel lines does not intersect or intersect to infinity.

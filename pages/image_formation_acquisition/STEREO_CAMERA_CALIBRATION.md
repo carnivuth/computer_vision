@@ -1,3 +1,9 @@
+---
+id: STEREO_CAMERA_CALIBRATION
+aliases: []
+tags: []
+---
+
 # STEREO CAMERA CALIBRATION
 
 In stereo camera systems the PPM must be computed for both cameras, a first solution could be to compute the [zhang's method](ZHANG_METHOD.md) for both cameras but this approach as one major flaw, there is the need to account for rigid motion (e.g. $R,T$ ) between the 2 stereo reference frames and with [zhang's method](ZHANG_METHOD.md) the **measurements are not accurate enough**

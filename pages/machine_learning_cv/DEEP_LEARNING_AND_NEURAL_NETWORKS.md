@@ -1,3 +1,9 @@
+---
+id: DEEP_LEARNING_AND_NEURAL_NETWORKS
+aliases: []
+tags: []
+---
+
 ## MACHINE LEARNING VS DEEP LEARNING
 
 Instead of writing a program that outputs a features space for the classifier, it's better to learn also the feature creation algorithm, that is what deep learning is about

@@ -1,3 +1,9 @@
+---
+id: STEREO_IMAGE_ACQUISITION
+aliases: []
+tags: []
+---
+
 # STEREO IMAGE ACQUISITION
 
 In order to address the loss of depth information, given 2 images of a 3D scene and correspondence in points the depth of a point can be recovered using triangulation.

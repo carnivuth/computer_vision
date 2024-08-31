@@ -1,3 +1,9 @@
+---
+id: TEMPLATE_PATTERN_MATCHING
+aliases: []
+tags: []
+---
+
 # TEMPLATE PATTERN MATCHING
 
 The model image is slid across the target image till a dissimilarity or dissimilarity function is minimized/maximized

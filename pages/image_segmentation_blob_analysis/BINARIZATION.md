@@ -1,3 +1,9 @@
+---
+id: BINARIZATION
+aliases: []
+tags: []
+---
+
 # BINARIZATION
 ## GRAY LEVEL HISTOGRAM
 

@@ -1,3 +1,9 @@
+---
+id: CANNY_EDGE_DETECTOR
+aliases: []
+tags: []
+---
+
 # CANNY EDGE DETECTOR
 
 A first formal definition of the characteristics of a strong edge detection system was given by John F. Canny, according to this definition a strong edge detection algorithm must:

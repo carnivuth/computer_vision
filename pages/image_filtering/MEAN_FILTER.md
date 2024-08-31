@@ -1,3 +1,9 @@
+---
+id: MEAN_FILTER
+aliases: []
+tags: []
+---
+
 # MEAN FILTER
 
 It's one of the simplest and fastest way to de-noise an image, it consist to replace the intensity of the pixel with the mean of the neighborhood of a given size.

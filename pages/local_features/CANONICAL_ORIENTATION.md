@@ -1,3 +1,9 @@
+---
+id: CANONICAL_ORIENTATION
+aliases: []
+tags: []
+---
+
 # CANONICAL ORIENTATION
 
 In order to obtain a reference frame for computing the descriptor of a keypoint a local reference frame is needed, one solution is to chose the direction in which most of the gradient is found

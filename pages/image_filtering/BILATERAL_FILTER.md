@@ -1,3 +1,9 @@
+---
+id: BILATERAL_FILTER
+aliases: []
+tags: []
+---
+
 # BILATERAL FILTER
 
 This filter aims to reduce the Gaussian noise without blurring the image, the filter is inversely proportional to distance  and proportional with the pixel intensity

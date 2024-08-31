@@ -1,3 +1,9 @@
+---
+id: MACHINE_LEARNING_IN_COMPUTER_VISION
+aliases: []
+tags: []
+---
+
 # MACHINE LEARNING IN COMPUTER VISION
 
 There are problems in computer vision scenarios that can not be dealt with classical computer vision approach for example **image classification**:

@@ -1,3 +1,9 @@
+---
+id: IMAGE_DIGITIZATION
+aliases: []
+tags: []
+---
+
 # IMAGE DIGITIZATION
 
 The image plane is realized through a linear plane of photo-sensor which translate light in voltage quantities suitable for computer processing

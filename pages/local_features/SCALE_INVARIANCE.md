@@ -1,3 +1,9 @@
+---
+id: SCALE_INVARIANCE
+aliases: []
+tags: []
+---
+
 # SCALE INVARIANCE
 
 A problem for all keypoints detectors is that at different scales some features are detectable as others are not

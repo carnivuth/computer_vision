@@ -1,3 +1,9 @@
+---
+id: Teoria Progetto Drone
+aliases: []
+tags: []
+---
+
 Il progetto si basa sulla realizzazione di un algoritmo per il riconoscimento della distanza,
 Dati due video (robotL e robotR) girati da una stereo camera montata su un veicolo mobile, dobbiamo capire le informazioni riguardanti lo spazio di fronte l'oggetto.
 
@@ -14,9 +20,9 @@ Nel mentre identifichiamo la chessboard nell'immagine e troviamo i punti salient
 
 Allora calcoliamo la distanza dalla chessboard in ogni frame, creiamo un allarme che che ci notificherà quando il valore riscontrato sarà inferiore ad un valore soglia da noi deciso.
 
-Infine confrontiamo i parametri della chessboard trovati con quelli reali, forniti dal testo, e stampiamo un grafico delle differenze tra i valori. 
+Infine confrontiamo i parametri della chessboard trovati con quelli reali, forniti dal testo, e stampiamo un grafico delle differenze tra i valori.
 
-La calibrazione stereo è un processo per determinare i parametri intrinseci ed estrinseci delle due fotocamere che compongono un sistema stereo (due fotocamere in posizioni leggermente diverse per catturare una scena tridimensionale). 
+La calibrazione stereo è un processo per determinare i parametri intrinseci ed estrinseci delle due fotocamere che compongono un sistema stereo (due fotocamere in posizioni leggermente diverse per catturare una scena tridimensionale).
 Processo fondamentale per misurare la distanza tra gli oggetti nella scena con la stereovisione.
 
 Gli obiettivi della stereo calibrazione sono correggere le distorsioni, determinare i parametri intrinseci della fotocamera (lunghezza focale, punto principale e coefficienti di distorsione) e quelli estrinseci (posizione e orientamento delle due fotocamere sono determinati e descrivono la trasformazione geometrica tra i due sistemi di coordinate delle fotocamere).

@@ -1,3 +1,9 @@
+---
+id: NON-LOCAL_MEAN_FILTER
+aliases: []
+tags: []
+---
+
 # NON-LOCAL MEAN FILTER
 
 Non linear filter which exploits similarities between different patches of the image

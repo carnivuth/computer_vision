@@ -1,3 +1,9 @@
+---
+id: SIFT_DESCRIPTOR
+aliases: []
+tags: []
+---
+
 # SIFT DESCRIPTOR
 
 This descriptor is based on the gradient direction contribution of a neighborhood of the keypoint, SIFT descriptor is computed as follows

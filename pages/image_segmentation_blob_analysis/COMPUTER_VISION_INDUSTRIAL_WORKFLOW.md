@@ -1,3 +1,9 @@
+---
+id: COMPUTER_VISION_INDUSTRIAL_WORKFLOW
+aliases: []
+tags: []
+---
+
 # COMPUTER VISION INDUSTRIAL WORKFLOW
 
 Computer vision processes in industrial environment follow this schema

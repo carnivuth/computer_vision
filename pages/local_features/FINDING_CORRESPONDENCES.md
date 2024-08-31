@@ -1,3 +1,9 @@
+---
+id: FINDING_CORRESPONDENCES
+aliases: []
+tags: []
+---
+
 # FINDING CORRESPONDENCES
 
 A lot of computer vision problems can be dealt with finding the correspondences between two images, The process can be described as follows

@@ -1,3 +1,9 @@
+---
+id: GAUSSIAN_FILTER
+aliases: []
+tags: []
+---
+
 # GAUSSIAN FILTER
 
 Gaussian filter is an [LTE operator](LTE_OPERATORS.md) with a 2D Gaussian function as a impulse response (with $\mu = 0$ and a constant diagonal covariance matrix)

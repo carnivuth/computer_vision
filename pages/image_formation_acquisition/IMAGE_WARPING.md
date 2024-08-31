@@ -1,3 +1,9 @@
+---
+id: IMAGE_WARPING
+aliases: []
+tags: []
+---
+
 # IMAGE WARPING
 
 The image points are converted by a pair of functions $f_{u}(u,v),f_{v}(u,v)$ into a new image

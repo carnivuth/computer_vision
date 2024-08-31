@@ -1,3 +1,9 @@
+---
+id: CAMERA_PARAMETERS
+aliases: []
+tags: []
+---
+
 # CAMERA PARAMETERS
 
 here are some camera parameters, formal definition can be found at the [EMVA standard 1288](https://www.emva.org/standards-technology/emva-1288/)
@@ -13,12 +19,12 @@ $$
 $$
 SNR_{bit} = log_{2}(SNR)
 $$
- 
+
 ## photon shot noise
 
 time between two photons hit the light sensor governed by a Poisson distribution
 
-## electronic circuit noise 
+## electronic circuit noise
 
 generated  by the electronics
 
@@ -35,7 +41,7 @@ even when the sensor is not expose to light there are some charges due to therma
 range between maximum capacity of the photo-sensors and the minimum power require to distinguish a signal from noise, an higher dynamic range improves the light management of the camera
 
 $E_{min}$ -> minimal detectable irradiation
-$E_{max}$ -> saturation irradiation 
+$E_{max}$ -> saturation irradiation
 
 dynamic range can be express like follow
 

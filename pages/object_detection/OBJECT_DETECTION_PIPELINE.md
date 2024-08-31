@@ -1,3 +1,9 @@
+---
+id: OBJECT_DETECTION_PIPELINE
+aliases: []
+tags: []
+---
+
 # OBJECT DETECTION PIPELINE
 
 ```mermaid

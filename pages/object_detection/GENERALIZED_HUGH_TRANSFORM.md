@@ -1,3 +1,9 @@
+---
+id: GENERALIZED_HUGH_TRANSFORM
+aliases: []
+tags: []
+---
+
 # GENERALIZED HUGH TRANSFORM
 
 The Generalized Hugh transform (**GHT**) is a generalization aimed to apply **[HT](HOUGH_TRANSFORM.md)** to non analytical shapes.

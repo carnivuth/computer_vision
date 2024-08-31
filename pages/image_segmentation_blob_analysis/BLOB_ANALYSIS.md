@@ -1,3 +1,9 @@
+---
+id: BLOB_ANALYSIS
+aliases: []
+tags: []
+---
+
 # BLOB ANALYSIS
 
 The objective of this step is to compute **features**, feature are properties of the image's blobs

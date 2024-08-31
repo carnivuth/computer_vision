@@ -1,3 +1,9 @@
+---
+id: SENSORS
+aliases: []
+tags: []
+---
+
 # SENSORS
 
 there are 2 main technologies for camera sensors, **CCD** and **CMOS**

@@ -1,3 +1,9 @@
+---
+id: SHI_TOMASI_CORNER_DETECTOR
+aliases: []
+tags: []
+---
+
 # SHI TOMASI CORNER DETECTOR
 
 It's a variant of the [Harris  corner detector](HARRIS_CORNER_DETECTOR.md)  that works better in finding corners in video frame inputs

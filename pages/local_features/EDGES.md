@@ -1,3 +1,9 @@
+---
+id: EDGES
+aliases: []
+tags: []
+---
+
 # EDGES
 
 Edges are local features that capture important information of the semantic content of the image. They are defined as **the set of pixels laying between two image regions with different light intensity**

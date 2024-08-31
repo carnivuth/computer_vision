@@ -1,3 +1,9 @@
+---
+id: SHAPE_BASED_MATCHING
+aliases: []
+tags: []
+---
+
 # SHAPE BASED MATCHING
 
 Shape based matching is a technique that involves matching a specific set of corner points and their gradients to find the model image in the target

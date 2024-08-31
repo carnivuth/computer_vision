@@ -1,3 +1,9 @@
+---
+id: SCALE_NORMALIZED_LOG
+aliases: []
+tags: []
+---
+
 # SCALE NORMALIZED LOG
 
 One of the proposals for the research of features in a Gaussian scale space it's to find extremes of the $2^{nd}$ derivative of the normalized Gaussian function

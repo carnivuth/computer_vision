@@ -1,3 +1,9 @@
+---
+id: MATCHING_PROCESS
+aliases: []
+tags: []
+---
+
 # MATCHING PROCESS
 
 In this phase keypoint descriptor are compared in order to find correspondences, this is the **find the nearest neighbor** problem

@@ -1,3 +1,9 @@
+---
+id: COLOR_BASED_SEGMENTATION
+aliases: []
+tags: []
+---
+
 # COLOR BASED SEGMENTATION
 
 So given a pixel $p$, the color intensity is defined as $I(p) = \begin{bmatrix}I_r(p)\\ I_g(p)\\ I_b(p)\\ \end{bmatrix}$ The segmentation can be done by calculating the distance from each color vector from a reference background color $\mu$

@@ -1,3 +1,9 @@
+---
+id: BINARY_MORPHOLOGY
+aliases: []
+tags: []
+---
+
 # BINARY MORPHOLOGY
 
 The binary morphology operators take as input a [binarized](BINARIZATION.md) image and make improvement before the labeling phase

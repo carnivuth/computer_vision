@@ -1,3 +1,9 @@
+---
+id: HARRIS_CORNER_DETECTOR
+aliases: []
+tags: []
+---
+
 # HARRIS CORNER DETECTOR
 
 This detector relies on a continuous reformulation of the [Moravec](MORAVEC_CORNER_DETECTOR.md) neighbor differences.

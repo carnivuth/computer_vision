@@ -1,3 +1,9 @@
+---
+id: MORAVEC_CORNER_DETECTOR
+aliases: []
+tags: []
+---
+
 # MORAVEC CORNER DETECTOR
 
 In this detector the measure of cornerness is given by

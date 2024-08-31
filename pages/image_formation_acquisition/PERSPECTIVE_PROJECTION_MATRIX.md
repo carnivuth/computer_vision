@@ -1,3 +1,9 @@
+---
+id: PERSPECTIVE_PROJECTION_MATRIX
+aliases: []
+tags: []
+---
+
 # PERSPECTIVE PROJECTION MATRIX ($PPM$)
 
 The $PPM$ it's the linear representation of the [perspective projection](PERSPECTIVE_PROJECTION.md) in a [perspective space](PERSPECTIVE_SPACE.md)

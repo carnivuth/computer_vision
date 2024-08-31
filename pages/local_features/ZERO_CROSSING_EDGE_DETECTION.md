@@ -1,3 +1,9 @@
+---
+id: ZERO_CROSSING_EDGE_DETECTION
+aliases: []
+tags: []
+---
+
 # ZERO CROSSING EDGE DETECTION
 
 Edge detection can also be done by detecting the zero crossing point of the second derivative

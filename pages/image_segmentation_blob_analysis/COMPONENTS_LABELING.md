@@ -1,3 +1,9 @@
+---
+id: COMPONENTS_LABELING
+aliases: []
+tags: []
+---
+
 # COMPONENTS LABELING
 
 In this process elements that belongs to different connected component are given different labels

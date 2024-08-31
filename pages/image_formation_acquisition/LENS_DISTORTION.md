@@ -1,3 +1,9 @@
+---
+id: LENS_DISTORTION
+aliases: []
+tags: []
+---
+
 # LENS DISTORTION
 
 In real case scenarios there is the need to model the effect of lens distortion on the image

@@ -1,3 +1,9 @@
+---
+id: ZHANG_METHOD
+aliases: []
+tags: []
+---
+
 # ZHANG'S METHOD
 
 The zhang's method relies in getting a series of n images of a chessboard patterns where are known

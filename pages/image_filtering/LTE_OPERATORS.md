@@ -1,3 +1,9 @@
+---
+id: LTE_OPERATORS
+aliases: []
+tags: []
+---
+
 # LINEAR AND TRANSLATION EQUIVARIANT FILTERS
 
 ## LINEARITY
