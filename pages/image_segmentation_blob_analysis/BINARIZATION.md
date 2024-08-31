@@ -4,28 +4,28 @@
 histogram of the number of pixel for each light intensity defined as:
 
 $$
-p =\begin{bmatrix}u \\ v\end{bmatrix}, \space 
+p =\begin{bmatrix}u \\ v\end{bmatrix}, \space
 \forall \space p \in I \space H[I(p)]++\\
 $$
 
-![](Pasted%20image%2020240302130200.png)
+![](Pasted_image_20240302130200.png)
 
-This histogram does not contain spatial information so a **different arranged set of the same pixels produces the same histogram** 
+This histogram does not contain spatial information so a **different arranged set of the same pixels produces the same histogram**
 
 ## BINARIZATION BY INTENSITY THRESHOLDING
 
-Binarization can be computed by simply selected a threshold $T$ and splitting the points $I(p) \lt T | I(p) \gt T$  
+Binarization can be computed by simply selected a threshold $T$ and splitting the points $I(p) \lt T | I(p) \gt T$
 
 ### THRESHOLD SELECTION
 
-In real case scenarios the light stability of the image could not be guaranteed so there is the need to select dynamically the threshold
+In real case scenarios the light stability of the image is not guaranteed so there is the need to select dynamically the threshold
 
 #### DUMB APPROACH
 #### $T=\mu$
 
 This is the simplest threshold selection method, it works only if points are evenly distributed in the histogram
 
-![](Pasted%20image%2020240302144849.png)
+![](Pasted_image_20240302144849.png)
 
 #### PEAKS METHOD
 
@@ -35,7 +35,7 @@ $$
 T = argmin(h(i); i \in [i_1,i_2])
 $$
 
-![](Pasted%20image%2020240302145905.png)
+![](Pasted_image_20240302145905.png)
 
 This method need the histogram smoothing to avoid been trapped in local minimums
 
@@ -48,7 +48,7 @@ so given the following definitions:
 - $i =1...L$ -> gray levels
 - $N$ -> Number of pixels
 - $h(i)$ -> entry of the histogram
-- $p(i)= h(i)/N$ -> probability of gray level $i$ 
+- $p(i)= h(i)/N$ -> probability of gray level $i$
 
 The mean and variance could be calculated as follows
 
@@ -83,4 +83,4 @@ The algorithm aims to minimize this value with the assumption that the regions c
 
 Any global thresholding method rely on the assumption of uniform lighting across the scene, if this assumption is violated  it's necessary to compute the threshold in function of the spatial variation
 
-The idea is to **compute the threshold at each point of the image** based on a neighborhood of pixels (threshold become a function of space $T(x,y)$), This introduce the problem of neighborhood dimension cause a too small one could lack of foreground pixels 
+The idea is to **compute the threshold at each point of the image** based on a neighborhood of pixels (threshold become a function of space $T(x,y)$), This introduce the problem of neighborhood dimension cause a too small one could lack of foreground pixels

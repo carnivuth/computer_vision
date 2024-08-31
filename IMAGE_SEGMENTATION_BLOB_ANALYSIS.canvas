@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"124943130f3877f1","type":"file","file":"pages/image_segmentation_blob_analysis/COLOR BASED SEGMENTATION.md","x":-1080,"y":480,"width":400,"height":400},
+		{"id":"124943130f3877f1","type":"file","file":"pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md","x":-1080,"y":480,"width":400,"height":400},
 		{"id":"d9f79f806405f882","type":"file","file":"pages/image_segmentation_blob_analysis/BINARIZATION.md","x":-1080,"y":0,"width":400,"height":400},
-		{"id":"0b2971577588754f","type":"file","file":"pages/image_segmentation_blob_analysis/BINARY MORPHOLOGY.md","x":-160,"y":200,"width":400,"height":400},
-		{"id":"0ba2021ed69e90d1","type":"file","file":"pages/image_segmentation_blob_analysis/COMPONENTS LABELING.md","x":800,"y":200,"width":400,"height":400},
-		{"id":"5c29b274344e077d","type":"file","file":"pages/image_segmentation_blob_analysis/COMPUTER VISION INDUSTRIAL WORKFLOW.md","x":-1080,"y":-600,"width":400,"height":400},
-		{"id":"11224b702e903afd","type":"file","file":"pages/image_segmentation_blob_analysis/BLOB ANALYSIS.md","x":800,"y":-400,"width":400,"height":360}
+		{"id":"0b2971577588754f","type":"file","file":"pages/image_segmentation_blob_analysis/BINARY_MORPHOLOGY.md","x":-160,"y":200,"width":400,"height":400},
+		{"id":"0ba2021ed69e90d1","type":"file","file":"pages/image_segmentation_blob_analysis/COMPONENTS_LABELING.md","x":800,"y":200,"width":400,"height":400},
+		{"id":"5c29b274344e077d","type":"file","file":"pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md","x":-1080,"y":-600,"width":400,"height":400},
+		{"id":"11224b702e903afd","type":"file","file":"pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md","x":800,"y":-400,"width":400,"height":360}
 	],
 	"edges":[
 		{"id":"34a6bd4a37a806d4","fromNode":"5c29b274344e077d","fromSide":"bottom","toNode":"d9f79f806405f882","toSide":"top","label":"SEPARATING BACKGROUND\nAND FOREGROUND"},

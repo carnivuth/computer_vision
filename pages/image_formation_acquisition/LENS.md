@@ -29,9 +29,9 @@ with the following parameters:
 
 The model describes how light from a single point in the 3D space is deflected from the lens before hitting the plane.
 
-If the image is on focus the image acquisition process obey to the [perspective projection](PERSPECTIVE%20PROJECTION.md) model.
+If the image is on focus the image acquisition process obey to the [perspective projection](PERSPECTIVE_PROJECTION.md) model.
 
-### CIRCLE OF CONFUSIONS 
+### CIRCLE OF CONFUSIONS
 
 Due to this the distance from the image plane $v$ determines at which distance points are in focus
 
@@ -41,4 +41,4 @@ $$
 
 points before or after the focusing plane will appear in circles called circles of confusion
 
-![](Pasted%20image%2020240221202723.png)
+![](Pasted_image_20240221202723.png)
