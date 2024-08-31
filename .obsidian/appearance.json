@@ -1,4 +1,8 @@
 {
   "accentColor": "",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "prev_next"
+  ]
 }
