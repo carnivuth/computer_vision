@@ -3,7 +3,6 @@ id: DOG_DETECTOR
 aliases: []
 tags: []
 ---
-
 # DOG DETECTOR
 
 This detector relies on difference of Gaussian (DOG) in order to find keypoints
