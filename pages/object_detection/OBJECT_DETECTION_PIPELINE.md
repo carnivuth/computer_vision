@@ -1,7 +1,8 @@
 ---
 id: OBJECT_DETECTION_PIPELINE
-aliases: []
-tags: []
+aliases: 
+tags: 
+index: 6
 ---
 
 # OBJECT DETECTION PIPELINE
@@ -23,3 +24,4 @@ A[MODEL GALLERY]
 A --> B & C
 end
 ```
+[PREVIOUS](GENERALIZED_HUGH_TRANSFORM.md)

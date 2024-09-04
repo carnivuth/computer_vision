@@ -2,6 +2,7 @@
 id: HOUGH_TRANSFORM
 aliases: []
 tags: []
+index: 4
 ---
 
 # HOUGH TRANSFORM
@@ -54,3 +55,4 @@ The implementation relies on a discrete representation of the parameter space as
 ![](Pasted_image_20240427162503.png)
 
 In order to compute non analytical shapes the [GENERALIZED HUGH TRANSFORM](GENERALIZED_HUGH_TRANSFORM.md) is deployed
+[PREVIOUS](SHAPE_BASED_MATCHING.md) [NEXT](GENERALIZED_HUGH_TRANSFORM.md)

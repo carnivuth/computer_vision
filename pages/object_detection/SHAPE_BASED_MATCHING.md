@@ -2,6 +2,7 @@
 id: SHAPE_BASED_MATCHING
 aliases: []
 tags: []
+index: 3
 ---
 
 # SHAPE BASED MATCHING
@@ -71,3 +72,4 @@ When the condition is verified the computation of the similarity function can be
 - Intensity invariant as the similarity function is based on gradient direction only
 - No need of computing the edges on the target image which is a risky procedure
 - robustness to occlusion which can be tuned by the $S_{min}$ parameter
+[PREVIOUS](TEMPLATE_PATTERN_MATCHING.md) [NEXT](HOUGH_TRANSFORM.md)
