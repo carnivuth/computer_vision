@@ -1,7 +1,8 @@
 ---
 id: LTE_OPERATORS
-aliases: []
-tags: []
+aliases: 
+tags: 
+index: 2
 ---
 
 # LINEAR AND TRANSLATION EQUIVARIANT FILTERS
@@ -93,3 +94,4 @@ O(i,j) = \sum_{m=-k}^{+k}{\sum_{n=-k}^{+k}{K(m,n)I(i-m,j-n)}} \space with
 $$
 
 So the idea behind the implementation is to slide the kernel matrix over the image and compute the convolution for each point of the image
+[PREVIOUS](IMAGE_FILTERS.md) [NEXT](MEAN_FILTER.md)
