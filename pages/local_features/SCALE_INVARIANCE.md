@@ -2,6 +2,7 @@
 id: SCALE_INVARIANCE
 aliases: []
 tags: []
+index: 8
 ---
 
 # SCALE INVARIANCE

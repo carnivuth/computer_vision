@@ -2,6 +2,7 @@
 id: SCALE_NORMALIZED_LOG
 aliases: []
 tags: []
+index: 9
 ---
 
 # SCALE NORMALIZED LOG
@@ -13,3 +14,4 @@ F(x,y,\sigma) = \sigma^2\nabla^2L(x,y,\sigma) = \sigma^2(\nabla^2G(x,y,\sigma)\a
 $$
 
 ![](Pasted_image_20240314101650.png)
+[PREVIOUS](SCALE_INVARIANCE.md) [NEXT](DOG_DETECTOR.md)

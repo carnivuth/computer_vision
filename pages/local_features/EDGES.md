@@ -2,6 +2,7 @@
 id: EDGES
 aliases: []
 tags: []
+index: 2
 ---
 
 # EDGES
@@ -166,3 +167,4 @@ D --"$\delta$"--> E
 ```
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
+ [NEXT](CANNY_EDGE_DETECTOR.md)

@@ -2,6 +2,7 @@
 id: SIFT_DESCRIPTOR
 aliases: []
 tags: []
+index: 12
 ---
 
 # SIFT DESCRIPTOR
@@ -22,3 +23,4 @@ B --> C
 The descriptor is given by all of the histogram of the regions so the dimension space of a SIFT descriptor is $R^{128}$
 
 The gradient are rotated according to the canonical orientation of the gradient and each pixel is weighted by a Gaussian centered at the keypoint
+[PREVIOUS](CANONICAL_ORIENTATION.md) [NEXT](MATCHING_PROCESS.md)

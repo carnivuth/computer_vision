@@ -2,6 +2,7 @@
 id: MORAVEC_CORNER_DETECTOR
 aliases: []
 tags: []
+index: 5
 ---
 
 # MORAVEC CORNER DETECTOR
@@ -17,3 +18,4 @@ Where $N$ is the neighborhood around the point and its neighbors
 The output is the lowest difference computed between the neighborhood of $p$ and the neighborhoods of the neighbor points $q$
 
 ![](Pasted_image_20240310153802.png)
+[PREVIOUS](ZERO_CROSSING_EDGE_DETECTION.md) [NEXT](HARRIS_CORNER_DETECTOR.md)

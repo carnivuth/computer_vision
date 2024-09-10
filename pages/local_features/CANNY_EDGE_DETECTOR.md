@@ -2,6 +2,7 @@
 id: CANNY_EDGE_DETECTOR
 aliases: []
 tags: []
+index: 3
 ---
 
 # CANNY EDGE DETECTOR
@@ -53,3 +54,4 @@ edges = cv.Canny(img,100,200)
 ```
 
 This implementation does not perform [Gaussian smoothing](GAUSSIAN_FILTER.md) before
+[PREVIOUS](EDGES.md) [NEXT](ZERO_CROSSING_EDGE_DETECTION.md)
