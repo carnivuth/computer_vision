@@ -28,6 +28,7 @@ jobs:
         uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
           #depth: 0
+          branch: 'v4'
           owner: 'jackyzha0'
           repository: 'quartz'
 
