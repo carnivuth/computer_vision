@@ -2,6 +2,7 @@
 id: DEEP_LEARNING_AND_NEURAL_NETWORKS
 aliases: []
 tags: []
+index: 3
 ---
 
 ## MACHINE LEARNING VS DEEP LEARNING
@@ -77,3 +78,4 @@ the output of the $y_i$ node can be described as :
 $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
+[PREVIOUS](CREATING_A_CLASSIFIER.md) [NEXT](CONVOLUTIONAL_NEURAL_NETWORKS.md)

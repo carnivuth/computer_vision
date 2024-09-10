@@ -2,6 +2,7 @@
 id: MACHINE_LEARNING_IN_COMPUTER_VISION
 aliases: []
 tags: []
+index: 1
 ---
 
 # MACHINE LEARNING IN COMPUTER VISION
@@ -96,3 +97,4 @@ $$
 ## DATA AUGMENTATION
 
 In order to artificially increase the size of datasets operation on the input image are performed without altering the label such as image rotation,crop,cutout
+ [NEXT](CREATING_A_CLASSIFIER.md)

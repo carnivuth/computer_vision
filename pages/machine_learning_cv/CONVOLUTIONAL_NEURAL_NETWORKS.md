@@ -2,6 +2,7 @@
 id: CONVOLUTIONAL_NEURAL_NETWORKS
 aliases: []
 tags: []
+index: 4
 ---
 
 # CONVOLUTIONAL NEURAL NETWORKS (CNN)
@@ -147,3 +148,4 @@ So in order to train big CNN a 2 steps approach is adopted:
 
 - **pre-train** the deep network with a large, general purpose dataset
 - **fine-tune** specific parts of the network with the smaller specific one dataset
+[PREVIOUS](DEEP_LEARNING_AND_NEURAL_NETWORKS.md)
