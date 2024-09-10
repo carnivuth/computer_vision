@@ -24,18 +24,17 @@ jobs:
         with:
           node-version: 22
 
-      - name: Clone quartz
-        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
-        with:
-          #depth: 0
-          branch: 'v4'
-          owner: 'jackyzha0'
-          repository: 'quartz'
-
       - name: clone repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for git info
+
+      - name: Clone quartz
+        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
+        with:
+          branch: 'v4'
+          owner: 'jackyzha0'
+          repository: 'quartz'
 
       - name: enter repo
         run: cd quartz
