@@ -36,8 +36,8 @@ jobs:
           owner: 'jackyzha0'
           repository: 'quartz'
 
-      - name: enter repo
-        run: cd quartz && npm install && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest && npx quartz build
+      - name: build
+        run: cd /usr/local && git clone https://github.com/jackyzha0/quartz && cd quartz && npm install && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest && npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
