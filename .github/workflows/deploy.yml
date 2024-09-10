@@ -37,7 +37,7 @@ jobs:
           repository: 'quartz'
 
       - name: enter repo
-        run: cd quartz && npm install && npx quartz create -s ../computer_vision/ -X copy -l shortest && npx quartz build
+        run: cd quartz && npm install && npx quartz create -s $GITHUB_WORKSPACE/computer_vision/ -X copy -l shortest && npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
