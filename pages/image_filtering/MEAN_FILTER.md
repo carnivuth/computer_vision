@@ -20,7 +20,7 @@ $$
 \end{bmatrix}
 $$
 
-The purpose of this filter is often to de-noise the image but it can be used also for removed some unwanted details that could arm the image analysis task.
+The purpose of this filter is often to de-noise the image but it can be used also to remove some unwanted details that could arm the image analysis task.
 
 The implementation can be performed with an incremental approach (box-filtering) to improve the performance
 

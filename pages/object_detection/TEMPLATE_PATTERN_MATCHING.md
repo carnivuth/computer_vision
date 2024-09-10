@@ -7,7 +7,7 @@ index: 2
 
 # TEMPLATE PATTERN MATCHING
 
-The model image is slid across the target image till a dissimilarity or dissimilarity function is minimized/maximized
+The model image is slid across the target image till a dissimilarity or similarity function is minimized/maximized
 
 ![](Pasted_image_20240423114915.png)
 

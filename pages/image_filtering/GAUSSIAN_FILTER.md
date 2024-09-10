@@ -43,7 +43,7 @@ $$
 The speedup improvements of this process can be expressed as
 
 $$
-S =\frac{2(2k+1)^2}{4(2k + 1)} = k\frac{1}{2} \space with
+S =\frac{2(2k+1)^2}{4(2k + 1)} = k +\frac{1}{2} \space with
 $$
 $$
 \displaylines{
