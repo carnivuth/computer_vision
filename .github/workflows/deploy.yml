@@ -27,7 +27,7 @@ jobs:
       - name: Clone quartz
         uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
-          depth: 0
+          #depth: 0
           owner: 'jackyzha0'
           repository: 'quartz'
 
