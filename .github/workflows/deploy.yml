@@ -40,7 +40,7 @@ jobs:
         run: cd quartz
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Setup quartz
         run: npx quartz create -s ../computer_vision/ -X copy -l shortest
