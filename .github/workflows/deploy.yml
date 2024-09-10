@@ -37,16 +37,7 @@ jobs:
           repository: 'quartz'
 
       - name: enter repo
-        run: cd quartz
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Setup quartz
-        run: npx quartz create -s ../computer_vision/ -X copy -l shortest
-
-      - name: Build Quartz
-        run: npx quartz build
+        run: cd quartz && npm install && npx quartz create -s ../computer_vision/ -X copy -l shortest && npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
