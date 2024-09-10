@@ -42,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: $HOME/quartz/public
+          path: /home/runner/quartz/public
 
   deploy:
     needs: build
