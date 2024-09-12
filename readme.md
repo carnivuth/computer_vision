@@ -1,3 +1,9 @@
+---
+id: readme
+aliases: []
+tags: []
+---
+
 # COMPUTER VISION
 
 this are my personal notes on computer vision course of professor Di Stefano Luigi
@@ -12,7 +18,7 @@ it's possible to use the repo without obsidian but in order to get the best expe
 
 ## WEBSITE
 
-there is also a [static html website](https://https://carnivuth.github.io/computer_vision) published for access to notes inside the browser
+there is also a [static html website](https://carnivuth.github.io/computer_vision) published for access to notes inside the browser
 
 ## REPOSITORY STRUCTURE
 
