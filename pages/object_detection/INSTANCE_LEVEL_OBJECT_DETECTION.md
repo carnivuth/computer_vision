@@ -14,4 +14,5 @@ Instance level object detection is a common problem in computer vision industria
 The problem can be declined in many variants, for example the object can appear multiple times in the target image and there can be multiple of them
 
 Typical problems to address in this situation are intensity changes, rotation and occlusion
+
  [NEXT](TEMPLATE_PATTERN_MATCHING.md)

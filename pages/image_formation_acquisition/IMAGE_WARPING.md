@@ -32,4 +32,5 @@ $$
 once the lens distortion parameter are computed by [camera calibration](CAMERA_CALIBRATION.md) it's possible to get back the un-distorted points by a backward warp
 
 ![](Pasted_image_20240227164313.png)
+
 [PREVIOUS](STEREO_CAMERA_CALIBRATION.md)

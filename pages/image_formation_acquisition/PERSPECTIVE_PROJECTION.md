@@ -42,4 +42,5 @@ of the point on the line which is infinitely distant from the optical center).
 with such definition all 3D lines in the image will **share the same vanishing point**
 
 in a real case application this model alone it's not sufficient, there are [real camera parameters](CAMERA_PARAMETERS.md) and  [lens effects](LENS.md) to take into account. In order to apply some computation to an image [digitization](IMAGE_DIGITIZATION.md) is also needed.
+
  [NEXT](CAMERA_PARAMETERS.md)

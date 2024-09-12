@@ -29,4 +29,5 @@ The median value is the value in the middle of the range ($124$)
 The median filter is good at removing impulse noise from an image as the noise point frequently fall into the higher or lower range
 
 ![](Pasted_image_20240229174319.png)
+
 [PREVIOUS](GAUSSIAN_FILTER.md) [NEXT](BILATERAL_FILTER.md)

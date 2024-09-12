@@ -62,4 +62,5 @@ $$
 Template matching computation is too much slow for an industrial environment, in order to speed up computation an image pyramid is deployed
 
 In order for this approximation to work levels need to be chosen empirically
+
 [PREVIOUS](INSTANCE_LEVEL_OBJECT_DETECTION.md) [NEXT](SHAPE_BASED_MATCHING.md)

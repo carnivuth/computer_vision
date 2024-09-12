@@ -2,6 +2,7 @@
 id: BLOB_ANALYSIS
 aliases: []
 tags: []
+index: 6
 ---
 
 # BLOB ANALYSIS
@@ -55,3 +56,5 @@ $$
 $$
 R =\frac{A}{A_{LW}} \space with \space A_{LW} = \frac{\pi}{4}LW
 $$
+
+[PREVIOUS](COMPONENTS_LABELING.md)

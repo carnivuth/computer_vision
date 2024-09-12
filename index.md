@@ -1,7 +1,8 @@
-# Computer vision
+# Computer Vision
 ## CONTENTS
 - [IMAGE_FILTERS](pages/image_filtering/IMAGE_FILTERS.md)
 - [PERSPECTIVE_PROJECTION](pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
+- [COMPUTER_VISION_INDUSTRIAL_WORKFLOW](pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md)
 - [FINDING_CORRESPONDENCES](pages/local_features/FINDING_CORRESPONDENCES.md)
 - [MACHINE_LEARNING_IN_COMPUTER_VISION](pages/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md)
 - [INSTANCE_LEVEL_OBJECT_DETECTION](pages/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md)

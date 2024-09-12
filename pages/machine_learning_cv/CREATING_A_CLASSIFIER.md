@@ -152,4 +152,5 @@ With this parameter the update becomes a mean of the previous ones smoothing the
 For a lot of application capture all the variability with one template is impossible, there is the need of something more meaningful than row pixels. There is the need to transform pixels in some form of feature
 
 ![](Pasted_image_20240502210718.png)
+
 [PREVIOUS](MACHINE_LEARNING_IN_COMPUTER_VISION.md) [NEXT](DEEP_LEARNING_AND_NEURAL_NETWORKS.md)

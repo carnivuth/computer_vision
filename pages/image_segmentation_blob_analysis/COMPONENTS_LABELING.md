@@ -2,6 +2,7 @@
 id: COMPONENTS_LABELING
 aliases: []
 tags: []
+index: 5
 ---
 
 # COMPONENTS LABELING
@@ -39,3 +40,5 @@ A connected region is a connected (foreground/background) region if all pixels i
 A new label is propagated throughout a connected component starting from a “seed” pixel. Propagation is typically carried out by a iterative procedure which requires scanning the image multiple times.this solution is not efficient
 
 ![](Pasted_image_20240303174654.png)
+
+[PREVIOUS](BINARY_MORPHOLOGY.md) [NEXT](BLOB_ANALYSIS.md)

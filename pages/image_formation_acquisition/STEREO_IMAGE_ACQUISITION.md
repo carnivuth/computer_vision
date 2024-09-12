@@ -69,4 +69,5 @@ also the models relays on the 2 images being horizontally aligned, and to obtain
 
 fortunately, the search space for correspondences is always 1 dimensional as 2 points share always the same $y$ coordinate.
 To address the horizontal alignment problem a [homography](HOMOGRAPHY.md) called **rectification** is used on the images to warp them and obtain something horizontally aligned.
+
 [PREVIOUS](LENS_DISTORTION.md) [NEXT](PERSPECTIVE_SPACE.md)

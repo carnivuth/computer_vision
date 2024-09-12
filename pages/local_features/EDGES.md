@@ -167,4 +167,5 @@ D --"$\delta$"--> E
 ```
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
- [NEXT](CANNY_EDGE_DETECTOR.md)
+
+[PREVIOUS](FINDING_CORRESPONDENCES.md) [NEXT](CANNY_EDGE_DETECTOR.md)

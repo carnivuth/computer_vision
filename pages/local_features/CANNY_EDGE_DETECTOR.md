@@ -54,4 +54,5 @@ edges = cv.Canny(img,100,200)
 ```
 
 This implementation does not perform [Gaussian smoothing](GAUSSIAN_FILTER.md) before
+
 [PREVIOUS](EDGES.md) [NEXT](ZERO_CROSSING_EDGE_DETECTION.md)

@@ -259,4 +259,5 @@ $$
 $$
 
 The solution to this  problem can be computed with  [Levenberg-Marquardt algorithm](https://it.wikipedia.org/wiki/Algoritmo_di_Levenberg-Marquardt)
+
 [PREVIOUS](CAMERA_CALIBRATION.md) [NEXT](STEREO_CAMERA_CALIBRATION.md)

@@ -56,4 +56,5 @@ s(i,j+1) = s(i,j) + \Delta(i-1,j-1) +a -b -c +d\space with \\
 $$
 
 ![](Pasted_image_20240229122932.png)
+
 [PREVIOUS](LTE_OPERATORS.md) [NEXT](GAUSSIAN_FILTER.md)

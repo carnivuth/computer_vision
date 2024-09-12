@@ -29,4 +29,5 @@ The contribution of a single point is obtained  by the **gradient magnitude weig
 then the highest peak of the histogram is considered for the canonical orientation with the 2 neighbors
 
 ![](Pasted_image_20240314122805.png)
+
 [PREVIOUS](DOG_DETECTOR.md) [NEXT](SIFT_DESCRIPTOR.md)

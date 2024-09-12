@@ -2,6 +2,7 @@
 id: BINARIZATION
 aliases: []
 tags: []
+index: 2
 ---
 
 # BINARIZATION
@@ -90,3 +91,5 @@ The algorithm aims to minimize this value with the assumption that the regions c
 Any global thresholding method rely on the assumption of uniform lighting across the scene, if this assumption is violated  it's necessary to compute the threshold in function of the spatial variation
 
 The idea is to **compute the threshold at each point of the image** based on a neighborhood of pixels (threshold become a function of space $T(x,y)$), This introduce the problem of neighborhood dimension cause a too small one could lack of foreground pixels
+
+[PREVIOUS](COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md) [NEXT](COLOR_BASED_SEGMENTATION.md)

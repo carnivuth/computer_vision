@@ -2,6 +2,7 @@
 id: COMPUTER_VISION_INDUSTRIAL_WORKFLOW
 aliases: []
 tags: []
+index: 1
 ---
 
 # COMPUTER VISION INDUSTRIAL WORKFLOW
@@ -32,3 +33,5 @@ It's the process of separating the foreground points from the background point i
 In this step objects are detected from the binarized image
 
 ## BLOB ANALYSIS
+
+ [NEXT](BINARIZATION.md)

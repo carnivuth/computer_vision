@@ -2,6 +2,7 @@
 id: BINARY_MORPHOLOGY
 aliases: []
 tags: []
+index: 4
 ---
 
 # BINARY MORPHOLOGY
@@ -33,3 +34,5 @@ Dilation followed by erosion is called closing
 $$
 A \bullet B = (A \oplus B) \ominus B
 $$
+
+[PREVIOUS](COLOR_BASED_SEGMENTATION.md) [NEXT](COMPONENTS_LABELING.md)

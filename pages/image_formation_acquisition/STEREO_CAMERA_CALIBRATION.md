@@ -160,4 +160,5 @@ It's also possible to compute it between different cameras
 $$
 p_{2} = A_{2}T_{1\rightarrow 2}(zA_{1}^{-1}p_{1}) \space with \space T_{1\rightarrow 2}(P_{1}) =RP_{1} + T
 $$
+
 [PREVIOUS](ZHANG_METHOD.md) [NEXT](IMAGE_WARPING.md)

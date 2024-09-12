@@ -51,4 +51,5 @@ NOPS_{2D \space filter} =2(2k+1)^2\\
 NOPS_{1D \space filter} =4(2k+1)\\
 }
 $$
+
 [PREVIOUS](MEAN_FILTER.md) [NEXT](MEDIAN_FILTER.md)

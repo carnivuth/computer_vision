@@ -2,6 +2,7 @@
 id: COLOR_BASED_SEGMENTATION
 aliases: []
 tags: []
+index: 3
 ---
 
 # COLOR BASED SEGMENTATION
@@ -59,3 +60,5 @@ d_M(I(p),\mu) = (\frac{(I_r(p) - \mu_r)^2}{\sigma^2_{rr}} + \frac{(I_g(p) - \mu_
 $$
 
 The mahalanobis distance weights the differences between the color components unequally (inversely proportional to the learned variances ), This as the effect of lower the consideration of sparse components
+
+[PREVIOUS](BINARIZATION.md) [NEXT](BINARY_MORPHOLOGY.md)

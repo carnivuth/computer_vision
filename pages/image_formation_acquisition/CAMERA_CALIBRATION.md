@@ -26,4 +26,5 @@ C --> D
 ```
 
 One of the most used methods it's the [zhang's method](ZHANG_METHOD.md)
+
 [PREVIOUS](HOMOGRAPHY.md) [NEXT](ZHANG_METHOD.md)
