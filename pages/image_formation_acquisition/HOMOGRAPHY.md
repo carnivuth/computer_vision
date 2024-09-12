@@ -2,6 +2,7 @@
 id: HOMOGRAPHY
 aliases: []
 tags: []
+index: 10
 ---
 
 # HOMOGRAPHY
@@ -59,3 +60,4 @@ any two images taken by two different cameras (different $A$ matrix so different
 ![](Pasted_image_20231021105132.png)
 
 In conclusion we can say that if the camera is imaging a planar scene we can find relations between images that are taken from different angles or with different camera sensors
+[PREVIOUS](PERSPECTIVE_PROJECTION_MATRIX.md) [NEXT](CAMERA_CALIBRATION.md)

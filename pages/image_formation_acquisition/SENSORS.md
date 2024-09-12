@@ -2,6 +2,7 @@
 id: SENSORS
 aliases: []
 tags: []
+index: 4
 ---
 
 # SENSORS
@@ -22,3 +23,4 @@ D --> E
 ```
 
 In short **CMOS** is for low quality mass production and **CCD** is for high end quality image processing.
+[PREVIOUS](IMAGE_DIGITIZATION.md) [NEXT](LENS.md)

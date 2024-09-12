@@ -2,6 +2,7 @@
 id: PERSPECTIVE_PROJECTION_MATRIX
 aliases: []
 tags: []
+index: 9
 ---
 
 # PERSPECTIVE PROJECTION MATRIX ($PPM$)
@@ -179,3 +180,4 @@ So in conclusion a $PPM$ can be thought as 3 separate components:
 - the $[I|0]$ matrix which represents **the perspective projection carried out by the pinhole camera model**
 
 
+[PREVIOUS](PERSPECTIVE_SPACE.md) [NEXT](HOMOGRAPHY.md)

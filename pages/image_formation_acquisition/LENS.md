@@ -2,6 +2,7 @@
 id: LENS
 aliases: []
 tags: []
+index: 5
 ---
 
 # LENSES
@@ -48,3 +49,4 @@ $$
 points before or after the focusing plane will appear in circles called circles of confusion
 
 ![](Pasted_image_20240221202723.png)
+[PREVIOUS](SENSORS.md) [NEXT](LENS_DISTORTION.md)

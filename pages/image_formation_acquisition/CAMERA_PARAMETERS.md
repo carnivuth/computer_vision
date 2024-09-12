@@ -2,6 +2,7 @@
 id: CAMERA_PARAMETERS
 aliases: []
 tags: []
+index: 2
 ---
 
 # CAMERA PARAMETERS
@@ -52,3 +53,4 @@ $$
 ## quantum efficiency
 
 ratio between photons that are collected by the camera and  photons that hit the sensors
+[PREVIOUS](PERSPECTIVE_PROJECTION.md) [NEXT](IMAGE_DIGITIZATION.md)

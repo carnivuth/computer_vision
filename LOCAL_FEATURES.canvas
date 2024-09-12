@@ -8,15 +8,15 @@
 		{"id":"483a3e418df07ade","type":"file","file":"pages/local_features/DOG_DETECTOR.md","x":200,"y":-2400,"width":400,"height":400},
 		{"id":"2ed5fc6c19cef846","type":"file","file":"pages/local_features/SCALE_NORMALIZED_LOG.md","x":1280,"y":-2400,"width":400,"height":400},
 		{"id":"04f76ad51e342f20","type":"file","file":"pages/local_features/MORAVEC_CORNER_DETECTOR.md","x":1520,"y":-1120,"width":400,"height":400},
+		{"id":"2f669a61bbf46c91","type":"file","file":"pages/local_features/HARRIS_CORNER_DETECTOR.md","x":740,"y":-1120,"width":400,"height":400},
+		{"id":"0dae3a701d57c841","type":"file","file":"pages/local_features/FINDING_CORRESPONDENCES.md","x":740,"y":-340,"width":400,"height":400},
+		{"id":"2680ebd4603e986a","type":"text","text":"# CORNER DETECTORS","x":821,"y":-520,"width":238,"height":76},
 		{"id":"ae01ebe7bf1eafe5","type":"file","file":"pages/local_features/CANONICAL_ORIENTATION.md","x":2400,"y":-1710,"width":400,"height":400},
 		{"id":"fc3b56a46d87919a","type":"file","file":"pages/local_features/SIFT_DESCRIPTOR.md","x":2400,"y":-1030,"width":400,"height":400},
 		{"id":"b88bb7121bfee9ad","type":"file","file":"pages/local_features/MATCHING_PROCESS.md","x":3320,"y":-1410,"width":400,"height":490},
-		{"id":"2f669a61bbf46c91","type":"file","file":"pages/local_features/HARRIS_CORNER_DETECTOR.md","x":740,"y":-1120,"width":400,"height":400},
 		{"id":"df8cb8fd360b567d","type":"file","file":"pages/local_features/EDGES.md","x":-360,"y":-340,"width":400,"height":400},
 		{"id":"d392dbf751ea06db","type":"file","file":"pages/local_features/CANNY_EDGE_DETECTOR.md","x":-820,"y":280,"width":400,"height":400},
-		{"id":"0199dab5982ff630","type":"file","file":"pages/local_features/ZERO_CROSSING_EDGE_DETECTION.md","x":80,"y":280,"width":400,"height":400},
-		{"id":"0dae3a701d57c841","type":"file","file":"pages/local_features/FINDING_CORRESPONDENCES.md","x":740,"y":-340,"width":400,"height":400},
-		{"id":"2680ebd4603e986a","type":"text","text":"# CORNER DETECTORS","x":821,"y":-520,"width":238,"height":76}
+		{"id":"0199dab5982ff630","type":"file","file":"pages/local_features/ZERO_CROSSING_EDGE_DETECTION.md","x":80,"y":280,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"fc829010e88561f8","fromNode":"df8cb8fd360b567d","fromSide":"bottom","toNode":"d392dbf751ea06db","toSide":"top","label":"STRONG EDGE \nDETECTION SYSTEM"},
