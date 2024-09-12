@@ -10,13 +10,17 @@ this are my personal notes on computer vision course of professor Di Stefano Lui
 
 it's possible to use the repo without obsidian but in order to get the best experience you need to install it
 
+## WEBSITE
+
+there is also a [static html website](https://https://carnivuth.github.io/computer_vision) published for access to notes inside the browser
+
 ## REPOSITORY STRUCTURE
 
 There is a folder for each macro-argument of the course inside the `pages` folder, each folder contains a brief recap of each argument
 
 ### MAPS
 
-for each macro-argument there is a conceptual map in the root folder for a quick overview of the arguments structure 
+for each macro-argument there is a conceptual map in the root folder for a quick overview of the arguments structure
 
 ## CREDITS
 
