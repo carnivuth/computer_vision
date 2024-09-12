@@ -45,6 +45,7 @@ jobs:
           && cd quartz
           && npm install
           && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest
+          && rm -rf content/quartz
           && npx quartz build
 
       - name: Upload artifact
