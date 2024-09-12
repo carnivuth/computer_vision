@@ -37,7 +37,15 @@ jobs:
           repository: 'quartz'
 
       - name: build
-        run: cd $HOME && git clone https://github.com/jackyzha0/quartz && cd quartz && npm install && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest && npx quartz build
+        run: >
+          cd $HOME
+          && git clone https://github.com/jackyzha0/quartz
+          && cp $GITHUB_WORKSPACE/quartz.config.ts quartz
+          && cp $GITHUB_WORKSPACE/quartz.layout.ts quartz
+          && cd quartz
+          && npm install
+          && npx quartz create -s $GITHUB_WORKSPACE -X copy -l shortest
+          && npx quartz build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
