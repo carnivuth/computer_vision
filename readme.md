@@ -1,9 +1,3 @@
----
-id: readme
-aliases: []
-tags: []
----
-
 # COMPUTER VISION
 
 this are my personal notes on computer vision course of professor Di Stefano Luigi
