@@ -116,8 +116,8 @@ So given the following definitions
 $$
 B = A^TA^{-1} =
 \begin{bmatrix}
-B_{11} &B_{21} &B_{31} \\
-B_{12} &B_{22} &B_{32}\\
+B_{11} &B_{12} &B_{13} \\
+B_{12} &B_{22} &B_{23}\\
 B_{13} &B_{23} &B_{33} \\
 \end{bmatrix} , b = [B_{11}, B_{12}, B_{22}, B_{13}, B_{23}, B_{33} ]^{T}
 $$
