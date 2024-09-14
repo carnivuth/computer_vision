@@ -1,7 +1,7 @@
 ---
 id: PERSPECTIVE_PROJECTION
-aliases: []
-tags: []
+aliases: 
+tags: 
 index: 1
 ---
 

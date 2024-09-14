@@ -95,7 +95,7 @@ A[\overset{\sim}P_{C_j} ] ++
 $$
 ## 2D ACCUMULATOR ARRAY ISSUES
 
-A 2D accumulator array is not sufficient to account for rotation and scale,there is the issue to account for rotation and scale, The solution is to use a 4D accumulator array in order to account for scale and rotation
+A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
 ![](Pasted_image_20240428143913.png)
 
