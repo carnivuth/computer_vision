@@ -100,7 +100,7 @@ $$
 H = [h_{1},h_{2},h_{3}] = [p_{1},p_{2},p_{4}] = \lambda A[r_{1},r_{2},T]
 $$
 
-Given that $R$ is an orthogonal matrix the following relations are true
+Given that $R$ is an [orthogonal matrix](ORTHOGONAL_MATRIX.md) the following relations are true
 
 $$
 r_{1}^Tr_{2} = 0 \Rightarrow h_{1}^TA^{-T}A^{-1}h_{2} = 0
@@ -138,7 +138,7 @@ h_1^TBh_1 =h_2^TBh_2 \Rightarrow v_{11}^Tb =v_{22}^Tb \Rightarrow (v_{11} - v_{2
 \end{cases}
 $$
 
-So each image gives 2 independent equations in 6 unknowns for the system $Vb = 0$ which can be solved by the $SVD$
+So each image gives 2 independent equations in 6 unknowns for the system $Vb = 0$ which can be solved by the [SVD](https://en.wikipedia.org/wiki/Singular_value_decomposition)
 
 ## MAKING A GUESS FOR $R$ AND $T$
 
