@@ -12,7 +12,7 @@ $$
 DoG(x,y,\sigma) = (G(x,y,k\sigma) - G(x,y,\sigma))\ast I(x,y) = L(x,y,k\sigma) -L(x,y,\sigma)
 $$
 
-This approach is more computational efficient of computing LOG, and it's a good approximation of the results
+This approach is more computational efficient of computing [LOG](SCALE_NORMALIZED_LOG.md), and it's a good approximation of the results
 
 ![](Pasted_image_20240314102352.png)
 
