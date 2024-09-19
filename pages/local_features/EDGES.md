@@ -153,17 +153,16 @@ $$
 
 With this considerations the final edge detection pipeline looks like this
 
-```mehrmaid
+```mermaid
 flowchart LR
-A["$I$"]
-B["$\overset{\sim}I_x$"]
-C["$\overset{\sim}I_y$"]
-D["$\nabla I$"]
-E["$NMS$"]
-F["$T_h$"]
-G["$E$"]
-A --> B & C --> D --"$\Vert \nabla I\Vert$"--> E --> F --> G
-D --"$\delta$"--> E
+A["I"]
+B["I_x"]
+C["I_y"]
+D["|| I ||"]
+E["NMS"]
+F["T_h"]
+G["E"]
+A --> B & C --> D --> E --> F --> G
 ```
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
