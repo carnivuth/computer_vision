@@ -11,11 +11,10 @@ This descriptor is based on the gradient direction contribution of a neighborhoo
 
 ```mermaid
 flowchart TD
-A[neighborhood of size 16x16]
+A[select neighborhood of size 16x16]
 B[split in regions of size 4x4]
 C[compute gradient orientation histogram for each pixel]
-A --> B
-B --> C
+A --> B --> C
 ```
 
 ![](Pasted_image_20240314124330.png)

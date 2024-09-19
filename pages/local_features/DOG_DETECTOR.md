@@ -30,6 +30,6 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 
 ## DOG IMPROVEMENTS WITH FILTERS
 
-In order to localize keypoints in an accurate way and remove unstable point filter procedures are needed
+In order to localize keypoints in an accurate way and remove unstable point [filter procedures](IMAGE_FILTERS.md) are needed
 
 [PREVIOUS](SCALE_NORMALIZED_LOG.md) [NEXT](CANONICAL_ORIENTATION.md)

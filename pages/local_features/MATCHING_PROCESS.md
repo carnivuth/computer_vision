@@ -15,7 +15,7 @@ In this phase keypoint descriptor are compared in order to find correspondences,
 
 So in this iteration of the problem the keypoints  computed on a target image $T$ are the query point and the $S$ set of point is given by the keypoint learned from a set of training images, the metric space $M$ is the space of the [sift descriptor](SIFT_DESCRIPTOR.md) with a distance metric (usually euclidean distance)
 
-Is not guaranteed that the $NN$ is found due to occlusion of the image or exposure changes so a criteria for detecting correct correspondencies must be set:
+Is not guaranteed that the $NN$ is found due to occlusion of the image or exposure changes so a criteria for detecting correct correspondences must be set:
 
 $$
 \displaylines{
