@@ -24,7 +24,7 @@ In a real implementation the Gaussian function need to be approximated by a disc
 - with higher size matrix becomes more accurate
 - computational cost grows with matrix size
 
-so a rule of thumb is to select the kernel size based on the $\sigma$ value as
+so a rule of thumb is to select the **kernel size based on the $\sigma$ value as**
 
 $$
 kernel \space size = (2k+1) \times (2k +1) \space where \space k = 3\sigma

@@ -18,7 +18,7 @@ This approach is more computational efficient of computing [LOG](SCALE_NORMALIZE
 
 ## DOG COMPUTING
 
-Computation of dog is done by down-sampling the input image in order to obtain the scale space and then by computing differences between adjacent scale levels
+Computation of dog is done by down-sampling and [gaussian smoothing](GAUSSIAN_FILTER.md) the input image in order to obtain the scale space and then by computing differences between adjacent scale levels
 
 ![](Pasted_image_20240314103452.png)
 
