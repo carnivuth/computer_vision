@@ -21,14 +21,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    //Component.MobileOnly(Component.Spacer()),
+    //Component.Search(),
+    //Component.Darkmode(),
+    //Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
-    Component.Backlinks(),
+    //Component.Graph(),
+    //Component.Backlinks(),
   ],
 }
 
