@@ -17,7 +17,7 @@ $$
 
 The effect of increasing $\sigma$ can be seen as reducing the importance of the closest points and increasing the importance of farther points smoothing the image
 
-## SIZING KERNEL IN IMPLEMENTATION
+## CHOOSING KERNEL SIZE
 
 In a real implementation the Gaussian function need to be approximated by a discrete representation by sampling the function in a kernel matrix, so the matrix size need to be set
 
