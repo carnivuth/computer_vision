@@ -7,7 +7,7 @@ index: 3
 
 # COLOR BASED SEGMENTATION
 
-So given a pixel $p$, the color intensity is defined as $I(p) = \begin{bmatrix}I_r(p)\\ I_g(p)\\ I_b(p)\\ \end{bmatrix}$ The segmentation can be done by calculating the distance from each color vector from a reference background color $\mu$
+Given a pixel $p$, and the color intensity is defined as $I(p) = \begin{bmatrix}I_r(p)\\ I_g(p)\\ I_b(p)\\ \end{bmatrix}$ the segmentation can be done by calculating the distance from each color vector from a reference background color $\mu$
 
 $$
 \forall \space p \in I \begin{cases}
@@ -42,10 +42,10 @@ $$
 \end{bmatrix} \space with
 $$
 $$
-\displaylines{
-\sigma^2_{ij} = \frac{1}{N}\sum_{k=1}^{N}(I_i(p_k) - \mu_j)(I_j(p_k) - \mu_j) \\
+\sigma^2_{ij} = \frac{1}{N}\sum_{k=1}^{N}(I_i(p_k) - \mu_j)(I_j(p_k) - \mu_j)
+$$
+$$
 i,j \in \{r,g,b\}
-}
 $$
 The new distance measure is given by the inclusion of the covariance matrix in the euclidean distance
 

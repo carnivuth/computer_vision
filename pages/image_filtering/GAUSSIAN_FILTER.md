@@ -1,7 +1,7 @@
 ---
 id: GAUSSIAN_FILTER
-aliases: 
-tags: 
+aliases: []
+tags: []
 index: 4
 ---
 
@@ -46,10 +46,10 @@ $$
 S =\frac{2(2k+1)^2}{4(2k + 1)} = k +\frac{1}{2} \space with
 $$
 $$
-\displaylines{
 NOPS_{2D \space filter} =2(2k+1)^2\\
+$$
+$$
 NOPS_{1D \space filter} =4(2k+1)\\
-}
 $$
 
 [PREVIOUS](MEAN_FILTER.md) [NEXT](MEDIAN_FILTER.md)

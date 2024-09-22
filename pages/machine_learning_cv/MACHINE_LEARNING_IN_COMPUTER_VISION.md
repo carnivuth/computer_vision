@@ -42,10 +42,10 @@ training --> testing
 The training and testing datasets can be defined as follows
 
 $$
-\displaylines{
-D^{train} = \{(x^i,y^i)|i=1 ... N\} \\
-D^{test} = \{(x^i,y^i)|i=1 ... M\} \\
-}
+D^{train} = \{(x^i,y^i)|i=1 ... N\}
+$$
+$$
+D^{test} = \{(x^i,y^i)|i=1 ... M\}
 $$
 
 Where $x^i$ are the given input feature (*images*) and $y^i$ are the true labels for the corresponding input feature
@@ -88,10 +88,10 @@ $$
 where $\lambda$ is an hyperparameter that determines the contribution of the regulator, popular choices of the regulator can be:
 
 $$
-\displaylines{
-L^{reg} = L_1(\theta) = \vert \theta \vert = \sum_{i} \vert \theta_i \vert \\
-L^{reg} = L_2(\theta) = \Vert \theta \Vert^2 = \sum_{i} \theta_i^2 \\
-}
+L^{reg} = L_1(\theta) = \vert \theta \vert = \sum_{i} \vert \theta_i \vert
+$$
+$$
+L^{reg} = L_2(\theta) = \Vert \theta \Vert^2 = \sum_{i} \theta_i^2
 $$
 
 ## DATA AUGMENTATION

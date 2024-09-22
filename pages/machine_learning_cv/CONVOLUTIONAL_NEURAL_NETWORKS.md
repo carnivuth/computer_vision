@@ -26,11 +26,13 @@ Similarly to what is done in classical computer vision, where convolution is use
 So to achieve this in a convolutional layer input and output are not flatten and each output is connected only to a local set of the input that shares the weights thus reducing the weights array dimension of the layer
 
 $$
-\displaylines{
-y(i,j) = w_1x(i-1,j-1) +w_2x(i-1,j) +w_3x(i-1,j+1)+ \\
-w_4x(i,j-1) +w_5x(i,j) +w_6x(i,j+1)+\\
-w_7x(i+1,j-1) +w_8x(i+1,j) +w_9x(i+1,j+1) \Rightarrow \\
-}
+y(i,j) = w_1x(i-1,j-1) +w_2x(i-1,j) +w_3x(i-1,j+1)+
+$$
+$$
+w_4x(i,j-1) +w_5x(i,j) +w_6x(i,j+1)+
+$$
+$$
+w_7x(i+1,j-1) +w_8x(i+1,j) +w_9x(i+1,j+1) \Rightarrow
 $$
 $$
 y(i,j) = \sum_{m=-1}^{m=1}\sum_{l=-1}^{l=1} {w(m,l)x(i+m,j+l)}

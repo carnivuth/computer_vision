@@ -1,7 +1,7 @@
 ---
 id: LTE_OPERATORS
-aliases: 
-tags: 
+aliases: []
+tags: []
 index: 2
 ---
 
@@ -67,9 +67,13 @@ $$
 Convolution and correlation are similar to each other, they both integrate a product of 2 functions after translation (but correlation does not do reflection), it's worth to notice that if the $h(x,y)$ function is even the 2 functions are equal:
 
 $$
-\displaylines{i(x,y)\ast h(x,y) =h(x,y)\ast i(x,y) = \int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(x-\alpha,y-\beta)d\alpha d\beta}} = \\
-\int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(\alpha-x,\beta - y)d\alpha d\beta}} = \\
-h(x,y)\circ i(x,y)}
+i(x,y)\ast h(x,y) =h(x,y)\ast i(x,y) = \int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(x-\alpha,y-\beta)d\alpha d\beta}} =
+$$
+$$
+\int_{-\infty}^{+\infty}{\int_{-\infty}^{+\infty}{i(\alpha,\beta)h(\alpha-x,\beta - y)d\alpha d\beta}} =
+$$
+$$
+h(x,y)\circ i(x,y)
 $$
 
 Remember that **correlation is not commutative** even if h is even

@@ -31,16 +31,20 @@ $$
 This measure is invariant to intensity light changes
 
 $$
-\displaylines{
 NCC(i,j) = \frac{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(i+m,j+n)\ast T(m,n)}}{
 \sqrt{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(i+m,j+n)^2}}
 \ast
 \sqrt{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(m,n)^2}}
-} \Rightarrow\\
-NCC(i,j) = \frac{\overset{\sim}I(i,j)\ast T}{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert} \Rightarrow\\
-NCC(i,j) = \frac{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert cos(\theta)}{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert} = \\
+} \Rightarrow
+$$
+$$
+NCC(i,j) = \frac{\overset{\sim}I(i,j)\ast T}{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert} \Rightarrow
+$$
+$$
+NCC(i,j) = \frac{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert cos(\theta)}{\Vert \overset{\sim}I(i,j)\Vert \ast \Vert T\Vert} =
+$$
+$$
 cos(\theta)
-}
 $$
 
 The NCC represents the cosine between the vectors $\Vert \overset{\sim}I(i,j)\Vert$ and $\Vert T \Vert$ (*max when the vectors are aligned*)

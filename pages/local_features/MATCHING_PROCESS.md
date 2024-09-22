@@ -3,7 +3,7 @@ id: MATCHING_PROCESS
 aliases:
   - k-d tree
   - BFF
-tags:
+tags: []
 index: 13
 ---
 
@@ -18,10 +18,10 @@ So in this iteration of the problem the keypoints  computed on a target image $T
 Is not guaranteed that the $NN$ is found due to occlusion of the image or exposure changes so a criteria for detecting correct correspondences must be set:
 
 $$
-\displaylines{
- d_{NN} \leq T \space (simple \space trashold)\\
- \frac{d_{NN}}{d_{2-NN}} \leq T \space (ratio \space of \space distances) \\
-}
+ d_{NN} \leq T \space (simple \space trashold)
+$$
+$$
+ \frac{d_{NN}}{d_{2-NN}} \leq T \space (ratio \space of \space distances)
 $$
 
 ## SEARCHING MECHANISM
@@ -55,7 +55,7 @@ B{{distance from parent node \n lowest of distance from NN candidate?}}
 C{{the hypersphere with center q \n and the distance from q to NN candidate intersects the other split? }}
 D[consider other split for the search]
 E[consider parent node]
-A --> B --yes--> C --yes--> D 
+A --> B --yes--> C --yes--> D
 C --no --> E -->B
 ```
 

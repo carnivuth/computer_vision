@@ -60,10 +60,10 @@ $$
 The loss function must be a function that decrease as the probability given by the model becomes higher
 
 $$
-\displaylines{
-L(\theta,(x^{(i)},y^{(y)})) = -\log p_{model}(y=y^{(i)}|x=x^{(i)};\theta) \\
-L(\theta,D^{train}) = \sum_{i=1}^{N}-\log p_{model}(y=y^{(i)}|x=x^{(i)};\theta) \\
-}
+L(\theta,(x^{(i)},y^{(y)})) = -\log p_{model}(y=y^{(i)}|x=x^{(i)};\theta)
+$$
+$$
+L(\theta,D^{train}) = \sum_{i=1}^{N}-\log p_{model}(y=y^{(i)}|x=x^{(i)};\theta)
 $$
 
 So in the case of a linear classifier the $-\log p_{model}(y=y^{(i)}|x=x^{(i)};\theta)$ function can be defined as
@@ -75,11 +75,11 @@ $$
 so the per sample loss is given by:
 
 $$
-\displaylines{
-- \log{\frac{exp(S_y(i))}{\sum_{k=1}^{C}{exp(s_k)}}} = S_y(i) + \log {\sum_{k=1}^{C}{exp(s_k)}} \simeq \\
-\\
+-\log{\frac{exp(S_y(i))}{\sum_{k=1}^{C}{exp(s_k)}}} = S_y(i) + \log {\sum_{k=1}^{C}{exp(s_k)}} \simeq
+$$
+
+$$
 -S_y(i) + \max_k{S_k}
-}
 $$
 
 ## MINIMIZING THE LOSS FUNCTION

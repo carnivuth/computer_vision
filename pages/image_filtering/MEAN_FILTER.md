@@ -1,7 +1,7 @@
 ---
 id: MEAN_FILTER
-aliases: 
-tags: 
+aliases: []
+tags: []
 index: 3
 ---
 
@@ -38,21 +38,23 @@ $$
 Now it's true to say that the $s(i,j+1)$ value is obtainable by the precedent value by adding and subtracting differences in the box
 
 $$
-\displaylines{
-s(i,j+1) = s(i,j) + V^{+}(i,j+1)- V^{-}(i,j+1) \space with \\
-\\
-V^{+}(i,j+1) =V^{+}(i-1,j+1)+a-b \\
-V^{-}(i,j+1) =V^{-}(i-1,j+1)+c-d \\
-}
+s(i,j+1) = s(i,j) + V^{+}(i,j+1)- V^{-}(i,j+1) \space with
+$$
+
+$$
+V^{+}(i,j+1) =V^{+}(i-1,j+1)+a-b
+$$
+$$
+V^{-}(i,j+1) =V^{-}(i-1,j+1)+c-d
 $$
 
 So the new value can be computed as
 $$
-\displaylines{
-s(i,j+1) = s(i,j) + \Delta(i-1,j-1) +a -b -c +d\space with \\
-\\
-\Delta(i-1,j-1) = V^{+}(i,j+1) - V^{-}(i-1,j+1)\\
-}
+s(i,j+1) = s(i,j) + \Delta(i-1,j-1) +a -b -c +d\space with
+$$
+
+$$
+\Delta(i-1,j-1) = V^{+}(i,j+1) - V^{-}(i-1,j+1)
 $$
 
 ![](Pasted_image_20240229122932.png)

@@ -72,10 +72,10 @@ $$
 \mu_{2}(t) = \sum_{i=t+1}^{L}{i*\frac{p(i)}{q_2(t)}}, \space \space \sigma^2_{2} = \sum_{i=t+1}^{L}{(i-\mu_{2})^2\frac{p(i)}{q_2(t)}}
 $$
 $$
-\displaylines{
-with: \\
+with:
+$$
+$$
 q_1(t)= \sum_{i=1}^{t}p(i), \space \space q_2(t)= \sum_{i=t+1}^{L}p(i),
-}
 $$
 
 The within group variance is defined as the weighted sum of the variance of the 2 regions

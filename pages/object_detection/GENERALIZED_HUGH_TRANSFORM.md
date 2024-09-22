@@ -45,10 +45,10 @@ The most popular computer vision pipeline relies on combining GHT with local inv
 Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](SIFT_DESCRIPTOR.md)) in the model image:
 
 $$
-\displaylines{
-F = \{F_1,F_2,...,F_n\} \\
+F = \{F_1,F_2,...,F_n\}
+$$
+$$
 F_i = (P_i,D_i,\phi_i,S_i)
-}
 $$
 
 Choose a reference point (eg the [barycentre](BLOB_ANALYSIS.md#BARYCENTRE))
@@ -73,10 +73,10 @@ $$
 Detect [keypoints](FINDING_CORRESPONDENCES.md#KEYPOINTS) on the target image and compute descriptors :
 
 $$
-\displaylines{
-\overset{\sim}F = \{\overset{\sim}F_1,\overset{\sim}F_2,...,\overset{\sim}F_n\} \\
+\overset{\sim}F = \{\overset{\sim}F_1,\overset{\sim}F_2,...,\overset{\sim}F_n\}
+$$
+$$
 \overset{\sim}F_i = (\overset{\sim}P_i,\overset{\sim}D_i,\overset{\sim}\phi_i,\overset{\sim}S_i)
-}
 $$
 
 Match descriptor between target and model image
@@ -88,10 +88,10 @@ $$
 for each keypoint on the target image that matches his descriptor with a keypoint in the model image compute the reference point and cast a vote in the accumulator array
 
 $$
-\displaylines{
-\overset{\sim}P_{C_j} = \overset{\sim}P_j + \overset{\sim}V_j \\
+\overset{\sim}P_{C_j} = \overset{\sim}P_j + \overset{\sim}V_j
+$$
+$$
 A[\overset{\sim}P_{C_j} ] ++
-}
 $$
 ## 2D ACCUMULATOR ARRAY ISSUES
 

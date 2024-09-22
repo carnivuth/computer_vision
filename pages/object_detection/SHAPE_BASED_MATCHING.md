@@ -21,10 +21,12 @@ $$
 with:
 
 $$
-\displaylines{
-u(P_k) = \frac{1}{\Vert G_k(P_k)\Vert }\ast \begin{bmatrix}I_x(P_k) \\ I_y(P_k)\end{bmatrix}\\
-\overset{\sim}u(\overset{\sim}P_k) = \frac{1}{\Vert \overset{\sim}G_k(\overset{\sim}P_k)\Vert }\ast \begin{bmatrix}I_x(\overset{\sim}P_k) \\ I_y(\overset{\sim}P_k)\end{bmatrix}\\
-}
+u(P_k) = \frac{1}{\Vert G_k(P_k)\Vert }\ast \begin{bmatrix}I_x(P_k) \\ I_y(P_k)\end{bmatrix}
+$$
+$$
+\overset{\sim}u(\overset{\sim}P_k) = \frac{1}{\Vert \overset{\sim}G_k(\overset{\sim}P_k)\Vert }\ast \begin{bmatrix}I_x(\overset{\sim}P_k) \\ I_y(\overset{\sim}P_k)\end{bmatrix}
+$$
+$$
 ,k = 1...n
 $$
 

@@ -16,10 +16,10 @@ In order to obtain a reference frame for computing the descriptor of a keypoint 
 Given a keypoint the orientation $\theta$ and magnitude $m$ is given by
 
 $$
-\displaylines{
-m(x,y) =  \sqrt{(L(x+1,y)- L(x-1,y))^2 + (L(x,y+1)- L(x,y-1))^2} \\
+m(x,y) =  \sqrt{(L(x+1,y)- L(x-1,y))^2 + (L(x,y+1)- L(x,y-1))^2}
+$$
+$$
 \theta(x,y) = \tan^{-1}{\frac{L(x,y+1)- L(x,y-1))}{L(x+1,y)- L(x-1,y))}}
-}
 $$
 
 Then an **orientation histogram** is computed with a bin size of $10^{\degree}$ with the contributions of each pixel of the belonging to a neighborhood of the keypoint.
