@@ -98,4 +98,5 @@ $$
 
 In order to artificially increase the size of datasets operation on the input image are performed without altering the label such as image rotation,crop,cutout
 
+
  [NEXT](CREATING_A_CLASSIFIER.md)

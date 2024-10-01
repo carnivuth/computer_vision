@@ -153,4 +153,5 @@ For a lot of application capture all the variability with one template is imposs
 
 ![](Pasted_image_20240502210718.png)
 
+
 [PREVIOUS](MACHINE_LEARNING_IN_COMPUTER_VISION.md) [NEXT](DEEP_LEARNING_AND_NEURAL_NETWORKS.md)

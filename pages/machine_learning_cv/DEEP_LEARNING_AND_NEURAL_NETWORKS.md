@@ -79,4 +79,5 @@ $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
 
+
 [PREVIOUS](CREATING_A_CLASSIFIER.md) [NEXT](CONVOLUTIONAL_NEURAL_NETWORKS.md)

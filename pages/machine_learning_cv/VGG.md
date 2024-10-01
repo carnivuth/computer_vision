@@ -1,3 +1,10 @@
+---
+id: VGG
+aliases: []
+tags: []
+index: 8
+---
+
 # VGG
 
 [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) that won the second place of [ILSVRC 2014](https://www.image-net.org/challenges/LSVRC/2014/), it explores the benefits of deep and regular architectures based on a few simple design choices:
@@ -20,3 +27,5 @@ A stage has the same receptive field as a single larger convolution but, given t
 | Epochs                                              | $74$                                                                                                                                                                                                                                                                                                                      |
 | Data Augmentation                                   | Same as [ALEXNET](ALEXNET.md) plus Scale Jittering (randomly rescale the input image to $S\times S$, with $S$ in $[256, 512]$                                                                                                                                                                                             |
 | Initialization                                      | Deep nets are hard to train with randomly initialized weights due to instability of gradients. They train a VGG-11 with Weights $~N(0,0.01), Biases=0$. Then train VGG-16 and VGG-19 by initializing the first 4 conv layers and the last 3 FC layers with the pre-trained weights of the corresponding layers of VGG-11. |
+
+ [NEXT](RESNET.md)

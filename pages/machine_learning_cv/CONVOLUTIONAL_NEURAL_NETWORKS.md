@@ -162,7 +162,7 @@ C[C X C X 1 X 1 + BN]
 D[ReLU]
 A --> B --> C --> D
 START:::hidden --> A
-D --> END:::hidden 
+D --> END:::hidden
 classDef hidden display: none;
 ```
 
@@ -176,4 +176,5 @@ So in order to train big CNN a 2 steps approach is adopted:
 - **pre-train** the deep network with a large, general purpose dataset
 - **fine-tune** specific parts of the network with the smaller specific one dataset
 
-[PREVIOUS](DEEP_LEARNING_AND_NEURAL_NETWORKS.md)
+
+[PREVIOUS](DEEP_LEARNING_AND_NEURAL_NETWORKS.md) [NEXT](LENET.md)

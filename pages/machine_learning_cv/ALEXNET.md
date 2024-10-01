@@ -1,3 +1,10 @@
+---
+id: ALEXNET
+aliases: []
+tags: []
+index: 6
+---
+
 # ALEXNET
 
 [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) that won the [ILSVRC](https://www.image-net.org/challenges/LSVRC/2012/)2012, powerfull network trained on 2 gpus
@@ -14,7 +21,7 @@ the first 2 layers of the network are intervaled from a max pooling layer
 
 ## IMPLEMENTATION OF NON LINEARITY
 
-All layers (*Conv and FC*) deploy [ReLU](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#ACTIVATION%20FUNCTION), non-linearities which yield faster training compared to saturating non-linearities 
+All layers (*Conv and FC*) deploy [ReLU](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#ACTIVATION%20FUNCTION), non-linearities which yield faster training compared to saturating non-linearities
 
 ## [FULLY CONNECTED LAYERS](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#FULLY%20CONNECTED%20LAYERS) SETUP
 
@@ -44,3 +51,5 @@ At test time, averaging predictions (*i.e. softmax*) across 10 patches (*central
 | Data Augmentation     | Colour Jittering, Random Crop,Horizontal Flip                                   |
 | InitializationWeights | $~N(0,0.01)$, Biases: 1 (*conv2,conv4,conv5, fc6,fc7,fc8*) or 0 (*conv1,conv3*) |
 | Normalization         | Centering (Subtraction of the Mean RGB colour in the training set)              |
+
+[PREVIOUS](LENET.md)

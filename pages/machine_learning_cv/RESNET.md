@@ -1,3 +1,10 @@
+---
+id: RESNET
+aliases: []
+tags: []
+index: 9
+---
+
 # RESNET
 
 [CNN](CONVOLUTIONAL_NEURAL_NETWORKS.md) Inspired by [VGG](VGG.md) based on the concept of [residual blocks](CONVOLUTIONAL_NEURAL_NETWORKS.md#RESIDUAL%20LEARNING%20AS%20A%20SOLUTION), each stage of a resnet consists in a combination of residual blocks
@@ -46,13 +53,13 @@ H[ReLU]
 A --> B --> C --> D --> E --> F --> G --> H
 A --> G
 START:::hidden --> A
-H --> END:::hidden 
+H --> END:::hidden
 classDef hidden display: none;
 ```
 
 ### AVOID THE INFORMATION LOSS
 
-in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted 
+in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted
 
 ```mermaid
 flowchart TD
@@ -66,7 +73,7 @@ G((+))
 A --> B --> C --> D --> E --> F --> G
 A --> G
 START:::hidden --> A
-G --> END:::hidden 
+G --> END:::hidden
 classDef hidden display: none;
 ```
 
@@ -85,3 +92,5 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Data Augmentation, Normalization | Same as [VGG](VGG.md)                                   |
 | Initialization                   | He initilization                                        |
 
+
+[PREVIOUS](VGG.md)
