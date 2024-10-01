@@ -53,6 +53,24 @@ classDef hidden display: none;
 ### AVOID THE INFORMATION LOSS
 
 in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted 
+
+```mermaid
+flowchart TD
+A[Cin X H X W]
+B[/tCin X Cin X 1 X 1 conv + BN\]
+C[ReLU]
+D[tCin X Cin X 3 X 3 tCin conv + BN]
+E[ReLU]
+F[\Cout X tCin X 4C X 1 X 1 conv + BN/]
+G((+))
+A --> B --> C --> D --> E --> F --> G
+A --> G
+START:::hidden --> A
+G --> END:::hidden 
+classDef hidden display: none;
+```
+
+To improve performance the convolution step is performed as a [depthwise convolutions](CONVOLUTIONAL_NEURAL_NETWORKS.md#DEPTHWISE%20SEPARABLE%20CONVOLUTIONS), another improvement (*proved by experimental evidence*) is the absence of non linear blocks between residual blocks
 ## RESNET TRAINING
 
 In the training phase dropouts is not deployed because the use of batch normalization acts as regularizer

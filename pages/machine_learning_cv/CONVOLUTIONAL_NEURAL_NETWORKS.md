@@ -149,6 +149,24 @@ In order to improve the computational costs kernels are split into $G$ groups an
 
 ![](Pasted_image_20240505120419.png)
 
+## DEPTHWISE SEPARABLE CONVOLUTIONS
+
+In order to improve the computational cost of convolution depthwise variant splits the spatial analysis and the feature combination and perform them sequentially.
+
+
+```mermaid
+flowchart TD
+A[C X C X 3 X 3 Gconv + BN <br> G=C]
+B[ReLU]
+C[C X C X 1 X 1 + BN]
+D[ReLU]
+A --> B --> C --> D
+START:::hidden --> A
+D --> END:::hidden 
+classDef hidden display: none;
+```
+
+The first convolution step is realized as a [GROUPED CONVOLUTIONS](#GROUPED%20CONVOLUTIONS)
 ## TRANSFER LEARNING
 
 To prevent overfitting, training of a deep neural network requires too big datasets that in a lot of deployment scenarios are expensive.
