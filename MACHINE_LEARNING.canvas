@@ -3,11 +3,17 @@
 		{"id":"d7dd715aa0324627","type":"file","file":"pages/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md","x":-180,"y":-320,"width":400,"height":400},
 		{"id":"7ebea9b5f78913cd","type":"file","file":"pages/machine_learning_cv/CREATING_A_CLASSIFIER.md","x":-180,"y":180,"width":400,"height":400},
 		{"id":"6895b65a5559ef7c","type":"file","file":"pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md","x":-180,"y":740,"width":400,"height":400},
-		{"id":"ccc750492f5016da","type":"file","file":"pages/machine_learning_cv/CONVOLUTIONAL_NEURAL_NETWORKS.md","x":-180,"y":1280,"width":400,"height":400}
+		{"id":"ccc750492f5016da","type":"file","file":"pages/machine_learning_cv/CONVOLUTIONAL_NEURAL_NETWORKS.md","x":-180,"y":1280,"width":400,"height":400},
+		{"id":"cfb6d845957c0962","x":-180,"y":1920,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/ALEXNET.md"},
+		{"id":"2a6710ab9736502b","x":-1040,"y":1920,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/LENET.md"},
+		{"id":"38d775dbe14641a0","x":640,"y":1920,"width":400,"height":400,"type":"file","file":"pages/machine_learning_cv/VGG.md"}
 	],
 	"edges":[
 		{"id":"099657c3313fdf38","fromNode":"7ebea9b5f78913cd","fromSide":"bottom","toNode":"6895b65a5559ef7c","toSide":"top","label":"SURPASSING LIMITS OF\nLINEAR CLASSIFICATION"},
 		{"id":"4a552af6b5923d1d","fromNode":"d7dd715aa0324627","fromSide":"bottom","toNode":"7ebea9b5f78913cd","toSide":"top","label":"CREATING A \nCLASSIFIER"},
-		{"id":"a7934921500c964f","fromNode":"6895b65a5559ef7c","fromSide":"bottom","toNode":"ccc750492f5016da","toSide":"top","label":"ADDING CONVOLUTION\nTO THE MIX"}
+		{"id":"a7934921500c964f","fromNode":"6895b65a5559ef7c","fromSide":"bottom","toNode":"ccc750492f5016da","toSide":"top","label":"ADDING CONVOLUTION\nTO THE MIX"},
+		{"id":"72d576ced2374465","fromNode":"ccc750492f5016da","fromSide":"bottom","toNode":"2a6710ab9736502b","toSide":"top","label":"FIRST APPROACH\nSIMPLE NETWORK"},
+		{"id":"1c930aff65de5f26","fromNode":"ccc750492f5016da","fromSide":"bottom","toNode":"cfb6d845957c0962","toSide":"top"},
+		{"id":"9dde632ce62daf43","fromNode":"ccc750492f5016da","fromSide":"bottom","toNode":"38d775dbe14641a0","toSide":"top","label":"STAGE REPETITION ARCHITECTURE\nMORE LAYERS MORE SUCCESS"}
 	]
 }

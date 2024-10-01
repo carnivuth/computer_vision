@@ -19,7 +19,7 @@ so the network's layer dimensions increase exponentially with the image dimensio
 
 ## CONVOLUTION TO THE RESCUE
 
-Similarly to what is done in classical computer vision, where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](CREATING_A_CLASSIFIER.md#MINIMIZING_THE_LOSS_FUNCTION)
+Similarly to what is done in [classical computer vision](LTE_OPERATORS.md), where convolution is used to detect features in deep learning convolution can be used in layers to detect features with filters that are learned [minimizing a loss function](CREATING_A_CLASSIFIER.md#MINIMIZING_THE_LOSS_FUNCTION)
 
 ## CONVOLUTIONAL LAYERS
 
@@ -71,7 +71,7 @@ $$
 
 ### CHAINING CONVOLUTIONAL LAYERS
 
-Convolutional layers are a form of linear transformation (they can be expressed by matrix) so in order to take advantage of network depth there is the need to chain them with some form of non-linearity (e.g. [relu](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#ACTIVATION_FUNCTION))
+Convolutional layers are a form of linear transformation (they can be expressed by matrix) so in order to take advantage of network depth there is the need to chain them with some form of non-linearity (e.g. [relu](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#ACTIVATION%20FUNCTION))
 
 ![](Pasted_image_20240504173234.png)
 
@@ -96,6 +96,7 @@ The pooling layer introduces some more hyperparameters such as dimensions of the
 
 ![](Pasted_image_20240504180437.png)
 
+Example of cnn's can be [LENET](LENET.md) and [ALEXNET](ALEXNET.md)
 ## NUMBER OF LEARNABLE PARAMETERS
 
 For a single convolutional layer the number of learnable parameter depends on kernel dimensions and input and output activation dimensions so the size of the $W$ array can be obtained as:
@@ -106,7 +107,7 @@ $$
 
 ## THE PROBLEM WITH INCREASING DEPTH
 
-Intuitively increasing depth should take better results at the price of computation cost but real testing as shown that this is not the case
+Intuitively increasing depth should take better results at the price of computation cost but as shown by [VGG](VGG.md) in real testing this is not the case
 
 ![](Pasted_image_20240504181754.png)
 
@@ -134,7 +135,13 @@ $$
 H(x) = F(x)+x
 $$
 
-Residual network consists on stages that contains stages of residual blocks
+An example of this can be found in [RESNET](RESNET.md)
+
+### GLOBAL AVERAGE POOLING
+
+In order to reduce the number of parameter at the begin of the [FC layers](DEEP_LEARNING_AND_NEURAL_NETWORKS.md#FULLY%20CONNECTED%20LAYERS) the output can be processed by average pooling
+
+![](Pasted%20image%2020241001145533.png)
 
 ### GROUPED CONVOLUTIONS
 
