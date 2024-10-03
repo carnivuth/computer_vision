@@ -145,7 +145,7 @@ In order to reduce the number of parameter at the begin of the [FC layers](DEEP_
 
 ### GROUPED CONVOLUTIONS
 
-In order to improve the computational costs kernels are split into $G$ groups and each group process $\frac{C_{in}}{G}$ groups, with this required flops and number of parameters are scaled by a $G$ factor
+In order to improve the computational costs kernels are split into $G$ groups and each group process $\frac{C_{in}}{G}$ input channels, with this required flops and number of parameters are scaled by a $G$ factor
 
 ![](Pasted_image_20240505120419.png)
 
