@@ -59,7 +59,7 @@ classDef hidden display: none;
 
 ### AVOID THE INFORMATION LOSS
 
-in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted
+in order to overcome the limitation of [bottleneck residual blocks](#INCREASING%20DEPTH%20WITH%20BOTTLENECK%20RESIDUAL%20BLOCKS) mobilenet-v2 improved the model by using inverted blocks
 
 ```mermaid
 flowchart TD

@@ -1,4 +1,5 @@
-# Computer Vision
+# COMPUTER VISION
+
 ## CONTENTS
 - [IMAGE_FILTERS](pages/image_filtering/IMAGE_FILTERS.md)
 - [PERSPECTIVE_PROJECTION](pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
