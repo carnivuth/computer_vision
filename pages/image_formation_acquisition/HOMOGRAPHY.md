@@ -7,7 +7,7 @@ index: 10
 
 # HOMOGRAPHY
 
-Let's take the case where the camera is imaging a planar scene, in this case we can assume that the $z = 0 \space  \forall \space \overset{\sim}w$, in this scenario the $PPM$ becomes
+Let's take the case where the camera is imaging a planar scene, in this case it can be said that the $z = 0 \space  \forall \space \overset{\sim}w$, in this scenario the $PPM$ becomes
 
 $$
 k\overset{\sim}m= \overset{\sim}P \overset{\sim}w =
@@ -34,6 +34,8 @@ y\\
 \end{bmatrix}= H\overset{\sim}M
 $$
 
+this is exploited in camera callibration with the [zhang's method](ZHANG_METHOD.md).
+
 ## PROPERTIES
 
 cause $\det{H} \neq 0$  two distinct images of a planar scene are related by homography
@@ -55,6 +57,7 @@ Any two images taken by a camera rotating about the optical center are related b
 ![](Pasted_image_20231021104939.png)
 
 ### INTRINSIC PARAMETER RELATION
+
 any two images taken by two different cameras (different $A$ matrix so different intrinsic parameters) in a fixed pose are related by homography
 
 ![](Pasted_image_20231021105132.png)

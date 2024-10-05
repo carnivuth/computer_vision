@@ -1,7 +1,9 @@
 ---
 id: STEREO_CAMERA_CALIBRATION
-aliases: []
-tags: []
+aliases: 
+tags:
+  - rectification
+  - retrieve_3D_coordinates
 index: 13
 ---
 
