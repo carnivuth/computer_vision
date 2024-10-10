@@ -20,7 +20,7 @@ $$
 v=\frac{f}{z}*y
 $$
 
-It's important to notice that this equations are inversely proportional in respect to the depth of the point in the 3D world
+It's important to notice that this equations are **inversely proportional** in respect to the depth of the point in the 3D world
 
 ## INFORMATION LOSS
 

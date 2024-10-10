@@ -1,7 +1,8 @@
 ---
 id: PERSPECTIVE_SPACE
-aliases: []
-tags: []
+aliases:
+  - point-to-infinity
+tags: 
 index: 8
 ---
 
