@@ -14,7 +14,7 @@ $$
 E(\Delta x, \Delta y) = \sum_{x,y} {w(x,y)(I(x + \Delta x, y + \Delta y) - I(x,y))^2}
 $$
 
-With $w(x,y)$ as a weight function
+With $w(x,y)$ as a weight function (*gaussian function*)
 
 ![](Pasted_image_20240310154904.png)
 

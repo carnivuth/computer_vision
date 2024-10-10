@@ -5,7 +5,6 @@ tags: []
 index: 2
 ---
 
-
 # CREATING A CLASSIFIER
 
 ## OBJECTIVE

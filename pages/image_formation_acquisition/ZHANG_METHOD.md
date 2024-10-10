@@ -45,7 +45,7 @@ Given this setup with the **WRF** parallel to the $Z$ axis we can consider the c
 so given a pattern with $m$ corners it's possible to write $m$ sets of 3 linear equations where 2D and 3D coordinates are known so we can compute the $H$ matrix
 
 $$
-k\overset{\sim}m = H\overset{\sim}w_{'}\Rightarrow \overset{\sim}m\times H\overset{\sim}w_{'}\Rightarrow
+k\overset{\sim}m = H\overset{\sim}w_{'}\Rightarrow \overset{\sim}m\times H\overset{\sim}w_{'} = 0 \Rightarrow
 \begin{bmatrix}
 vh_{3}^T\overset{\sim}w_{'}- h_{2}^{T}\overset{\sim}w_{'}\\
 h_{1}^T\overset{\sim}w_{'}- uh_{3}^{T}\overset{\sim}w_{'}\\
