@@ -31,9 +31,9 @@ The algorithms for the detection and description phase must have the following p
 | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **REPEATABILITY**<br><br>it should find the same keypoint in the image despite the transformations undergone by the images | **DISTINCTIVENESS/ROBUSTNESS TRADE OFF**<br><br>it should capture the salient information in the neighborhood of  a keypoint and also avoid noise effects from change of light intensities<br> |
 | **INTERESTINGNESS**<br><br>It should find points with informative surroundings as to enable the matching process           | **COMPACTNESS**<br><br>description should be concise as possible in order to improve the matching process                                                                                      |
-## KEYPOINTS
+## KEYPOINTS: CHOOSE THE BEST CANDIDATE
 
-keypoints are points that contains the most information in an image, [edges](EDGES.md) are bad candidates as **along the perpendicular direction they are pretty similar and cannot be distinguished**, points that show high variance in all directions are best suited for the purpose such as corners
+keypoints are points that contains the most information in an image, [edges](EDGES.md) are bad candidates as **along the perpendicular direction they are pretty similar and cannot be distinguished**, points that show **high variance in all directions** are best suited for the purpose such as corners
 
 ![](Pasted_image_20240310151838.png)
 
