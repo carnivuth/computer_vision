@@ -17,15 +17,13 @@ In this situation an edge can be seen as a peak of the first derivative of the i
 
 So in order to detect edge in this situation is  sufficient to threshold the first derivative
 
-```mehrmaid
+```mermaid
 flowchart LR
-A["$S(x)$"]
-B["$d(S)$"]
-C["$T$"]
-D["$e(x)$"]
-A --> B
-B --> C
-C --> D
+A["S(x)"]
+B["d(S)"]
+C[T]
+D["e(x)"]
+A --> B --> C --> D
 ```
 
 ## 2 DIMENSIONAL STEP EDGE
