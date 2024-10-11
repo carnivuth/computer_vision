@@ -32,6 +32,10 @@ flowchart TD
 	F-->G
 ```
 
+## GETTING CORNERS IMAGE COORDINATES
+
+Corners can be detected easily from the image by using the [Harris detector](HARRIS_CORNER_DETECTOR.md)
+
 ## SETTING A WRF
 
 so given a set of images the WRF is taken with origin at the top-left corner of the patter(that could easily be detected)
