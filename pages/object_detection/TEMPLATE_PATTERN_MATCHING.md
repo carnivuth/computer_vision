@@ -34,7 +34,7 @@ $$
 NCC(i,j) = \frac{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(i+m,j+n)\ast T(m,n)}}{
 \sqrt{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(i+m,j+n)^2}}
 \ast
-\sqrt{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} I(m,n)^2}}
+\sqrt{\sum_{m=0}^{M-1}{\sum_{m=0}^{M-1} T(m,n)^2}}
 } \Rightarrow
 $$
 $$
