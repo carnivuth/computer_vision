@@ -2,7 +2,7 @@
 id: BILATERAL_FILTER
 aliases: 
 tags: 
-index: 6
+index: 5
 ---
 
 # BILATERAL FILTER
@@ -27,5 +27,6 @@ This filter takes into account the bi-dimensional distance and the difference in
 ![](Pasted_image_20240302112042.png)
 
 As shown in the image this filter is good in the edges cause it does not introduce blur in the image cause it takes into account range distance
+
 
 [PREVIOUS](MEDIAN_FILTER.md) [NEXT](NON-LOCAL_MEAN_FILTER.md)
