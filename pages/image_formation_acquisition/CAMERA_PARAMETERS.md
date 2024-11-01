@@ -54,4 +54,4 @@ $$
 
 ratio between photons that are collected by the camera and  photons that hit the sensors
 
-[PREVIOUS](PERSPECTIVE_PROJECTION.md) [NEXT](IMAGE_DIGITIZATION.md)
+[PREVIOUS](pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md) [NEXT](pages/image_formation_acquisition/IMAGE_DIGITIZATION.md)

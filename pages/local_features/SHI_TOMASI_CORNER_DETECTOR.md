@@ -2,7 +2,7 @@
 id: SHI_TOMASI_CORNER_DETECTOR
 aliases: []
 tags: []
-index: 7
+index: 33
 ---
 
 # SHI TOMASI CORNER DETECTOR
@@ -15,4 +15,4 @@ $$
 
 ![](Pasted_image_20240310172549.png)
 
-[PREVIOUS](HARRIS_CORNER_DETECTOR.md) [NEXT](SCALE_INVARIANCE.md)
+[PREVIOUS](pages/local_features/HARRIS_CORNER_DETECTOR.md) [NEXT](pages/local_features/SCALE_INVARIANCE.md)

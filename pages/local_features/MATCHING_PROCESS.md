@@ -4,7 +4,7 @@ aliases:
   - k-d tree
   - BFF
 tags: []
-index: 13
+index: 39
 ---
 
 # MATCHING PROCESS
@@ -69,4 +69,4 @@ backtracking becomes computationally expensive as the dimension of the space goe
 
 Variation of the k-d tree algorithm where traversed node are inserted in a priority queue that is used in the backtracking phase to chose the node to traverse first, the queue is updated in the backtracking phase that ends at the $E_{max}$ node
 
-[PREVIOUS](SIFT_DESCRIPTOR.md)
+[PREVIOUS](pages/local_features/SIFT_DESCRIPTOR.md) [NEXT](pages/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md)

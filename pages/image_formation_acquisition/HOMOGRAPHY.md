@@ -64,4 +64,4 @@ any two images taken by two different cameras (different $A$ matrix so different
 
 In conclusion we can say that if the camera is imaging a planar scene we can find relations between images that are taken from different angles or with different camera sensors
 
-[PREVIOUS](PERSPECTIVE_PROJECTION_MATRIX.md) [NEXT](CAMERA_CALIBRATION.md)
+[PREVIOUS](pages/image_formation_acquisition/PERSPECTIVE_PROJECTION_MATRIX.md) [NEXT](pages/image_formation_acquisition/CAMERA_CALIBRATION.md)

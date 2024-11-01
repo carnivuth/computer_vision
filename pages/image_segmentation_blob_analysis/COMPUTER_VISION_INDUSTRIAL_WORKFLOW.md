@@ -2,7 +2,7 @@
 id: COMPUTER_VISION_INDUSTRIAL_WORKFLOW
 aliases: []
 tags: []
-index: 1
+index: 21
 ---
 # COMPUTER VISION INDUSTRIAL WORKFLOW
 
@@ -23,4 +23,4 @@ C --> D
 D --> E
 ```
 
- [NEXT](BINARIZATION.md)
+[PREVIOUS](pages/image_filtering/NON-LOCAL_MEAN_FILTER.md) [NEXT](pages/image_segmentation_blob_analysis/BINARIZATION.md)

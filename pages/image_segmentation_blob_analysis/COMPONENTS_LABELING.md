@@ -2,7 +2,7 @@
 id: COMPONENTS_LABELING
 aliases: []
 tags: []
-index: 5
+index: 25
 ---
 
 # COMPONENTS LABELING
@@ -41,4 +41,4 @@ A new label is propagated throughout a connected component starting from a “se
 
 ![](Pasted_image_20240303174654.png)
 
-[PREVIOUS](BINARY_MORPHOLOGY.md) [NEXT](BLOB_ANALYSIS.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/BINARY_MORPHOLOGY.md) [NEXT](pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md)

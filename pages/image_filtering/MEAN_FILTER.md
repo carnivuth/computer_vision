@@ -2,7 +2,7 @@
 id: MEAN_FILTER
 aliases: []
 tags: []
-index: 2
+index: 16
 ---
 
 # MEAN FILTER
@@ -59,5 +59,4 @@ $$
 
 ![](Pasted_image_20240229122932.png)
 
-
-[PREVIOUS](IMAGE_FILTERS.md) [NEXT](GAUSSIAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/IMAGE_FILTERS.md) [NEXT](pages/image_filtering/GAUSSIAN_FILTER.md)

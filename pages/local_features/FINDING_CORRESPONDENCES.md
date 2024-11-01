@@ -2,7 +2,7 @@
 id: FINDING_CORRESPONDENCES
 aliases: []
 tags: []
-index: 1
+index: 27
 ---
 
 # FINDING CORRESPONDENCES
@@ -37,4 +37,4 @@ keypoints are points that contains the most information in an image, [edges](EDG
 
 ![](Pasted_image_20240310151838.png)
 
- [NEXT](EDGES.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/BLOB_ANALYSIS.md) [NEXT](pages/local_features/EDGES.md)

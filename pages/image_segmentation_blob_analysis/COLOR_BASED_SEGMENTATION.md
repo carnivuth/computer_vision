@@ -2,7 +2,7 @@
 id: COLOR_BASED_SEGMENTATION
 aliases: []
 tags: []
-index: 3
+index: 23
 ---
 
 # COLOR BASED SEGMENTATION
@@ -61,4 +61,4 @@ $$
 
 The mahalanobis distance weights the differences between the color components unequally (inversely proportional to the learned variances ), This as the effect of lower the consideration of sparse components
 
-[PREVIOUS](BINARIZATION.md) [NEXT](BINARY_MORPHOLOGY.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/BINARIZATION.md) [NEXT](pages/image_segmentation_blob_analysis/BINARY_MORPHOLOGY.md)

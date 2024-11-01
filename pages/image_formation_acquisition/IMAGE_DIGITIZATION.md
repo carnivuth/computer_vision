@@ -34,4 +34,4 @@ $$
 
 in order to increase the quality of the representation more bits need to be used, ether increasing $M$ or $N$ (*the matrix dimensions*) or increasing $m$ (*the quality of representation of the single point*)
 
-[PREVIOUS](CAMERA_PARAMETERS.md) [NEXT](SENSORS.md)
+[PREVIOUS](pages/image_formation_acquisition/CAMERA_PARAMETERS.md) [NEXT](pages/image_formation_acquisition/SENSORS.md)

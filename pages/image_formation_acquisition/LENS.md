@@ -50,4 +50,4 @@ points before or after the focusing plane will appear in circles called circles 
 
 ![](Pasted_image_20240221202723.png)
 
-[PREVIOUS](SENSORS.md) [NEXT](LENS_DISTORTION.md)
+[PREVIOUS](pages/image_formation_acquisition/SENSORS.md) [NEXT](pages/image_formation_acquisition/LENS_DISTORTION.md)

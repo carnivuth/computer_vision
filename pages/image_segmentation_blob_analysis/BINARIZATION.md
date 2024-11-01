@@ -2,7 +2,7 @@
 id: BINARIZATION
 aliases: []
 tags: []
-index: 2
+index: 22
 ---
 
 # BINARIZATION
@@ -92,4 +92,4 @@ Any global thresholding method rely on the assumption of uniform lighting across
 
 The idea is to **compute the threshold at each point of the image** based on a neighborhood of pixels (threshold become a function of space $T(x,y)$), This introduce the problem of neighborhood dimension cause a too small one could lack of foreground pixels
 
-[PREVIOUS](COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md) [NEXT](COLOR_BASED_SEGMENTATION.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md) [NEXT](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md)

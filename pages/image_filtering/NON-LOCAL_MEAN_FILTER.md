@@ -2,7 +2,7 @@
 id: NON-LOCAL_MEAN_FILTER
 aliases: []
 tags: []
-index: 6
+index: 20
 ---
 
 # NON-LOCAL MEAN FILTER
@@ -22,5 +22,4 @@ Z(p)= \sum_{q \in I} e^{\frac{\Vert N_p -N_q\Vert_2^2}{h^2}}
 $$
 ![](Pasted_image_20240302112706.png)
 
-
-[PREVIOUS](BILATERAL_FILTER.md)
+[PREVIOUS](pages/image_filtering/BILATERAL_FILTER.md) [NEXT](pages/image_segmentation_blob_analysis/COMPUTER_VISION_INDUSTRIAL_WORKFLOW.md)

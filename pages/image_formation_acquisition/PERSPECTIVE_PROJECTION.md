@@ -43,4 +43,4 @@ with such definition all 3D lines in the image will **share the same vanishing p
 
 in a real case application this model alone it's not sufficient, there are [real camera parameters](CAMERA_PARAMETERS.md) and  [lens effects](LENS.md) to take into account. In order to apply some computation to an image [digitization](IMAGE_DIGITIZATION.md) is also needed.
 
- [NEXT](CAMERA_PARAMETERS.md)
+ [NEXT](pages/image_formation_acquisition/CAMERA_PARAMETERS.md)

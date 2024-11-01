@@ -2,7 +2,7 @@
 id: GAUSSIAN_FILTER
 aliases: []
 tags: []
-index: 3
+index: 17
 ---
 
 # GAUSSIAN FILTER
@@ -52,5 +52,4 @@ $$
 NOPS_{1D \space filter} =4(2k+1)\\
 $$
 
-
- [NEXT](MEDIAN_FILTER.md)
+[PREVIOUS](pages/image_filtering/MEAN_FILTER.md) [NEXT](pages/image_filtering/MEDIAN_FILTER.md)

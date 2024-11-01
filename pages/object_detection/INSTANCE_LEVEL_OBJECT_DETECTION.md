@@ -2,7 +2,7 @@
 id: INSTANCE_LEVEL_OBJECT_DETECTION
 aliases: []
 tags: []
-index: 1
+index: 40
 ---
 
 # INSTANCE LEVEL OBJECT DETECTION
@@ -15,4 +15,4 @@ The problem can be declined in many variants, for example the object can appear 
 
 Typical problems to address in this situation are intensity changes, rotation and occlusion
 
- [NEXT](TEMPLATE_PATTERN_MATCHING.md)
+[PREVIOUS](pages/local_features/MATCHING_PROCESS.md) [NEXT](pages/object_detection/TEMPLATE_PATTERN_MATCHING.md)

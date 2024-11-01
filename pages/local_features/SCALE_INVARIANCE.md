@@ -2,7 +2,7 @@
 id: SCALE_INVARIANCE
 aliases: []
 tags: []
-index: 8
+index: 34
 ---
 
 # SCALE INVARIANCE
@@ -28,5 +28,4 @@ So each level of the Gaussian scale space is obtained by tuning the $\sigma$ par
 
 The Gaussian scale space does not give ways to find features nor their characteristic scale
 
-
-[PREVIOUS](SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](SCALE_NORMALIZED_LOG.md)
+[PREVIOUS](pages/local_features/SHI_TOMASI_CORNER_DETECTOR.md) [NEXT](pages/local_features/SCALE_NORMALIZED_LOG.md)

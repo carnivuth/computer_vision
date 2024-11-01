@@ -2,7 +2,7 @@
 id: OBJECT_DETECTION_PIPELINE
 aliases: 
 tags: 
-index: 6
+index: 45
 ---
 
 # OBJECT DETECTION PIPELINE
@@ -25,4 +25,4 @@ A --> B & C
 end
 ```
 
-[PREVIOUS](GENERALIZED_HUGH_TRANSFORM.md)
+[PREVIOUS](pages/object_detection/GENERALIZED_HUGH_TRANSFORM.md) [NEXT](pages/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md)

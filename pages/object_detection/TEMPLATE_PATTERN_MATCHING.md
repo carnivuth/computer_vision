@@ -2,7 +2,7 @@
 id: TEMPLATE_PATTERN_MATCHING
 aliases: []
 tags: []
-index: 2
+index: 41
 ---
 
 # TEMPLATE PATTERN MATCHING
@@ -73,4 +73,4 @@ Template matching computation is too much slow for an industrial environment, in
 
 In order for this approximation to work levels need to be chosen empirically
 
-[PREVIOUS](INSTANCE_LEVEL_OBJECT_DETECTION.md) [NEXT](SHAPE_BASED_MATCHING.md)
+[PREVIOUS](pages/object_detection/INSTANCE_LEVEL_OBJECT_DETECTION.md) [NEXT](pages/object_detection/SHAPE_BASED_MATCHING.md)

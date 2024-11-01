@@ -2,7 +2,7 @@
 id: SHAPE_BASED_MATCHING
 aliases: []
 tags: []
-index: 3
+index: 42
 ---
 
 # SHAPE BASED MATCHING
@@ -75,4 +75,4 @@ When the condition is verified the computation of the similarity function can be
 - No need of computing the edges on the target image which is a risky procedure
 - robustness to occlusion which can be tuned by the $S_{min}$ parameter
 
-[PREVIOUS](TEMPLATE_PATTERN_MATCHING.md) [NEXT](HOUGH_TRANSFORM.md)
+[PREVIOUS](pages/object_detection/TEMPLATE_PATTERN_MATCHING.md) [NEXT](pages/object_detection/HOUGH_TRANSFORM.md)

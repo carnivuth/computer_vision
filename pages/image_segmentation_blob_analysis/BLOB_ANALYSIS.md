@@ -2,7 +2,7 @@
 id: BLOB_ANALYSIS
 aliases: []
 tags: []
-index: 6
+index: 26
 ---
 
 # BLOB ANALYSIS
@@ -57,4 +57,4 @@ $$
 R =\frac{A}{A_{LW}} \space with \space A_{LW} = \frac{\pi}{4}LW
 $$
 
-[PREVIOUS](COMPONENTS_LABELING.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/COMPONENTS_LABELING.md) [NEXT](pages/local_features/FINDING_CORRESPONDENCES.md)

@@ -2,7 +2,7 @@
 id: BINARY_MORPHOLOGY
 aliases: []
 tags: []
-index: 4
+index: 24
 ---
 
 # BINARY MORPHOLOGY
@@ -35,4 +35,4 @@ $$
 A \bullet B = (A \oplus B) \ominus B
 $$
 
-[PREVIOUS](COLOR_BASED_SEGMENTATION.md) [NEXT](COMPONENTS_LABELING.md)
+[PREVIOUS](pages/image_segmentation_blob_analysis/COLOR_BASED_SEGMENTATION.md) [NEXT](pages/image_segmentation_blob_analysis/COMPONENTS_LABELING.md)

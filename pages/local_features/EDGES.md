@@ -2,7 +2,7 @@
 id: EDGES
 aliases: []
 tags: []
-index: 2
+index: 28
 ---
 
 # EDGES
@@ -181,4 +181,4 @@ A --> B & C --> D --> E --> F --> G
 
 There is a final thresholding step in order to avoid detection of unwanted edges.
 
-[PREVIOUS](FINDING_CORRESPONDENCES.md) [NEXT](CANNY_EDGE_DETECTOR.md)
+[PREVIOUS](pages/local_features/FINDING_CORRESPONDENCES.md) [NEXT](pages/local_features/CANNY_EDGE_DETECTOR.md)

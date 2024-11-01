@@ -2,7 +2,7 @@
 id: CREATING_A_CLASSIFIER
 aliases: []
 tags: []
-index: 2
+index: 47
 ---
 
 # CREATING A CLASSIFIER
@@ -152,6 +152,4 @@ For a lot of application capture all the variability with one template is imposs
 
 ![](Pasted_image_20240502210718.png)
 
-
-
-[PREVIOUS](MACHINE_LEARNING_IN_COMPUTER_VISION.md) [NEXT](DEEP_LEARNING_AND_NEURAL_NETWORKS.md)
+[PREVIOUS](pages/machine_learning_cv/MACHINE_LEARNING_IN_COMPUTER_VISION.md) [NEXT](pages/machine_learning_cv/DEEP_LEARNING_AND_NEURAL_NETWORKS.md)

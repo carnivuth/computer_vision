@@ -33,4 +33,4 @@ once the lens distortion parameter are computed by [camera calibration](CAMERA_C
 
 ![](Pasted_image_20240227164313.png)
 
-[PREVIOUS](STEREO_CAMERA_CALIBRATION.md)
+[PREVIOUS](pages/image_formation_acquisition/STEREO_CAMERA_CALIBRATION.md) [NEXT](pages/image_filtering/IMAGE_FILTERS.md)

@@ -2,7 +2,7 @@
 id: MEDIAN_FILTER
 aliases: 
 tags: 
-index: 4
+index: 18
 ---
 
 # MEDIAN FILTER
@@ -30,5 +30,4 @@ The median filter is good at removing impulse noise from an image as the noise p
 
 ![](Pasted_image_20240229174319.png)
 
-
-[PREVIOUS](GAUSSIAN_FILTER.md) [NEXT](BILATERAL_FILTER.md)
+[PREVIOUS](pages/image_filtering/GAUSSIAN_FILTER.md) [NEXT](pages/image_filtering/BILATERAL_FILTER.md)

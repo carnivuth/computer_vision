@@ -2,7 +2,7 @@
 id: GENERALIZED_HUGH_TRANSFORM
 aliases: []
 tags: []
-index: 5
+index: 44
 ---
 
 # GENERALIZED HUGH TRANSFORM
@@ -99,4 +99,4 @@ A 2D accumulator array is not sufficient to account for rotation and scale, the 
 
 ![](Pasted_image_20240428143913.png)
 
-[PREVIOUS](HOUGH_TRANSFORM.md) [NEXT](OBJECT_DETECTION_PIPELINE.md)
+[PREVIOUS](pages/object_detection/HOUGH_TRANSFORM.md) [NEXT](pages/object_detection/OBJECT_DETECTION_PIPELINE.md)

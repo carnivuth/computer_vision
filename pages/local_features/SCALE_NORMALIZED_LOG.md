@@ -2,7 +2,7 @@
 id: SCALE_NORMALIZED_LOG
 aliases: []
 tags: []
-index: 9
+index: 35
 ---
 
 # SCALE NORMALIZED LOG
@@ -15,4 +15,4 @@ $$
 
 ![](Pasted_image_20240314101650.png)
 
-[PREVIOUS](SCALE_INVARIANCE.md) [NEXT](DOG_DETECTOR.md)
+[PREVIOUS](pages/local_features/SCALE_INVARIANCE.md) [NEXT](pages/local_features/DOG_DETECTOR.md)

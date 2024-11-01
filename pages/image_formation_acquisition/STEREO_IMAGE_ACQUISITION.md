@@ -58,4 +58,4 @@ In order to apply this model the **correspondences between the points of the 2 i
 fortunately, the search space for correspondences is always 1 dimensional as 2 points share always the same $y$ coordinate.
 To address the horizontal alignment problem a [homography](HOMOGRAPHY.md) called **rectification** is used on the images to warp them and obtain something horizontally aligned.
 
-[PREVIOUS](LENS_DISTORTION.md) [NEXT](PERSPECTIVE_SPACE.md)
+[PREVIOUS](pages/image_formation_acquisition/LENS_DISTORTION.md) [NEXT](pages/image_formation_acquisition/PERSPECTIVE_SPACE.md)

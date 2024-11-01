@@ -2,7 +2,7 @@
 id: DOG_DETECTOR
 aliases: []
 tags: []
-index: 10
+index: 36
 ---
 # DOG DETECTOR
 
@@ -32,4 +32,4 @@ a point is detected as a feature if it's DoG is an extreme of its 26 neighbors
 
 In order to localize keypoints in an accurate way and remove unstable point [filter procedures](IMAGE_FILTERS.md) are needed
 
-[PREVIOUS](SCALE_NORMALIZED_LOG.md) [NEXT](CANONICAL_ORIENTATION.md)
+[PREVIOUS](pages/local_features/SCALE_NORMALIZED_LOG.md) [NEXT](pages/local_features/CANONICAL_ORIENTATION.md)

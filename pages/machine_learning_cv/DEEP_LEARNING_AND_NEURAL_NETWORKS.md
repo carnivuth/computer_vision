@@ -2,7 +2,7 @@
 id: DEEP_LEARNING_AND_NEURAL_NETWORKS
 aliases: []
 tags: []
-index: 3
+index: 48
 ---
 
 ## MACHINE LEARNING VS DEEP LEARNING
@@ -79,6 +79,4 @@ $$
 y_i = \phi(\sum_{j=1}^{D}{W_{ij}x_j +b_i})
 $$
 
-
-
-[PREVIOUS](CREATING_A_CLASSIFIER.md) [NEXT](CONVOLUTIONAL_NEURAL_NETWORKS.md)
+[PREVIOUS](pages/machine_learning_cv/CREATING_A_CLASSIFIER.md) [NEXT](pages/machine_learning_cv/CONVOLUTIONAL_NEURAL_NETWORKS.md)

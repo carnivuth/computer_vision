@@ -2,7 +2,7 @@
 id: RESNET
 aliases: []
 tags: []
-index: 8
+index: 53
 ---
 
 # RESNET
@@ -92,6 +92,4 @@ In the training phase dropouts is not deployed because the use of batch normaliz
 | Data Augmentation, Normalization | Same as [VGG](VGG.md)                                   |
 | Initialization                   | He initilization                                        |
 
-
-
-[PREVIOUS](VGG.md)
+[PREVIOUS](pages/machine_learning_cv/VGG.md)
