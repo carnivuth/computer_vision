@@ -1,4 +1,10 @@
-#
+---
+id: index
+aliases: []
+tags: []
+---
+
+# COMPUTER VISION
 
 ## CONTENTS
 - [perspective_projection](pages/image_formation_acquisition/PERSPECTIVE_PROJECTION.md)
