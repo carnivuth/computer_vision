@@ -1,9 +1,3 @@
----
-id: index
-aliases: []
-tags: []
----
-
 # COMPUTER VISION
 
 ## FROM THE CAMERA TO THE IMAGE
