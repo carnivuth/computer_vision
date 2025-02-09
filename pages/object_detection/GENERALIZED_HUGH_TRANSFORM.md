@@ -5,9 +5,9 @@ tags: []
 index: 44
 ---
 
-# GENERALIZED HUGH TRANSFORM
+# Generalized Hough transform
 
-The Generalized Hugh transform (**GHT**) is a generalization aimed to apply **[HT](HOUGH_TRANSFORM.md)** to non analytical shapes.
+The Generalized Hough transform (**GHT**) is a generalization aimed to apply **[HT](HOUGH_TRANSFORM.md)** to non analytical shapes.
 
 ```mermaid
 flowchart LR
@@ -36,11 +36,11 @@ end
 
 ![](Pasted_image_20240427172424.png)
 
-## GHT WITH LOCAL INVARIANT FEATURES
+## GHT with local invariant features
 
 The most popular computer vision pipeline relies on combining GHT with local invariant features such as the [SIFT DESCRIPTOR](SIFT_DESCRIPTOR.md). In this pipeline Local invariant features are used instead of edges.
 
-### OFFLINE PHASE
+### GHT: offline phase
 
 Detect keypoints (e.g. [DOG](DOG_DETECTOR.md)) and compute descriptors (e.g. [SIFT](SIFT_DESCRIPTOR.md)) in the model image:
 
@@ -68,7 +68,7 @@ $$
 F_i = (P_i,D_i,\phi_i,S_i,V_i)
 $$
 
-### ONLINE PHASE
+### GHT: online phase
 
 Detect [keypoints](FINDING_CORRESPONDENCES.md#KEYPOINTS) on the target image and compute descriptors :
 
@@ -93,7 +93,7 @@ $$
 $$
 A[\overset{\sim}P_{C_j} ] ++
 $$
-## 2D ACCUMULATOR ARRAY ISSUES
+## 2D accumulator array issues
 
 A 2D accumulator array is not sufficient to account for rotation and scale, the solution is to use a 4D accumulator array in order to account for scale and rotation
 
