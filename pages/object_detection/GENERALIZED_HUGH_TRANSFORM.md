@@ -1,7 +1,7 @@
 ---
 id: GENERALIZED_HUGH_TRANSFORM
 aliases: []
-tags: []
+tags: ["ght process","sift descriptor","object detection"]
 index: 44
 ---
 
